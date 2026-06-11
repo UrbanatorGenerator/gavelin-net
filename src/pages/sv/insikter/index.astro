@@ -14,8 +14,15 @@ const schema = {
   }
 };
 
-// Hämta alla insikter när de läggs till
-const articles: { url: string; frontmatter: { title: string; description: string; date: string; category: string } }[] = [];
+const articles = [
+  {
+    url: "/sv/insikter/deal-framework/",
+    title: "The D.E.A.L. Framework: Skala intäkterna utan att anställa fler",
+    description: "Ett enkelt men kraftfullt ramverk för att bygga ett säljsystem som skalar — utan att behöva lägga till personal eller förlita sig på stjärnsäljare.",
+    date: "10 juni 2026",
+    category: "Säljsystem & AI",
+  },
+];
 ---
 
 <Base
@@ -53,9 +60,9 @@ const articles: { url: string; frontmatter: { title: string; description: string
       <h2>Artiklar</h2>
       {articles.map(article => (
         <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-          <h3><a href={article.url}>{article.frontmatter.title}</a></h3>
-          <p style="color: var(--color-text-muted); font-size: 0.9rem;">{article.frontmatter.date} &mdash; {article.frontmatter.category}</p>
-          <p>{article.frontmatter.description}</p>
+          <h3><a href={article.url}>{article.title}</a></h3>
+          <p style="color: var(--color-text-muted); font-size: 0.9rem;">{article.date} &mdash; {article.category}</p>
+          <p>{article.description}</p>
         </div>
       ))}
     </div>
