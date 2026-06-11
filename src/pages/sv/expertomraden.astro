@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Urban Gavelins expertområden",
+  "url": "https://gavelin.net/sv/expertomraden/",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "B2B-försäljning och säljledning",
+      "description": "Pipeline, progression, prioritering och kommersiell styrning för B2B-organisationer."
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Kommunikation som bygger förtroende",
+      "description": "Hur kunder förstår, känner och fattar beslut i komplex B2B-försäljning."
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "AI i säljprocessen",
+      "description": "Praktisk implementation av AI-stöd i B2B-säljsystem och arbetsflöden."
+    }
+  ]
+};
+---
+
+<Base
+  title="Expertområden | B2B-försäljning, kommunikation och AI"
+  description="Urban Gavelins tre kärnområden: kommersiell klarhet, kommunikation som bygger förtroende och AI-stöd som stärker säljprocessen."
+  lang="sv"
+  schema={schema}
+>
+
+  <h1>Expertområden</h1>
+  <p class="lead">Tre kärnområden. Alla handlar om hur B2B-företag säljer bättre.</p>
+
+  <div class="section">
+    <h2>B2B-försäljning och säljledning</h2>
+    <p>De flesta B2B-säljproblem handlar inte om brist på aktivitet. De handlar om brist på riktning, prioritering och konsekvens.</p>
+    <p>Jag arbetar med:</p>
+    <ul>
+      <li>Pipeline-analys och kommersiell styrning</li>
+      <li>Säljprocess och progressionskriterier</li>
+      <li>Uppföljning och momentum i affärer</li>
+      <li>Stakeholder management i komplex försäljning</li>
+      <li>Forecast-disciplin och realistisk pipeline-bedömning</li>
+    </ul>
+    <p><a href="/sv/radgivning/">Läs om strategisk rådgivning &rarr;</a></p>
+  </div>
+
+  <div class="section">
+    <h2>Kommunikation som bygger förtroende</h2>
+    <p>Försäljning avgörs inte bara av vad ni säger. Den avgörs av hur kunden förstår, känner och vågar gå vidare.</p>
+    <p>Kommunikation i B2B-försäljning handlar om:</p>
+    <ul>
+      <li>Hur ni positionerar er lösning i relation till kundens faktiska problem</li>
+      <li>Hur ni hanterar tveksamhet och motstånd utan att förlora trovärdigheten</li>
+      <li>Hur ni skapar klarhet när kunden är osäker på vägen framåt</li>
+      <li>Hur ni anpassar budskapet till olika beslutsfattare i samma affär</li>
+    </ul>
+    <p><a href="/sv/utbildning-workshops/">Läs om utbildning och workshops &rarr;</a></p>
+  </div>
+
+  <div class="section">
+    <h2>AI i säljprocessen</h2>
+    <p>AI i försäljning är inte en trend. Det är ett skifte. Men de flesta bolag implementerar det bakvänt — de börjar med verktyget och hoppas att affärslogiken dyker upp.</p>
+    <p>Jag arbetar med AI i försäljning utifrån tre frågor:</p>
+    <ul>
+      <li>Var i er säljprocess skapar AI faktiskt värde — och var skapar det bara illusion av aktivitet?</li>
+      <li>Hur integrerar ni AI-stöd utan att förlora den mänskliga förmågan att bygga förtroende?</li>
+      <li>Hur mäter ni om det faktiskt fungerar?</li>
+    </ul>
+    <p><a href="/sv/ai-sales-os/">Läs om Powersales AI-Sales OS &rarr;</a></p>
+  </div>
+
+</Base>

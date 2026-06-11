@@ -1,0 +1,137 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  lang?: string;
+  schema?: object;
+  canonicalUrl?: string;
+}
+
+const { title, description, lang = 'sv', schema, canonicalUrl } = Astro.props;
+const canonical = canonicalUrl ?? new URL(Astro.url.pathname, Astro.site).href;
+const alternateLang = lang === 'sv' ? 'en' : 'sv';
+const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}/`);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={alternateLang} href={new URL(alternatePath, Astro.site).href} />
+    <link rel="alternate" hreflang={lang} href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {schema && (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    )}
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --color-bg: #ffffff;
+        --color-text: #1a1a1a;
+        --color-text-muted: #555;
+        --color-accent: #0057b8;
+        --color-accent-hover: #003d82;
+        --color-border: #e5e5e5;
+        --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+        --max-width: 760px;
+        --space-xs: 0.5rem;
+        --space-sm: 1rem;
+        --space-md: 2rem;
+        --space-lg: 4rem;
+      }
+      body {
+        font-family: var(--font-sans);
+        background: var(--color-bg);
+        color: var(--color-text);
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+      a { color: var(--color-accent); text-decoration: none; }
+      a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+      nav {
+        border-bottom: 1px solid var(--color-border);
+        padding: var(--space-sm) var(--space-md);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--space-sm);
+      }
+      nav .logo { font-weight: 700; font-size: 1.1rem; color: var(--color-text); }
+      nav .logo:hover { text-decoration: none; }
+      nav ul { list-style: none; display: flex; gap: var(--space-md); flex-wrap: wrap; }
+      nav ul li a { color: var(--color-text-muted); font-size: 0.95rem; }
+      nav ul li a:hover { color: var(--color-accent); text-decoration: none; }
+      main { max-width: var(--max-width); margin: 0 auto; padding: var(--space-lg) var(--space-md); }
+      h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: var(--space-md); font-weight: 800; }
+      h2 { font-size: 1.5rem; line-height: 1.3; margin: var(--space-md) 0 var(--space-sm); font-weight: 700; }
+      h3 { font-size: 1.15rem; margin: var(--space-sm) 0 var(--space-xs); font-weight: 600; }
+      p { margin-bottom: var(--space-sm); color: var(--color-text); }
+      ul, ol { padding-left: 1.5rem; margin-bottom: var(--space-sm); }
+      li { margin-bottom: var(--space-xs); }
+      .lead { font-size: 1.2rem; color: var(--color-text-muted); margin-bottom: var(--space-md); }
+      .btn {
+        display: inline-block;
+        background: var(--color-accent);
+        color: #fff;
+        padding: 0.75rem 1.75rem;
+        border-radius: 4px;
+        font-weight: 600;
+        margin-top: var(--space-sm);
+      }
+      .btn:hover { background: var(--color-accent-hover); text-decoration: none; color: #fff; }
+      .section { margin-bottom: var(--space-lg); }
+      footer {
+        border-top: 1px solid var(--color-border);
+        padding: var(--space-md);
+        text-align: center;
+        color: var(--color-text-muted);
+        font-size: 0.9rem;
+      }
+      footer a { color: var(--color-text-muted); }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href={`/${lang}/`} class="logo">Urban Gavelin</a>
+      <ul>
+        {lang === 'sv' ? (
+          <>
+            <li><a href="/sv/urban-gavelin/">Om Urban</a></li>
+            <li><a href="/sv/expertomraden/">Expertområden</a></li>
+            <li><a href="/sv/ai-sales-os/">AI-Sales OS</a></li>
+            <li><a href="/sv/insikter/">Insikter</a></li>
+            <li><a href="/sv/kontakt/">Kontakt</a></li>
+            <li><a href="/en/">EN</a></li>
+          </>
+        ) : (
+          <>
+            <li><a href="/en/urban-gavelin/">About</a></li>
+            <li><a href="/en/expertise/">Expertise</a></li>
+            <li><a href="/en/ai-sales-os/">AI-Sales OS</a></li>
+            <li><a href="/en/insights/">Insights</a></li>
+            <li><a href="/en/contact/">Contact</a></li>
+            <li><a href="/sv/">SV</a></li>
+          </>
+        )}
+      </ul>
+    </nav>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>Urban Gavelin &mdash; <a href="https://powersales.se">Powersales Communication</a> &mdash; <a href={`/${lang}/kontakt/`}>{lang === 'sv' ? 'Kontakt' : 'Contact'}</a></p>
+    </footer>
+  </body>
+</html>

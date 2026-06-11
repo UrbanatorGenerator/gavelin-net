@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://gavelin.net/#urban-gavelin",
+  "name": "Urban Gavelin",
+  "jobTitle": "B2B Sales Advisor and Founder",
+  "url": "https://gavelin.net/en/urban-gavelin/",
+  "sameAs": ["https://powersales.se", "https://www.linkedin.com/in/urbangavelin/"]
+};
+---
+
+<Base
+  title="Urban Gavelin | B2B Sales, Communication & AI Support"
+  description="Urban Gavelin helps B2B companies sell smarter with clearer communication, stronger sales discipline and practical AI support via Powersales Communication."
+  lang="en"
+  schema={schema}
+>
+
+  <h1>B2B sales needs more human sharpness.<br/>Not more digital noise.</h1>
+  <p class="lead">I'm Urban Gavelin. I help B2B companies sell smarter with clearer communication, stronger sales discipline and practical AI support.</p>
+
+  <div class="section">
+    <p>Not AI because it sounds modern.<br/>
+    Not sales training that dies in the conference room.<br/>
+    Not more activities that exhaust everyone but make no one wiser.</p>
+    <p>Good sales still depends on people. But people need better systems.</p>
+    <a href="/en/contact/" class="btn">Book a call</a>
+  </div>
+
+  <div class="section">
+    <h2>What I do</h2>
+    <h3>Commercial clarity</h3>
+    <p>Who should you win, why should the customer care, and where is the sales process leaking today?</p>
+    <h3>Communication that builds trust</h3>
+    <p>Sales isn't just decided by what you say. It's decided by how the customer understands, feels, and dares to move forward.</p>
+    <h3>AI support that strengthens the sales process</h3>
+    <p>AI shouldn't replace human influence. AI should remove friction, raise quality and free up time for better customer conversations.</p>
+  </div>
+
+  <div class="section">
+    <h2>Powersales AI-Sales OS</h2>
+    <p>My framework for how B2B companies can combine strategy, human communication and AI-supported workflows into a coherent sales system.</p>
+    <a href="/en/ai-sales-os/">Learn more about AI-Sales OS &rarr;</a>
+  </div>
+
+  <div class="section">
+    <h2>For whom?</h2>
+    <p>I primarily work with CEOs, sales managers, founders and commercial teams in B2B companies with complex sales — where pipeline looks better than it is, deals get stuck, and AI is used ad hoc without clear business logic.</p>
+    <p>That's not unusual. It's just expensive.</p>
+  </div>
+
+  <div class="section">
+    <a href="/en/contact/" class="btn">Book a 30-minute call</a>
+  </div>
+
+</Base>

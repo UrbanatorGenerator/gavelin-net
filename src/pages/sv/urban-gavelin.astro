@@ -1,0 +1,85 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://gavelin.net/#urban-gavelin",
+  "name": "Urban Gavelin",
+  "jobTitle": "B2B-rådgivare, säljtränare och grundare av Powersales Communication",
+  "description": "Urban Gavelin är svensk B2B-rådgivare och säljtränare med fokus på försäljning, kommunikation och AI-stödda säljsystem för B2B-företag.",
+  "url": "https://gavelin.net/sv/urban-gavelin/",
+  "nationality": "Swedish",
+  "knowsAbout": [
+    "B2B-försäljning",
+    "säljledning",
+    "säljträning",
+    "kommunikation",
+    "AI i försäljning",
+    "pipeline-management",
+    "kommersiell transformation",
+    "stakeholder management"
+  ],
+  "sameAs": [
+    "https://powersales.se",
+    "https://www.linkedin.com/in/urbangavelin/"
+  ],
+  "founder": {
+    "@type": "Organization",
+    "name": "Powersales Communication",
+    "url": "https://powersales.se"
+  }
+};
+---
+
+<Base
+  title="Om Urban Gavelin | Grundare av Powersales Communication"
+  description="Urban Gavelin är B2B-rådgivare, säljtränare och grundare av Powersales Communication. Han arbetar med säljledning, kommunikation och AI-stödda säljsystem."
+  lang="sv"
+  schema={schema}
+>
+
+  <h1>Urban Gavelin</h1>
+  <p class="lead">B2B-rådgivare. Säljtränare. Grundare av Powersales Communication.</p>
+
+  <div class="section">
+    <p>Jag har arbetat med B2B-försäljning och kommersiell kommunikation i många år. Inte med teorin. Med det som händer när ett säljteam möter en kund, när en affär fastnar i tre månader av tyst väntan, och när ett bolag inser att deras pipeline är en önskelista snarare än ett verktyg.</p>
+    <p>Det jag gör är att hjälpa B2B-företag att förbättra sin kommersiella förmåga. Inte med mer aktivitet. Med bättre tänkande, tydligare kommunikation och system som faktiskt fungerar i verkligheten.</p>
+  </div>
+
+  <div class="section">
+    <h2>Vad jag fokuserar på</h2>
+    <ul>
+      <li><strong>B2B-försäljning och säljledning</strong> — pipeline, progression, prioritering och kommersiell styrning</li>
+      <li><strong>Kommunikation</strong> — hur kunden förstår, känner och fattar beslut</li>
+      <li><strong>AI i säljprocessen</strong> — praktisk implementation, inte teoretisk potential</li>
+      <li><strong>Kommersiell klarhet</strong> — vem ni ska vinna, varför kunden ska bry sig, var det läcker idag</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Powersales Communication</h2>
+    <p>Powersales Communication är min verksamhet för rådgivning, utbildning och AI-stödda säljsystem. Bolaget arbetar med B2B-företag som vill förbättra sin försäljning utan att förlora det mänskliga i processen.</p>
+    <p><a href="https://powersales.se">Besök powersales.se &rarr;</a></p>
+  </div>
+
+  <div class="section">
+    <h2>Hur jag arbetar</h2>
+    <p>Jag arbetar med strategisk rådgivning, utbildningar, workshops och Powersales AI-Sales OS — ett ramverk för AI-stödda säljsystem i B2B-bolag.</p>
+    <p>Arbetet anpassas alltid till din organisation, din marknad och ditt säljteam. Det finns inga generiska paket som passar alla. Det finns heller ingen anledning att låtsas som om det finns.</p>
+    <a href="/sv/radgivning/">Läs om rådgivning &rarr;</a>
+    &nbsp;&nbsp;
+    <a href="/sv/utbildning-workshops/">Läs om utbildning &amp; workshops &rarr;</a>
+  </div>
+
+  <div class="section">
+    <h2>Insikter och skrivande</h2>
+    <p>Jag skriver om B2B-försäljning, AI, kommunikation och kommersiellt ledarskap. Texterna publiceras som nyhetsbrev på LinkedIn och samlas här som ett sökbart kunskapsbibliotek.</p>
+    <a href="/sv/insikter/">Läs insikterna &rarr;</a>
+  </div>
+
+  <div class="section">
+    <a href="/sv/kontakt/" class="btn">Boka ett samtal</a>
+  </div>
+
+</Base>

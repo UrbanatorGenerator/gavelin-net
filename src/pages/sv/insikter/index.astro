@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Insikter om B2B-försäljning, AI och kommersiellt ledarskap",
+  "description": "Artiklar och nyhetsbrev av Urban Gavelin om B2B-försäljning, AI i sälj, kommunikation och säljledning.",
+  "url": "https://gavelin.net/sv/insikter/",
+  "author": {
+    "@type": "Person",
+    "name": "Urban Gavelin",
+    "url": "https://gavelin.net/sv/urban-gavelin/"
+  }
+};
+
+// Hämta alla insikter när de läggs till
+const articles: { url: string; frontmatter: { title: string; description: string; date: string; category: string } }[] = [];
+---
+
+<Base
+  title="Insikter om B2B-försäljning, AI och kommersiellt ledarskap | Urban Gavelin"
+  description="Artiklar och LinkedIn-nyhetsbrev om B2B-försäljning, AI i sälj, kommunikation och säljledning. Skrivet av Urban Gavelin, grundare av Powersales Communication."
+  lang="sv"
+  schema={schema}
+>
+
+  <h1>Insikter</h1>
+  <p class="lead">Om B2B-försäljning, AI och kommersiellt ledarskap. Utan fluff.</p>
+
+  <div class="section">
+    <p>Affärer som fastnar. Pipeline som ser fin ut men inte håller. AI-projekt som låter moderna men saknar affärslogik. Säljteam som jobbar hårt men saknar system.</p>
+    <p>Det är vad jag skriver om. Skärningspunkten mellan försäljning, kommunikation, ledarskap och AI. För det är där mycket avgörs.</p>
+    <p>Inte i verktyget. Inte i PowerPointen. Utan i hur människor tänker, pratar och agerar när affären står på spel.</p>
+  </div>
+
+  <div class="section">
+    <h2>Ämnen</h2>
+    <ul>
+      <li>AI i B2B-försäljning</li>
+      <li>Pipeline och forecast</li>
+      <li>Uppföljning och momentum</li>
+      <li>Stakeholder management</li>
+      <li>Säljledning</li>
+      <li>Kommunikation och förtroende</li>
+      <li>Kommersiell klarhet</li>
+      <li>Powersales AI-Sales OS</li>
+    </ul>
+  </div>
+
+  {articles.length > 0 ? (
+    <div class="section">
+      <h2>Artiklar</h2>
+      {articles.map(article => (
+        <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
+          <h3><a href={article.url}>{article.frontmatter.title}</a></h3>
+          <p style="color: var(--color-text-muted); font-size: 0.9rem;">{article.frontmatter.date} &mdash; {article.frontmatter.category}</p>
+          <p>{article.frontmatter.description}</p>
+        </div>
+      ))}
+    </div>
+  ) : (
+    <div class="section">
+      <h2>Artiklar publiceras löpande</h2>
+      <p>Nyhetsbrev och artiklar läggs upp här löpande. Många publiceras först på LinkedIn och samlas sedan här som ett sökbart kunskapsbibliotek.</p>
+      <p>LinkedIn är bra för räckvidd. Den här sidan är byggd för långsiktig auktoritet. Det är skillnad.</p>
+      <p><a href="https://www.linkedin.com/in/urbangavelin/">Följ Urban Gavelin på LinkedIn &rarr;</a></p>
+    </div>
+  )}
+
+</Base>

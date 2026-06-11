@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Strategisk rådgivning",
+  "description": "Strategisk rådgivning för VD, säljchefer och kommersiella ledare som vill förbättra pipeline, säljdisciplin och kommersiell styrning i B2B-bolag.",
+  "provider": {
+    "@type": "Person",
+    "name": "Urban Gavelin",
+    "url": "https://gavelin.net/sv/urban-gavelin/"
+  },
+  "areaServed": "Sweden",
+  "url": "https://gavelin.net/sv/radgivning/"
+};
+---
+
+<Base
+  title="Strategisk rådgivning | Urban Gavelin & Powersales Communication"
+  description="Strategisk rådgivning för VD, säljchefer och kommersiella ledare som vill förbättra pipeline, säljdisciplin och kommersiell styrning i B2B-bolag."
+  lang="sv"
+  schema={schema}
+>
+
+  <h1>Strategisk rådgivning</h1>
+  <p class="lead">För VD, säljchefer och kommersiella ledare som vill förbättra sin organisations förmåga att vinna affärer.</p>
+
+  <div class="section">
+    <p>Rådgivningen handlar inte om att leverera en rapport med 47 slides och en generisk handlingsplan. Den handlar om att lösa det kommersiella problem ni faktiskt har — och bygga förmågan att hantera nästa.</p>
+  </div>
+
+  <div class="section">
+    <h2>Vad vi arbetar med</h2>
+    <ul>
+      <li><strong>Kommersiell diagnos</strong> — var är ni idag, var läcker det och varför?</li>
+      <li><strong>Pipeline och forecast</strong> — hur ser verkligheten ut bakom siffrorna?</li>
+      <li><strong>Säljprocess och progressionsdisciplin</strong> — varför fastnar affärerna och hur löser ni det?</li>
+      <li><strong>AI-integration</strong> — hur adderar AI värde i just er säljprocess?</li>
+      <li><strong>Kommersiell styrning</strong> — hur leder man ett säljteam som faktiskt förbättras?</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Hur det fungerar</h2>
+    <p>Rådgivningen är alltid anpassad. Det börjar med ett samtal där jag förstår er situation. Sedan bestämmer vi tillsammans om och hur vi ska arbeta vidare.</p>
+    <p>Inga standardpaket. Inga långa kontrakt om ni inte vill det. Bara arbete som skapar faktisk skillnad.</p>
+    <a href="/sv/kontakt/" class="btn">Boka ett första samtal</a>
+  </div>
+
+  <div class="section">
+    <h2>Relaterat</h2>
+    <ul>
+      <li><a href="/sv/utbildning-workshops/">Utbildning och workshops</a></li>
+      <li><a href="/sv/ai-sales-os/">Powersales AI-Sales OS</a></li>
+    </ul>
+  </div>
+
+</Base>

@@ -1,0 +1,107 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://gavelin.net/#urban-gavelin",
+      "name": "Urban Gavelin",
+      "jobTitle": "B2B-rådgivare och grundare",
+      "url": "https://gavelin.net/sv/urban-gavelin/",
+      "sameAs": [
+        "https://powersales.se",
+        "https://www.linkedin.com/in/urbangavelin/"
+      ],
+      "knowsAbout": ["B2B-försäljning", "säljledning", "kommunikation", "AI i försäljning"],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://gavelin.net/#powersales",
+        "name": "Powersales Communication",
+        "url": "https://powersales.se"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gavelin.net/#website",
+      "url": "https://gavelin.net",
+      "name": "Urban Gavelin",
+      "description": "Personlig auktoritetssida för Urban Gavelin, grundare av Powersales Communication.",
+      "inLanguage": "sv-SE"
+    }
+  ]
+};
+---
+
+<Base
+  title="Urban Gavelin | B2B-försäljning, kommunikation och AI-stöd"
+  description="Urban Gavelin hjälper B2B-företag att sälja smartare med tydligare kommunikation, starkare säljdisciplin och praktiskt AI-stöd via Powersales Communication."
+  lang="sv"
+  schema={schema}
+>
+
+  <div class="section">
+    <h1>B2B-försäljning behöver mer mänsklig skärpa.<br/>Inte mer digitalt brus.</h1>
+    <p class="lead">
+      Jag heter Urban Gavelin och hjälper B2B-företag att sälja smartare med tydligare kommunikation, starkare säljdisciplin och praktiskt AI-stöd.
+    </p>
+    <p>Inte AI för att det låter modernt.<br/>
+    Inte säljträning som dör i konferensrummet.<br/>
+    Inte fler aktiviteter som gör alla trötta men ingen klokare.</p>
+    <p>Bra försäljning bygger fortfarande på människor. Men människor behöver bättre system.</p>
+    <a href="/sv/kontakt/" class="btn">Boka ett samtal</a>
+  </div>
+
+  <div class="section">
+    <h2>Det jag gör</h2>
+    <p>Jag arbetar med rådgivning, utbildning, workshops och AI-stödda säljsystem för B2B-företag som vill förbättra sin kommersiella förmåga. Fokus ligger på tre saker:</p>
+
+    <h3>Kommersiell klarhet</h3>
+    <p>Vem ska ni vinna, varför ska kunden bry sig och var läcker försäljningen idag?</p>
+
+    <h3>Kommunikation som bygger förtroende</h3>
+    <p>Försäljning avgörs inte bara av vad ni säger. Den avgörs av hur kunden förstår, känner och vågar gå vidare.</p>
+
+    <h3>AI-stöd som stärker säljprocessen</h3>
+    <p>AI ska inte ersätta mänsklig påverkan. AI ska ta bort friktion, höja kvaliteten och frigöra tid för bättre kundsamtal.</p>
+  </div>
+
+  <div class="section">
+    <h2>Powersales AI-Sales OS</h2>
+    <p>Powersales AI-Sales OS är mitt ramverk för hur B2B-företag kan kombinera strategi, mänsklig kommunikation och AI-stödda arbetsflöden i ett sammanhängande säljsystem.</p>
+    <p>Det handlar inte om ännu ett verktyg. Det handlar om ett system för hur ni skapar pipeline, driver affärer framåt och lär er snabbare än marknaden.</p>
+    <ul>
+      <li>AI gör jobbet som inte kräver mänsklig närvaro.</li>
+      <li>Människor bygger förtroende, läser situationen och driver beslut.</li>
+    </ul>
+    <a href="/sv/ai-sales-os/">Läs mer om AI-Sales OS &rarr;</a>
+  </div>
+
+  <div class="section">
+    <h2>För vem?</h2>
+    <p>Jag arbetar främst med VD, säljchefer, grundare och kommersiella team i B2B-företag med komplex försäljning. Ofta handlar det om företag där:</p>
+    <ul>
+      <li>pipeline ser bättre ut än den är</li>
+      <li>affärer fastnar i intern diskussion</li>
+      <li>uppföljning sker för sent eller för svagt</li>
+      <li>AI används ad hoc utan tydlig affärslogik</li>
+      <li>säljteamet jobbar hårt men inte tillräckligt systematiskt</li>
+    </ul>
+    <p>Det är inte ovanligt. Det är bara dyrt.</p>
+  </div>
+
+  <div class="section">
+    <h2>Insikter</h2>
+    <p>Artiklar och nyhetsbrev om B2B-försäljning, AI och kommersiellt ledarskap. Utan fluff. Det finns redan tillräckligt av den varan.</p>
+    <a href="/sv/insikter/">Läs insikterna &rarr;</a>
+  </div>
+
+  <div class="section">
+    <h2>Nästa steg</h2>
+    <p>Vill du diskutera hur rådgivning, utbildning, workshops eller AI-Sales OS kan hjälpa din organisation?</p>
+    <p>Boka ett kort samtal. 30 minuter. Tydligt. Praktiskt. Ingen cirkus.</p>
+    <a href="/sv/kontakt/" class="btn">Boka samtal</a>
+  </div>
+
+</Base>
