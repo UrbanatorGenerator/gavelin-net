@@ -5,9 +5,11 @@ export interface Props {
   lang?: string;
   schema?: object;
   canonicalUrl?: string;
+  author?: string;
+  datePublished?: string;
 }
 
-const { title, description, lang = 'sv', schema, canonicalUrl } = Astro.props;
+const { title, description, lang = 'sv', schema, canonicalUrl, author, datePublished } = Astro.props;
 const canonical = canonicalUrl ?? new URL(Astro.url.pathname, Astro.site).href;
 const alternateLang = lang === 'sv' ? 'en' : 'sv';
 const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}/`);
@@ -34,6 +36,8 @@ const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}
     {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     )}
+    {author && <meta name="author" content={author} />}
+    {datePublished && <meta property="article:published_time" content={datePublished} />}
     <style>
       *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
       :root {
