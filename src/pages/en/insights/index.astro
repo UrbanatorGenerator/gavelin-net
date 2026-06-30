@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import { articles } from '../../../data/insights';
 ---
 <Base title="Insights on B2B Sales, AI and Commercial Leadership | Urban Gavelin" description="Articles and newsletters on B2B sales, AI in sales, communication and sales management by Urban Gavelin, founder of Powersales Communication." lang="en">
   <h1>Insights</h1>
@@ -23,106 +24,13 @@ import Base from '../../../layouts/Base.astro';
   </div>
   <div class="section">
     <h2>Articles</h2>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/revenue-architecture-reset/">The Revenue Architecture Reset: Why Tactical Fixes Fail When the Foundation Is Broken</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">June 25, 2026 &mdash; Sales Systems &amp; Revenue Operations</p>
-      <p>If your B2B revenue growth feels like a hamster wheel — lots of effort, little forward motion — it's not because you need a new CRM or more sales hires. It's because your revenue architecture is broken.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/velocity-trap/">The Velocity Trap: Why Pushing for Speed Is Killing Your B2B Sales Momentum</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">June 16, 2026 &mdash; Pipeline &amp; Sales Leadership</p>
-      <p>Most B2B sales leaders are obsessed with speed. Shorter cycles, faster closes, push reps to move it along. Here's the inconvenient truth: pushing for speed often backfires.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/deal-framework/">The D.E.A.L. Framework: Scale Revenue Without Adding People</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">June 10, 2026 &mdash; Sales Systems &amp; AI</p>
-      <p>A simple but powerful approach to build a revenue system that scales cleanly — without adding headcount or relying on miracle workers.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/deals-stalled-at-80/">Deals Stalled at 80% — What Do You Do Now?</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">June 2, 2026 &mdash; Pipeline &amp; Stakeholder Management</p>
-      <p>The "internal discussion" stall is the most common deal-killer in B2B sales. Here's why it happens and three concrete tactics to break free.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/hidden-reason-buyers-stall/">The Hidden Reason Buyers Stall — and How to Fix It Fast</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">May 13, 2026 &mdash; Sales Process &amp; Buyer Psychology</p>
-      <p>Your sales process is probably designed for sellers, not buyers. That's why deals stall, cycles stretch, and prospects slip away quietly.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/invisible-quota/">The Invisible Quota: How Leaders Cap Their Own Revenue Growth</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">May 7, 2026 &mdash; Sales Leadership &amp; Commercial Governance</p>
-      <p>Twelve straight quarters of quota attainment sounds like success. But what if it's actually a ceiling — made invisible by cautious leadership choices?</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/from-hours-to-minutes/">From Hours to Minutes: Meet Your New AI Sales Assistant</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">April 21, 2026 &mdash; AI in Sales</p>
-      <p>AI isn't just improving sales — it's redesigning it. Not someday. This year. Here's what that actually looks like in practice.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/control-vs-enablement/">Control vs. Enablement: How to Lead Sales Teams Without Killing Their Fire</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">April 1, 2026 &mdash; Sales Leadership</p>
-      <p>The Sales Leader's Dilemma: too much control kills initiative, too little creates chaos. Here's how to find the balance using the D.E.A.L. framework.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/revenue-ops-blind-spot/">The Revenue Ops Blind Spot: When Process Becomes Paralysis</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">March 26, 2026 &mdash; Revenue Operations &amp; Sales Management</p>
-      <p>Revenue Operations was supposed to streamline sales. For many B2B companies it has done the opposite — creating bureaucracy that frustrates reps, slows deals, and kills momentum.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/from-firefighting-to-forecasting/">From Firefighting to Forecasting: Reclaim Your Time as a Sales Leader</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">March 17, 2026 &mdash; Sales Leadership &amp; Pipeline Management</p>
-      <p>Most sales leaders spend 80% of their time firefighting. Here's how to flip that ratio — and what one Stockholm SaaS company achieved in three months using the D.E.A.L. framework.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/precision-prospecting/">The Art of Precision Prospecting: How Signal Detection Changes the Sales Game</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">March 5, 2026 &mdash; Prospecting &amp; Pipeline Strategy</p>
-      <p>Most sales teams think their problem is too few leads. The real problem is too many low-probability opportunities clogging the pipeline. Here's how signal-based prospecting fixes that.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/meet-uno/">Meet Uno: My $8 Digital Colleague Changing the Game of Business</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">February 28, 2026 &mdash; AI in Business &amp; Sales</p>
-      <p>I built a digital coworker equipped with my knowledge in sales, leadership, and business strategy — for roughly $8. Here's what it signals about the shift already underway.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/stop-loving-your-solution/">Stop Loving Your Solution. Start Solving the Problem.</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">January 27, 2026 &mdash; Sales Strategy &amp; Commercial Clarity</p>
-      <p>The quiet trap that kills more companies than bad strategy: falling in love with your product instead of your customer's problem. Here's how to make the shift.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/scaling-chaos/">Scaling Chaos: The Silent Cost of AI in Sales</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">January 20, 2026 &mdash; AI in Sales &amp; Sales Leadership</p>
-      <p>Most sales teams are stuck at Level 1 AI — accelerating chaos rather than transforming it. Here's how to diagnose which level you're really at, and what it takes to reach Level 3.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/likeability-beats-trust/">Why Likeability Beats Trust in Today's Business Landscape</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">January 13, 2026 &mdash; Sales Psychology &amp; Commercial Presence</p>
-      <p>In low-trust environments, likeability becomes the golden currency. Lessons from South America on how to lead with warmth, presence, and human resonance — before you earn trust.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/when-ai-starts-selling/">When AI Starts Selling Without You — And Stops Asking for Permission</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">October 30, 2025 &mdash; AI in Sales &amp; Future of Selling</p>
-      <p>AI is already pre-qualifying, pre-judging, and pre-selecting B2B sellers before buyers ever reach out. Whoever shows up best in the AI's pre-meeting research wins — even before the first call.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/selling-to-ai-savvy-buyers/">When Selling to the AI-Savvy Buyer: The Tables Have Turned</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">October 22, 2025 &mdash; AI in Sales &amp; Buyer Psychology</p>
-      <p>Buyers now arrive armed with AI-researched data, competitor comparisons, and your customer reviews. They don't need more information — they need better judgement. Here's how to be the lens they're looking for.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/ai-agents-death-of-b-player/">AI Agents Will Be the Death of the B Player</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">October 10, 2025 &mdash; AI in Sales &amp; Sales Leadership</p>
-      <p>AI agents won't kill your sales team — but they will expose it. The more predictable your process, the faster AI automates it. Here's the mental model shift that separates the winners from the rest.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/buyers-avoid-your-sales-team/">Buyers Avoid Your Sales Team on Purpose — and That Changes Everything</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">October 8, 2025 &mdash; B2B Sales Strategy &amp; Thought Leadership</p>
-      <p>71% of B2B buyers don't want to talk to your sales team. They're buying from your competitor without you knowing. Here's what LinkedIn's 2025 data reveals — and what to do about it.</p>
-    </div>
-    <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
-      <h3><a href="/en/insights/revolutionize-your-sales-day-with-ai/">How Simply You Can Revolutionise Your Sales Day with AI</a></h3>
-      <p style="color: var(--color-text-muted); font-size: 0.9rem;">September 9, 2025 &mdash; AI in Sales &amp; Sales Training</p>
-      <p>A packed full day of AI for salespeople — and the response was electric. Here's why getting started with AI is simpler than most people think, and what it looks like in practice.</p>
-    </div>
+    {articles.map(article => (
+      <div style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border);">
+        <h3><a href={article.url}>{article.title}</a></h3>
+        <p style="color: var(--color-text-muted); font-size: 0.9rem;">{article.date} &mdash; {article.category}</p>
+        <p>{article.description}</p>
+      </div>
+    ))}
   </div>
 
   <div class="section">

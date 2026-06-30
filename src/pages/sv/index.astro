@@ -1,5 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { artiklar } from '../../data/insikter';
+
+const senaste = artiklar[0];
 
 const schema = {
   "@context": "https://schema.org",
@@ -104,7 +107,12 @@ const schema = {
   <div class="section">
     <h2>Insikter</h2>
     <p>Artiklar och nyhetsbrev om B2B-försäljning, AI och kommersiellt ledarskap. Utan fluff. Det finns redan tillräckligt av den varan.</p>
-    <a href="/sv/insikter/">Läs insikterna &rarr;</a>
+    <div style="margin: 1.25rem 0; padding: 1.25rem; border-left: 3px solid var(--color-accent, #0066cc); background: #f8f8f8; border-radius: 0 4px 4px 0;">
+      <p style="margin: 0 0 0.25rem; font-size: 0.85rem; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Senaste insikten</p>
+      <p style="margin: 0 0 0.25rem;"><a href={senaste.url}><strong>{senaste.title}</strong></a></p>
+      <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted);">{senaste.date} &mdash; {senaste.category}</p>
+    </div>
+    <a href="/sv/insikter/">Alla insikter &rarr;</a>
   </div>
 
   <div class="section">

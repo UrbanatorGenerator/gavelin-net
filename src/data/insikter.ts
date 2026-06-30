@@ -1,0 +1,150 @@
+export interface Artikel {
+  url: string;
+  title: string;
+  description: string;
+  date: string;
+  category: string;
+}
+
+export const artiklar: Artikel[] = [
+  {
+    url: "/sv/insikter/intaktsarkitektur-reset/",
+    title: "Intäktsarkitektur-resetten: Varför taktiska lappar misslyckas när fundamentet brister",
+    description: "Om din B2B-intäktstillväxt känns som ett ekorrhjul — mycket ansträngning, lite framåtrörelse — är det inte för att du behöver ett nytt CRM eller fler säljare. Det är för att din intäktsarkitektur är trasig.",
+    date: "25 juni 2026",
+    category: "Säljsystem & Revenue Operations",
+  },
+  {
+    url: "/sv/insikter/hastighetsfallen/",
+    title: "Hastighetsfällan: Varför pressen på tempo sabbar din B2B-försäljning",
+    description: "De flesta säljledare är besatta av kortare säljcykler och snabbare avslut. Det är en fälla. Riktigt momentum i försäljning förtjänas — det tvingas inte fram.",
+    date: "16 juni 2026",
+    category: "Pipeline & Säljledarskap",
+  },
+  {
+    url: "/sv/insikter/deal-framework/",
+    title: "The D.E.A.L. Framework: Skala intäkterna utan att anställa fler",
+    description: "Ett enkelt men kraftfullt ramverk för att bygga ett säljsystem som skalar — utan att behöva lägga till personal eller förlita sig på stjärnsäljare.",
+    date: "10 juni 2026",
+    category: "Säljsystem & AI",
+  },
+  {
+    url: "/sv/insikter/affarer-fastnar-pa-80/",
+    title: "Affären fastnar på 80% — vad gör du nu?",
+    description: "Det interna diskussionsstoppet är det vanligaste sättet att förlora affärer i B2B. Här är varför det händer och tre konkreta sätt att ta sig ur det.",
+    date: "2 juni 2026",
+    category: "Pipeline & Stakeholder Management",
+  },
+  {
+    url: "/sv/insikter/dolda-anledningen-kunder-stannar/",
+    title: "Den dolda anledningen till att kunder stannar upp — och hur du löser det snabbt",
+    description: "Din säljprocess är troligen designad för säljare, inte köpare. Det är därför affärer fastnar, cykler drar ut och lovande prospekts försvinner tyst.",
+    date: "13 maj 2026",
+    category: "Säljprocess & Köparpsykologi",
+  },
+  {
+    url: "/sv/insikter/osynliga-kvoten/",
+    title: "Den osynliga kvoten: Hur ledare sätter tak för sin egen intäktstillväxt",
+    description: "Tolv kvartal i rad av kvotuppfyllnad låter som en dröm. Men vad om det i själva verket är ett tak — osynliggjort av försiktiga ledarskapsval?",
+    date: "7 maj 2026",
+    category: "Säljledning & Kommersiell styrning",
+  },
+  {
+    url: "/sv/insikter/fran-timmar-till-minuter/",
+    title: "Från timmar till minuter: Möt din nya AI-säljassistent",
+    description: "AI förbättrar inte bara försäljning — den designar om den. Inte någon gång. Det här året. Så här ser det faktiskt ut i praktiken.",
+    date: "21 april 2026",
+    category: "AI i försäljning",
+  },
+  {
+    url: "/sv/insikter/kontroll-vs-sjalvstandighet/",
+    title: "Kontroll vs. självständighet: Hur du leder säljteam utan att släcka deras eld",
+    description: "Säljledarens dilemma: för mycket kontroll dödar initiativ, för lite skapar kaos. Så hittar du balansen med D.E.A.L.-ramverket.",
+    date: "1 april 2026",
+    category: "Säljledning",
+  },
+  {
+    url: "/sv/insikter/revenue-ops-blind-spot/",
+    title: "Revenue Ops blinda fläcken: När processen blir förlamning",
+    description: "Revenue Operations var tänkt att effektivisera försäljningen. För många B2B-bolag har det gjort tvärtom — skapat byråkrati som frustrerar säljare och bromsar affärer.",
+    date: "26 mars 2026",
+    category: "Revenue Operations & Säljledning",
+  },
+  {
+    url: "/sv/insikter/fran-brandkamp-till-prognos/",
+    title: "Från brandkamp till prognos: Återta din tid som säljledare",
+    description: "De flesta säljledare lever i 80% brandkamp och 20% strategi. Så här vänder du kvoten — och vad ett SaaS-bolag i Stockholm uppnådde på tre månader.",
+    date: "17 mars 2026",
+    category: "Säljledning & Pipeline-hantering",
+  },
+  {
+    url: "/sv/insikter/precision-prospektering/",
+    title: "Konsten att prospektera med precision: Hur signaldetektering förändrar säljspelet",
+    description: "De flesta säljteam tror att problemet är för få leads. Det verkliga problemet är för många lågprobabilitets-möjligheter. Signalbaserad prospektering löser det.",
+    date: "5 mars 2026",
+    category: "Prospektering & Pipeline-strategi",
+  },
+  {
+    url: "/sv/insikter/mott-uno/",
+    title: "Möt Uno: Min digitala kollega för 75 kronor som förändrar spelreglerna",
+    description: "Jag byggde en digital medarbetare utrustad med min kunskap inom försäljning, ledarskap och affärsstrategi för ungefär 75 kronor. Det signalerar ett verkligt skifte som redan pågår.",
+    date: "28 februari 2026",
+    category: "AI i affärer & försäljning",
+  },
+  {
+    url: "/sv/insikter/sluta-alska-din-losning/",
+    title: "Sluta älska din lösning. Börja lösa problemet.",
+    description: "Den tysta fällan som dödar fler bolag än dålig strategi: att förälska sig i produkten istället för i det problem den löser. Här är hur du gör skiftet.",
+    date: "27 januari 2026",
+    category: "Säljstrategi & Kommersiell klarhet",
+  },
+  {
+    url: "/sv/insikter/skala-kaos/",
+    title: "Skala kaos: Den dolda kostnaden för AI i försäljning",
+    description: "De flesta säljteam är fast på Nivå 1 AI — de accelererar kaos snarare än att transformera det. Här är hur du diagnostiserar vilken nivå du verkligen är på.",
+    date: "20 januari 2026",
+    category: "AI i försäljning & Säljledning",
+  },
+  {
+    url: "/sv/insikter/gillbarhet-slar-fortroende/",
+    title: "Varför gillbarhet slår förtroende i dagens affärsklimat",
+    description: "I lågförtroendemiljöer blir gillbarhet den nya guldvalutan. Lärdomar från Sydamerika om hur du leder med värme, närvaro och mänsklig resonans — innan du förtjänar förtroende.",
+    date: "13 januari 2026",
+    category: "Säljpsykologi & Kommersiell närvaro",
+  },
+  {
+    url: "/sv/insikter/nar-ai-saljer-utan-dig/",
+    title: "När AI börjar sälja utan dig — och slutar be om tillstånd",
+    description: "AI förkvalificerar, förvärderar och gallrar ut B2B-säljare innan köparen ens tagit kontakt. Den som syns bäst i AI:ns förmötesforskning vinner — redan innan det första samtalet.",
+    date: "30 oktober 2025",
+    category: "AI i försäljning & Framtidens sälj",
+  },
+  {
+    url: "/sv/insikter/salja-till-ai-savvy-kopare/",
+    title: "Att sälja till den AI-kunnige köparen: Rollerna har bytts",
+    description: "Köpare kommer numera till möten med AI-insamlad data, konkurrentjämförelser och dina kundrecensioner. De behöver inte mer information — de behöver bättre omdöme.",
+    date: "22 oktober 2025",
+    category: "AI i försäljning & Köparpsykologi",
+  },
+  {
+    url: "/sv/insikter/ai-agenter-doden-for-b-spelaren/",
+    title: "AI-agenter blir döden för B-spelaren",
+    description: "AI-agenter dödar inte ditt säljteam — men de exponerar det. Ju mer förutsägbar din process är, desto snabbare automatiserar AI den. Här är det mentala modelskiftet som skiljer vinnarna från resten.",
+    date: "10 oktober 2025",
+    category: "AI i försäljning & Säljledning",
+  },
+  {
+    url: "/sv/insikter/kopare-undviker-ditt-saljteam/",
+    title: "Köpare undviker ditt säljteam med flit — och det förändrar allt",
+    description: "71% av B2B-köpare vill inte prata med ditt säljteam. De köper av din konkurrent utan att du vet om det. Här är vad LinkedIns 2025-data avslöjar — och vad du gör åt det.",
+    date: "8 oktober 2025",
+    category: "B2B-säljstrategi & Thought Leadership",
+  },
+  {
+    url: "/sv/insikter/revolutionera-din-saljvardag-med-ai/",
+    title: "Så enkelt kan du revolutionera din säljvardag med AI",
+    description: "En fullmatad heldag med AI för säljare — och responsen var elektrisk. Här är varför det är enklare än de flesta tror att komma igång med AI, och hur det ser ut i praktiken.",
+    date: "9 september 2025",
+    category: "AI i försäljning & Säljutbildning",
+  },
+];
