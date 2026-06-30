@@ -15,11 +15,21 @@ const canonical = canonicalUrl ?? new URL(Astro.url.pathname, Astro.site).href;
 const buildDate = new Date();
 const monthsSv = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
 const monthsEn = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const monthsEs = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 const updatedLabel = lang === 'sv'
   ? `Senast uppdaterad ${buildDate.getDate()} ${monthsSv[buildDate.getMonth()]} ${buildDate.getFullYear()}`
+  : lang === 'es'
+  ? `Última actualización: ${buildDate.getDate()} de ${monthsEs[buildDate.getMonth()]} de ${buildDate.getFullYear()}`
   : `Last updated ${buildDate.getDate()} ${monthsEn[buildDate.getMonth()]} ${buildDate.getFullYear()}`;
-const alternateLang = lang === 'sv' ? 'en' : 'sv';
-const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}/`);
+
+const allLangs = ['sv', 'en', 'es'];
+const alternateLinks = allLangs.map(l => ({
+  lang: l,
+  href: new URL(Astro.url.pathname.replace(`/${lang}/`, `/${l}/`), Astro.site).href
+}));
+
+const contactHref = lang === 'sv' ? '/sv/kontakt/' : lang === 'en' ? '/en/contact/' : '/es/contacto/';
+const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Contacto';
 ---
 
 <!doctype html>
@@ -30,8 +40,10 @@ const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang={alternateLang} href={new URL(alternatePath, Astro.site).href} />
-    <link rel="alternate" hreflang={lang} href={canonical} />
+    {alternateLinks.map(alt => (
+      <link rel="alternate" hreflang={alt.lang} href={alt.href} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={alternateLinks[0].href} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -127,8 +139,9 @@ const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}
             <li><a href="/sv/insikter/">Insikter</a></li>
             <li><a href="/sv/kontakt/">Kontakt</a></li>
             <li><a href="/en/">EN</a></li>
+            <li><a href="/es/">ES</a></li>
           </>
-        ) : (
+        ) : lang === 'en' ? (
           <>
             <li><a href="/en/urban-gavelin/">About</a></li>
             <li><a href="/en/expertise/">Expertise</a></li>
@@ -136,6 +149,17 @@ const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}
             <li><a href="/en/insights/">Insights</a></li>
             <li><a href="/en/contact/">Contact</a></li>
             <li><a href="/sv/">SV</a></li>
+            <li><a href="/es/">ES</a></li>
+          </>
+        ) : (
+          <>
+            <li><a href="/es/urban-gavelin/">Sobre Urban</a></li>
+            <li><a href="/es/areas-de-expertise/">Experiencia</a></li>
+            <li><a href="/es/ai-sales-os/">AI-Sales OS</a></li>
+            <li><a href="/es/perspectivas/">Perspectivas</a></li>
+            <li><a href="/es/contacto/">Contacto</a></li>
+            <li><a href="/sv/">SV</a></li>
+            <li><a href="/en/">EN</a></li>
           </>
         )}
       </ul>
@@ -144,7 +168,7 @@ const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}
       <slot />
     </main>
     <footer>
-      <p>Urban Gavelin &mdash; <a href="https://powersales.se">Powersales Communication</a> &mdash; <a href="https://www.youtube.com/@PSCBusinessAcademy">YouTube</a> &mdash; <a href={`/${lang}/kontakt/`}>{lang === 'sv' ? 'Kontakt' : 'Contact'}</a></p>
+      <p>Urban Gavelin &mdash; <a href="https://powersales.se">Powersales Communication</a> &mdash; <a href="https://www.youtube.com/@PSCBusinessAcademy">YouTube</a> &mdash; <a href={contactHref}>{contactLabel}</a></p>
       <p style="margin-top: 0.5rem; font-size: 0.8rem;">{updatedLabel}</p>
     </footer>
   </body>

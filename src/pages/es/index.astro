@@ -1,0 +1,157 @@
+---
+import Base from '../../layouts/Base.astro';
+import { articulos } from '../../data/perspectivas';
+
+const ultimaArticulo = articulos[0];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://gavelin.net/#urban-gavelin",
+      "name": "Urban Gavelin",
+      "jobTitle": "Asesor de Ventas B2B y Fundador",
+      "url": "https://gavelin.net/es/urban-gavelin/",
+      "sameAs": [
+        "https://powersales.se",
+        "https://www.linkedin.com/in/urbangavelin/",
+        "https://www.youtube.com/@PSCBusinessAcademy"
+      ],
+      "knowsAbout": ["ventas B2B", "liderazgo de ventas", "comunicación", "IA en ventas"],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://gavelin.net/#powersales",
+        "name": "Powersales Communication",
+        "url": "https://powersales.se"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gavelin.net/#website",
+      "url": "https://gavelin.net",
+      "name": "Urban Gavelin",
+      "description": "Sitio de autoridad personal de Urban Gavelin, fundador de Powersales Communication.",
+      "inLanguage": "es"
+    }
+  ]
+};
+---
+
+<Base
+  title="Urban Gavelin | Ventas B2B, Comunicación y Soporte de IA"
+  description="Urban Gavelin ayuda a empresas B2B a vender de forma más inteligente con comunicación más clara, mayor disciplina de ventas y soporte práctico de IA a través de Powersales Communication."
+  lang="es"
+  schema={schema}
+>
+
+  <div class="section">
+    <h1>Las ventas B2B necesitan más agudeza humana.<br/>No más ruido digital.</h1>
+    <p class="lead">
+      Soy Urban Gavelin y ayudo a empresas B2B a vender de forma más inteligente con comunicación más clara, mayor disciplina de ventas y soporte práctico de IA.
+    </p>
+    <p>No IA porque suena moderno.<br/>
+    No formación en ventas que muere en la sala de conferencias.<br/>
+    No más actividades que agotan a todos pero no hacen a nadie más inteligente.</p>
+    <p>Las buenas ventas siguen dependiendo de las personas. Pero las personas necesitan mejores sistemas.</p>
+    <a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Reserva una llamada</a>
+  </div>
+
+  <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px;">
+    <p style="margin:0 0 0.75rem; font-size:0.9rem; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.05em;">Por qué importa</p>
+    <ul style="margin:0; padding-left:1.25rem;">
+      <li>El 67% de los vendedores B2B no esperan alcanzar su cuota — principalmente por falta de sistema, no de esfuerzo. <em>(Salesforce State of Sales)</em></li>
+      <li>Los acuerdos en ventas B2B complejas involucran en promedio de 6 a 10 tomadores de decisiones — pero la mayoría de los procesos de ventas están diseñados para un solo contacto. <em>(Gartner)</em></li>
+      <li>Los vendedores dedican en promedio solo el 28% de su tiempo a ventas reales — el resto va a administración y cambio de herramientas. <em>(Salesforce)</em></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Lo que hago</h2>
+    <p>Trabajo con asesoría, formación, talleres y sistemas de ventas con IA para empresas B2B que quieren mejorar su capacidad comercial. El enfoque está en tres cosas:</p>
+
+    <h3>Claridad comercial</h3>
+    <p>¿A quién deben ganar? ¿Por qué debería importarle al cliente? ¿Dónde está filtrando la venta hoy?</p>
+
+    <h3>Comunicación que genera confianza</h3>
+    <p>Las ventas no se deciden solo por lo que dices. Se deciden por cómo el cliente entiende, siente y se atreve a avanzar.</p>
+
+    <h3>Soporte de IA que fortalece el proceso de ventas</h3>
+    <p>La IA no debe reemplazar la influencia humana. La IA debe eliminar la fricción, elevar la calidad y liberar tiempo para mejores conversaciones con clientes.</p>
+  </div>
+
+  <div class="section">
+    <h2>Powersales AI-Sales OS</h2>
+    <p>Powersales AI-Sales OS es mi framework sobre cómo las empresas B2B pueden combinar estrategia, comunicación humana y flujos de trabajo con soporte de IA en un sistema de ventas cohesionado.</p>
+    <p>No se trata de otra herramienta más. Se trata de un sistema para cómo crear pipeline, avanzar en los acuerdos y aprender más rápido que el mercado.</p>
+    <ul>
+      <li>La IA hace el trabajo que no requiere presencia humana.</li>
+      <li>Las personas generan confianza, leen la situación y conducen las decisiones.</li>
+    </ul>
+    <a href="/es/ai-sales-os/">Más información sobre AI-Sales OS &rarr;</a>
+  </div>
+
+  <div class="section">
+    <h2>¿Para quién?</h2>
+    <p>Trabajo principalmente con CEO, directores de ventas, fundadores y equipos comerciales en empresas B2B con ventas complejas. A menudo se trata de empresas donde:</p>
+    <ul>
+      <li>el pipeline parece mejor de lo que es</li>
+      <li>los acuerdos se estancan en discusiones internas</li>
+      <li>el seguimiento ocurre demasiado tarde o con demasiada poca fuerza</li>
+      <li>la IA se usa ad hoc sin una lógica de negocio clara</li>
+      <li>el equipo de ventas trabaja duro pero no con suficiente sistemática</li>
+    </ul>
+    <p>No es inusual. Solo es caro.</p>
+  </div>
+
+  <div class="section">
+    <h2>Perspectivas</h2>
+    <p>Artículos y boletines sobre ventas B2B, IA y liderazgo comercial. Sin relleno.</p>
+    <div style="margin: 1.25rem 0; padding: 1.25rem; border-left: 3px solid var(--color-accent, #0066cc); background: #f8f8f8; border-radius: 0 4px 4px 0;">
+      <p style="margin: 0 0 0.25rem; font-size: 0.85rem; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Última perspectiva</p>
+      <p style="margin: 0 0 0.25rem;"><a href={ultimaArticulo.url}><strong>{ultimaArticulo.title}</strong></a></p>
+      <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted);">{ultimaArticulo.date} &mdash; {ultimaArticulo.category}</p>
+    </div>
+    <a href="/es/perspectivas/">Todas las perspectivas &rarr;</a>
+  </div>
+
+  <div class="section">
+    <h2>Preguntas frecuentes</h2>
+    <div itemscope itemtype="https://schema.org/FAQPage">
+
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+        <h3 itemprop="name">¿Qué hace Urban Gavelin?</h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Urban Gavelin es asesor de ventas B2B y fundador de Powersales Communication. Ayuda a empresas B2B a mejorar el rendimiento de ventas, la comunicación y la gobernanza comercial a través de asesoría, formación, talleres y sistemas de ventas con soporte de IA.</p>
+        </div>
+      </div>
+
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+        <h3 itemprop="name">¿Qué es Powersales AI-Sales OS?</h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Powersales AI-Sales OS es un framework para empresas B2B que combina estrategia, comunicación humana y flujos de trabajo con soporte de IA en un sistema de ventas cohesionado. No es una herramienta de software — es un modelo operativo para crear pipeline, avanzar en acuerdos y aprender más rápido que el mercado.</p>
+        </div>
+      </div>
+
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+        <h3 itemprop="name">¿Con quién trabaja Urban Gavelin?</h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Urban Gavelin trabaja principalmente con CEO, directores de ventas, fundadores y equipos comerciales en empresas B2B con ventas complejas — donde los ciclos de ventas son largos, hay múltiples tomadores de decisiones y la disciplina de pipeline es inconsistente.</p>
+        </div>
+      </div>
+
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+        <h3 itemprop="name">¿Cómo reservo una llamada con Urban Gavelin?</h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Envía un correo a urban.gavelin@powersales.se o visita la página de contacto en gavelin.net. La llamada es de 30 minutos y se centra en entender si y cómo la asesoría, la formación o AI-Sales OS puede ayudar a tu organización.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Reserva una llamada de 30 minutos</a>
+  </div>
+
+</Base>
