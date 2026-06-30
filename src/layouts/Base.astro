@@ -13,9 +13,11 @@ const { title, description, lang = 'sv', schema, canonicalUrl, author, datePubli
 const canonical = canonicalUrl ?? new URL(Astro.url.pathname, Astro.site).href;
 
 const buildDate = new Date();
+const monthsSv = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+const monthsEn = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const updatedLabel = lang === 'sv'
-  ? `Senast uppdaterad ${buildDate.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' })}`
-  : `Last updated ${buildDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}`;
+  ? `Senast uppdaterad ${buildDate.getDate()} ${monthsSv[buildDate.getMonth()]} ${buildDate.getFullYear()}`
+  : `Last updated ${buildDate.getDate()} ${monthsEn[buildDate.getMonth()]} ${buildDate.getFullYear()}`;
 const alternateLang = lang === 'sv' ? 'en' : 'sv';
 const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}/`);
 ---
