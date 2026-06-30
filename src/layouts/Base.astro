@@ -11,6 +11,11 @@ export interface Props {
 
 const { title, description, lang = 'sv', schema, canonicalUrl, author, datePublished } = Astro.props;
 const canonical = canonicalUrl ?? new URL(Astro.url.pathname, Astro.site).href;
+
+const buildDate = new Date();
+const updatedLabel = lang === 'sv'
+  ? `Senast uppdaterad ${buildDate.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' })}`
+  : `Last updated ${buildDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}`;
 const alternateLang = lang === 'sv' ? 'en' : 'sv';
 const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}/`);
 ---
@@ -138,6 +143,7 @@ const alternatePath = Astro.url.pathname.replace(`/${lang}/`, `/${alternateLang}
     </main>
     <footer>
       <p>Urban Gavelin &mdash; <a href="https://powersales.se">Powersales Communication</a> &mdash; <a href="https://www.youtube.com/@PSCBusinessAcademy">YouTube</a> &mdash; <a href={`/${lang}/kontakt/`}>{lang === 'sv' ? 'Kontakt' : 'Contact'}</a></p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">{updatedLabel}</p>
     </footer>
   </body>
 </html>
