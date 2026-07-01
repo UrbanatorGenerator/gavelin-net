@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/affaren-dor-efter-ja/",
+    title: "Varför din affär dör efter att köparen sagt ja",
+    description: "I B2B-försäljning känns det muntliga jaet som mållinjen. Det är det inte. Det farligaste ögonblicket i en affär är stunden köparen säger ja — för då slutar de flesta säljare att sälja, och det är precis då affärer dör i tystnad.",
+    date: "1 juli 2026",
+    category: "Pipeline & Affärsavslut",
+  },
+  {
     url: "/sv/insikter/intaktsarkitektur-reset/",
     title: "Intäktsarkitektur-resetten: Varför taktiska lappar misslyckas när fundamentet brister",
     description: "Om din B2B-intäktstillväxt känns som ett ekorrhjul — mycket ansträngning, lite framåtrörelse — är det inte för att du behöver ett nytt CRM eller fler säljare. Det är för att din intäktsarkitektur är trasig.",

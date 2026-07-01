@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/acuerdo-muere-despues-del-si/",
+    title: "Por qué tu acuerdo muere después de que el comprador dice que sí",
+    description: "En ventas B2B, el sí verbal se siente como la línea de meta. No lo es. El momento más peligroso de cualquier acuerdo es cuando el comprador acepta — porque ahí es cuando la mayoría de los vendedores dejan de vender, y ahí es cuando los acuerdos mueren en silencio.",
+    date: "1 de julio de 2026",
+    category: "Pipeline y Cierre de Acuerdos",
+  },
+  {
     url: "/es/perspectivas/arquitectura-de-ingresos/",
     title: "El Reset de la Arquitectura de Ingresos: Por qué los parches tácticos fallan cuando los cimientos están rotos",
     description: "Si tu crecimiento de ingresos B2B se siente como una rueda de hámster — mucho esfuerzo, poco avance — no es porque necesites un nuevo CRM o más vendedores. Es porque tu arquitectura de ingresos está rota.",

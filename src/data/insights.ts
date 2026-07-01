@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/deal-dies-after-yes/",
+    title: "Why Your Deal Dies After the Buyer Says Yes",
+    description: "In B2B sales the verbal yes feels like the finish line. It isn't. The most dangerous moment in any deal is the moment the buyer agrees — because that's when most reps stop selling, and that's when deals quietly die.",
+    date: "July 1, 2026",
+    category: "Pipeline & Deal Execution",
+  },
+  {
     url: "/en/insights/revenue-architecture-reset/",
     title: "The Revenue Architecture Reset: Why Tactical Fixes Fail When the Foundation Is Broken",
     description: "If your B2B revenue growth feels like a hamster wheel — lots of effort, little forward motion — it's not because you need a new CRM or more sales hires. It's because your revenue architecture is broken.",
