@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/antagandeglappet/",
+    title: "Varför ditt säljteam löser fel problem",
+    description: "Säljteamet är i full aktivitet och pipeline ser stark ut — men intäkterna missar ändå målet. Boven är sällan dålig exekvering. Det är Antagandeglappet: avståndet mellan vad ni antar om köpare, pipeline och product-market fit, och vad som faktiskt är sant.",
+    date: "8 juli 2026",
+    category: "Kommersiell klarhet & Pipeline-kvalitet",
+  },
+  {
     url: "/sv/insikter/affaren-dor-efter-ja/",
     title: "Varför din affär dör efter att köparen sagt ja",
     description: "I B2B-försäljning känns det muntliga jaet som mållinjen. Det är det inte. Det farligaste ögonblicket i en affär är stunden köparen säger ja — för då slutar de flesta säljare att sälja, och det är precis då affärer dör i tystnad.",

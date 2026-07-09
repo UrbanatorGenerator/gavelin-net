@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/assumption-gap/",
+    title: "Why Your Sales Team Is Solving the Wrong Problem",
+    description: "Your sales team is buzzing and pipeline looks strong — but revenue still misses target. The real culprit is rarely poor execution. It's the Assumption Gap: the space between what you assume about buyers, pipeline, and product-market fit, and what's genuinely true.",
+    date: "July 8, 2026",
+    category: "Commercial Clarity & Pipeline Quality",
+  },
+  {
     url: "/en/insights/deal-dies-after-yes/",
     title: "Why Your Deal Dies After the Buyer Says Yes",
     description: "In B2B sales the verbal yes feels like the finish line. It isn't. The most dangerous moment in any deal is the moment the buyer agrees — because that's when most reps stop selling, and that's when deals quietly die.",

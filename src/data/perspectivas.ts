@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/brecha-de-suposiciones/",
+    title: "Por qué tu equipo de ventas está resolviendo el problema equivocado",
+    description: "Tu equipo de ventas está en plena actividad y el pipeline se ve sólido — pero los ingresos siguen sin alcanzar el objetivo. El verdadero culpable rara vez es una mala ejecución. Es la Brecha de Suposiciones: el espacio entre lo que asumes sobre tus compradores, tu pipeline y tu product-market fit, y lo que realmente es cierto.",
+    date: "8 de julio de 2026",
+    category: "Claridad Comercial y Calidad de Pipeline",
+  },
+  {
     url: "/es/perspectivas/acuerdo-muere-despues-del-si/",
     title: "Por qué tu acuerdo muere después de que el comprador dice que sí",
     description: "En ventas B2B, el sí verbal se siente como la línea de meta. No lo es. El momento más peligroso de cualquier acuerdo es cuando el comprador acepta — porque ahí es cuando la mayoría de los vendedores dejan de vender, y ahí es cuando los acuerdos mueren en silencio.",
