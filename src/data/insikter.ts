@@ -121,8 +121,8 @@ export const artiklar: Artikel[] = [
   },
   {
     url: "/sv/insikter/gillbarhet-slar-fortroende/",
-    title: "Varför gillbarhet slår förtroende i dagens affärsklimat",
-    description: "I lågförtroendemiljöer blir gillbarhet den nya guldvalutan. Lärdomar från Sydamerika om hur du leder med värme, närvaro och mänsklig resonans, innan du förtjänar förtroende.",
+    title: "Varför gillande slår förtroende i dagens affärsklimat",
+    description: "I lågförtroendemiljöer blir gillande den nya guldvalutan. Lärdomar från Sydamerika om hur du leder med värme, närvaro och mänsklig resonans, innan du förtjänar förtroende.",
     date: "13 januari 2026",
     category: "Säljpsykologi & Kommersiell närvaro",
   },
