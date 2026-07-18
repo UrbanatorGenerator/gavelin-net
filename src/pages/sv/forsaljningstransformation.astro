@@ -1,0 +1,305 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://gavelin.net/sv/forsaljningstransformation/#service",
+      "name": "B2B-försäljningstransformation med Powersales Revenue Architecture",
+      "serviceType": "Försäljningstransformation och kommersiell utveckling",
+      "description": "Powersales hjälper ägarledda B2B-företag att bygga en försäljning som går att styra, mäta och skala. Genom metoden Powersales Revenue Architecture kopplas strategi, säljprocess, ledning, kompetens, data och AI samman i ett fungerande kommersiellt system.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://gavelin.net/#powersales",
+        "name": "Powersales Communication",
+        "url": "https://powersales.se"
+      },
+      "areaServed": "SE",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Erbjudandetrappa",
+        "itemListElement": [
+          { "@type": "Offer", "name": "Revenue Architecture-diagnos", "description": "Nulägesanalys av process, pipeline, styrning, kompetens, data och AI-användning. Identifierar de tre största intäktsläckagen och en prioriterad 90-dagarsplan." },
+          { "@type": "Offer", "name": "Sales AI Sprint", "description": "Tre till fem prioriterade AI-arbetsflöden implementerade i säljarnas faktiska vardag, med mätning av användning och sparad tid." },
+          { "@type": "Offer", "name": "Revenue Transformation Program", "description": "Ett AI-stött Sales Operating System anpassat till företaget: säljprocess, pipeline, KPI:er, ledningsrytm, CRM och AI-arbetsflöden." },
+          { "@type": "Offer", "name": "Executive Revenue Advisory", "description": "Månatlig rådgivning för vd eller säljchef: pipeline- och prognosgranskning, beslutsstöd och uppföljning av transformationen." }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad är Powersales Revenue Architecture?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Powersales Revenue Architecture är metoden Powersales använder för att få strategi, säljprocess, ledning, kompetens, data och AI att fungera tillsammans som ett sammanhängande kommersiellt system. Resultatet är ett AI-stött Sales Operating System anpassat till företaget."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad ingår i en Revenue Architecture-diagnos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Intervjuer med vd och säljchef, analys av process, pipeline, styrning, kompetens, data och AI-användning, identifiering av de tre största intäktsläckagen samt en prioriterad 90-dagars rekommendation. Leveransen är en konkret nulägesbild och handlingsplan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad är ett AI-stött Sales Operating System?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ett gemensamt arbetssätt för säljprocess, pipeline, CRM och AI som fungerar i säljarnas vardag, inte bara på ledningsmötet. AI tar bort friktion och repetitivt arbete, människor bygger förtroende och driver beslut."
+          }
+        }
+      ]
+    }
+  ]
+};
+---
+
+<Base
+  title="Försäljningstransformation för B2B | Powersales Revenue Architecture™"
+  description="Vi hjälper B2B-företag att bygga en försäljning som går att styra, mäta och skala. Powersales Revenue Architecture™ får process, människor, data och AI att fungera som ett system."
+  lang="sv"
+  schema={schema}
+>
+
+  <div class="section">
+    <p class="kicker">Försäljningstransformation för B2B</p>
+    <h1>En tydligare säljprocess.<br/>En pipeline du kan lita på.<br/>AI som faktiskt används.</h1>
+    <p class="lead">
+      Vi hjälper B2B-företag som har vuxit ur sitt nuvarande sätt att sälja. Genom Powersales Revenue Architecture&trade; får ni strategi, process, människor, data och AI att fungera som ett sammanhängande system.
+    </p>
+    <a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Boka en Revenue Architecture-diagnos</a>
+  </div>
+
+  <div class="section graybox">
+    <h2 style="margin-top:0;">Känner du igen er?</h2>
+    <ul class="triggers">
+      <li>Omsättningen har stannat av.</li>
+      <li>Prognoserna missar återkommande.</li>
+      <li>CRM-data är ofullständiga.</li>
+      <li>Säljarna arbetar på helt olika sätt.</li>
+      <li>Affärer fastnar sent i processen.</li>
+      <li>Ledningen har köpt AI-verktyg men användningen är låg.</li>
+      <li>Ni har genomfört säljutbildningar utan varaktig effekt.</li>
+      <li>Säljchefen lägger sin tid på administration och brandsläckning.</li>
+    </ul>
+    <p style="margin-bottom:0;"><strong>Känner du igen två eller fler?</strong> Då är det sannolikt inte ett kompetensproblem. Det är ett systemproblem.</p>
+  </div>
+
+  <div class="section">
+    <h2>Punktinsatser löser inte systemproblem</h2>
+    <p>När B2B-försäljningen stannar av försöker företag ofta lösa ett systemproblem med en punktinsats. Man utbildar säljarna, byter CRM, köper ett AI-verktyg eller rekryterar en ny chef.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Vanlig åtgärd</th><th>Varför den väljs</th><th>Vanlig begränsning</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Säljutbildning</td><td>Välkänt och konkret</td><td>Förändrar inte system, data eller ledning</td></tr>
+          <tr><td>AI-workshop</td><td>Aktuellt och inspirerande</td><td>Riskerar att bli isolerade experiment</td></tr>
+          <tr><td>Nytt CRM eller nya verktyg</td><td>Ser ut som en strukturell lösning</td><td>Teknik löser inte process och beteende</td></tr>
+          <tr><td>RevOps-konsult</td><td>Skapar process och datastyrning</td><td>Kan bli tekniskt och långt från säljarvardagen</td></tr>
+          <tr><td>Rekrytera säljchef</td><td>Tydligt ansvar</td><td>En person kan inte ensam reparera hela systemet</td></tr>
+          <tr><td>Managementkonsult</td><td>Strategisk höjd</td><td>Risk för PowerPoint utan genomförande</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Varje åtgärd kan vara bra. Men ingen av dem får automatiskt helheten att fungera.</p>
+  </div>
+
+  <div class="section">
+    <h2>Vad som faktiskt krävs</h2>
+    <p>En fungerande lösning behöver koppla samman kommersiell riktning, säljprocess, ledning, kompetens, data och AI. Den måste dessutom fungera i säljarnas vardag, inte bara på ledningsmötet.</p>
+    <p>Det är detta vi bygger genom <strong>Powersales Revenue Architecture&trade;</strong>, vår metod för att få alla delar av försäljningen att dra åt samma håll. Resultatet är ert eget <strong>AI-stödda Sales Operating System</strong>: ett gemensamt arbetssätt för säljprocess, pipeline, CRM och AI.</p>
+    <p>Det ni köper är inte en samling aktiviteter. Det är en förflyttning:</p>
+    <p class="shift">Från spretig och personberoende försäljning<br/>till ett gemensamt, styrbart och AI-stött säljsystem.</p>
+  </div>
+
+  <div class="section">
+    <h2>Så tar vi er dit</h2>
+    <p>Fyra steg som följer er köpberedskap. Ni börjar smått och skalar när värdet är bevisat.</p>
+
+    <div class="ladder">
+      <div class="step">
+        <div class="step-head"><span class="step-num">1</span><h3>Revenue Architecture-diagnos</h3></div>
+        <p class="quote">&rdquo;Vi vet att försäljningen inte fungerar optimalt, men vi vet inte exakt var det läcker.&rdquo;</p>
+        <ul>
+          <li>Intervjuer med vd och säljchef</li>
+          <li>Analys av process, pipeline, styrning, kompetens, data och AI-användning</li>
+          <li>De tre största intäktsläckagen, identifierade och prioriterade</li>
+        </ul>
+        <p class="deliver"><strong>Ni får:</strong> en konkret nulägesbild och en prioriterad 90-dagarsplan.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-head"><span class="step-num">2</span><h3>Sales AI Sprint</h3></div>
+        <p class="quote">&rdquo;Vi vill få säljarna att använda AI praktiskt och konsekvent.&rdquo;</p>
+        <ul>
+          <li>Kartläggning av repetitiva säljuppgifter</li>
+          <li>Tre till fem prioriterade AI-arbetsflöden med anpassade assistenter</li>
+          <li>Träning i säljarnas faktiska vardag, med mätning av användning och sparad tid</li>
+        </ul>
+        <p class="deliver"><strong>Ni får:</strong> ett fungerande AI-stött arbetssätt, inte bara en inspirationsdag.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-head"><span class="step-num">3</span><h3>Revenue Transformation Program</h3></div>
+        <p class="quote">&rdquo;Vi behöver bygga om hur försäljningen faktiskt fungerar.&rdquo;</p>
+        <ul>
+          <li>Kommersiell riktning, ICP och positionering</li>
+          <li>Säljprocess, pipeline, prognos och KPI:er</li>
+          <li>Ledningsstruktur, säljrytm, CRM- och AI-arbetsflöden</li>
+          <li>Träning, implementering och uppföljning</li>
+        </ul>
+        <p class="deliver"><strong>Ni får:</strong> ett AI-stött Sales Operating System anpassat till ert företag.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-head"><span class="step-num">4</span><h3>Executive Revenue Advisory</h3></div>
+        <p class="quote">&rdquo;Vi har riktningen, men behöver extern skärpa och kontinuitet.&rdquo;</p>
+        <ul>
+          <li>Månatlig rådgivning för vd eller säljchef</li>
+          <li>Pipeline- och prognosgranskning, beslutsstöd och prioritering</li>
+          <li>Kritisk sparring kring team, kunder och investeringar</li>
+        </ul>
+        <p class="deliver"><strong>Ni får:</strong> bättre beslut och högre genomförandekraft över tid.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Varför Powersales?</h2>
+    <p>Powersales hjälper ägarledda B2B-företag att bygga en mer styrbar och skalbar försäljning. Till skillnad från traditionell säljutbildning, fristående AI-workshops och tekniska CRM-projekt kopplar vi samman strategi, process, ledning, kompetens, data och AI i ett fungerande kommersiellt system.</p>
+    <p>Vi kombinerar försäljningsstrategi, praktisk säljutveckling och AI-implementering i samma förändringsprocess. Det är skillnaden mellan en bra insats och ett bestående resultat.</p>
+  </div>
+
+  <div class="section">
+    <h2>För vem?</h2>
+    <p>Vi arbetar främst med ägarledda B2B-företag med 10 till 50 säljare eller kundansvariga, där försäljningen har vuxit fram organiskt och där vd eller säljchef saknar ett gemensamt system för process, pipeline, uppföljning och AI-användning.</p>
+    <p>Har ni kommit dit att magkänslan inte längre räcker som styrsystem? Då är ni sannolikt rätt företag för oss.</p>
+  </div>
+
+  <div class="section">
+    <h2>Vanliga frågor</h2>
+    <h3>Vad är Powersales Revenue Architecture&trade;?</h3>
+    <p>Metoden vi använder för att få strategi, säljprocess, ledning, kompetens, data och AI att fungera tillsammans som ett sammanhängande kommersiellt system. Resultatet är ert AI-stödda Sales Operating System.</p>
+    <h3>Vad ingår i en Revenue Architecture-diagnos?</h3>
+    <p>Intervjuer med vd och säljchef, analys av hela säljsystemet, identifiering av de tre största intäktsläckagen samt en prioriterad 90-dagars rekommendation. En trygg och begränsad ingång, ni behöver inte köpa hela transformationen innan problemet är ordentligt definierat.</p>
+    <h3>Vad är ett AI-stött Sales Operating System?</h3>
+    <p>Ett gemensamt arbetssätt för säljprocess, pipeline, CRM och AI som fungerar i säljarnas vardag. AI gör jobbet som inte kräver mänsklig närvaro. Människor bygger förtroende, läser situationen och driver beslut.</p>
+  </div>
+
+  <div class="section cta-box">
+    <h2 style="margin-top:0;">Nästa steg</h2>
+    <p>Vi börjar med en Revenue Architecture-diagnos som visar var intäkterna läcker och vilka tre förändringar som ger störst effekt.</p>
+    <p>Boka ett kort samtal. 30 minuter. Tydligt. Praktiskt. Ingen cirkus.</p>
+    <a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Boka samtal</a>
+  </div>
+
+</Base>
+
+<style>
+  .kicker {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .graybox {
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 4px;
+  }
+  .triggers {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0.25rem 1.5rem;
+  }
+  .triggers li {
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  .triggers li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+  .table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+  }
+  th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+  }
+  .shift {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-left: 3px solid var(--color-accent);
+    padding: 0.75rem 1.25rem;
+    background: #f8f8f8;
+    border-radius: 0 4px 4px 0;
+  }
+  .ladder {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+  .step {
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 1.5rem;
+  }
+  .step-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .step-head h3 { margin: 0; }
+  .step-num {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quote {
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+  .deliver { margin-bottom: 0; }
+  .cta-box {
+    background: #f8f8f8;
+    padding: 2rem 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+</style>

@@ -59,7 +59,7 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
     <meta name="google-site-verification" content="Tvey2t9929lVMy38oRywdNCBTabYIcjP0jDKQEXPKo4" />
     {author && <meta name="author" content={author} />}
     {datePublished && <meta property="article:published_time" content={datePublished} />}
-    <style>
+    <style is:global>
       *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
       :root {
         --color-bg: #ffffff;
@@ -134,8 +134,8 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
         {lang === 'sv' ? (
           <>
             <li><a href="/sv/urban-gavelin/">Om Urban</a></li>
+            <li><a href="/sv/forsaljningstransformation/">Erbjudande</a></li>
             <li><a href="/sv/expertomraden/">Expertområden</a></li>
-            <li><a href="/sv/ai-sales-os/">AI-Sales OS</a></li>
             <li><a href="/sv/insikter/">Insikter</a></li>
             <li><a href="/sv/kontakt/">Kontakt</a></li>
             <li><a href="/en/">EN</a></li>
