@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gavelin-net",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/urbangavelin/Desktop/claude-projects/gavelin-net",
+      "port": 4321
+    }
+  ]
+}

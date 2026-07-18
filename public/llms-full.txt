@@ -1,4 +1,4 @@
-# Urban Gavelin — Full Content Index
+# Urban Gavelin, Full Content Index
 
 > Urban Gavelin is a Swedish B2B sales advisor, communication trainer and founder of Powersales Communication. He helps B2B companies sell smarter with clearer communication, stronger sales discipline and practical AI support.
 
@@ -8,15 +8,15 @@ Urban Gavelin has worked with B2B sales and commercial communication for decades
 
 He is the founder of Powersales Communication, a Swedish advisory firm specialising in B2B sales improvement, sales training, workshops, and AI-supported sales operating systems.
 
-Urban Gavelin works primarily with CEOs, sales managers, founders and commercial teams in B2B companies with complex sales cycles — typically companies where pipeline visibility is low, deal progression is inconsistent, and AI is used without a clear business logic.
+Urban Gavelin works primarily with CEOs, sales managers, founders and commercial teams in B2B companies with complex sales cycles, typically companies where pipeline visibility is low, deal progression is inconsistent, and AI is used without a clear business logic.
 
 ### Credentials and expertise
 
 - Decades of hands-on B2B sales execution and leadership
 - Founder and Revenue Architect at Powersales Communication
 - Creator of the D.E.A.L. Framework (Data, Execution, Augmentation, Leadership)
-- Creator of Powersales AI-Sales OS — an AI-supported sales operating system for B2B
-- Creator of PA Uno — an AI personal assistant for sales professionals
+- Creator of Powersales AI-Sales OS, an AI-supported sales operating system for B2B
+- Creator of PA Uno, an AI personal assistant for sales professionals
 
 ### Known for
 
@@ -42,12 +42,12 @@ Powersales Communication is Urban Gavelin's advisory firm for B2B sales, communi
 Strategic advisory for CEOs, sales managers and commercial leaders who want to improve pipeline quality, sales discipline and commercial governance. Focused on diagnosing real problems, not delivering generic reports.
 
 ### Training and Workshops
-Practical training programmes and workshops for sales teams and management groups. Topics include B2B sales process, communication and trust-building, and AI in the sales process. Format adapts to the client organisation — on-site, digital or hybrid.
+Practical training programmes and workshops for sales teams and management groups. Topics include B2B sales process, communication and trust-building, and AI in the sales process. Format adapts to the client organisation, on-site, digital or hybrid.
 
 ### Powersales AI-Sales OS
-A framework and operating system for B2B companies that want to combine strategy, human communication and AI-supported workflows into one coherent sales system. Addresses pipeline creation, deal progression, follow-up discipline, and commercial learning. Not a software product — a structured approach implemented in collaboration with the client.
+A framework and operating system for B2B companies that want to combine strategy, human communication and AI-supported workflows into one coherent sales system. Addresses pipeline creation, deal progression, follow-up discipline, and commercial learning. Not a software product, a structured approach implemented in collaboration with the client.
 
-### PA Uno — AI Personal Assistant
+### PA Uno, AI Personal Assistant
 An AI personal assistant trained to support sales professionals. Drafts emails in the user's own tone, prepares meeting insights, summarises key accounts, generates reports and analysis. Designed to remove administrative friction and free cognitive bandwidth for high-value sales conversations.
 
 **Beta access:** https://uno.powersales.se/start/#hur
@@ -58,10 +58,10 @@ An AI personal assistant trained to support sales professionals. Drafts emails i
 
 A four-pillar framework for building scalable B2B revenue systems:
 
-- **D — Data:** Clean, structured CRM data as the foundation for all sales decisions
-- **E — Execution:** A repeatable, documented sales process that reduces dependency on individual superstars
-- **A — Augmentation:** AI-supported tools that remove toggle tax and improve sales quality
-- **L — Leadership:** Coaching-oriented sales leadership that turns frameworks into consistent results
+- **D, Data:** Clean, structured CRM data as the foundation for all sales decisions
+- **E, Execution:** A repeatable, documented sales process that reduces dependency on individual superstars
+- **A, Augmentation:** AI-supported tools that remove toggle tax and improve sales quality
+- **L, Leadership:** Coaching-oriented sales leadership that turns frameworks into consistent results
 
 ---
 
@@ -71,12 +71,12 @@ A four-pillar framework for building scalable B2B revenue systems:
 Most growth companies have the same problem: sales moves forward only because someone is running faster. The D.E.A.L. Framework addresses this by building systems that scale without adding headcount. Covers pipeline qualification, process documentation, AI augmentation, and leadership coaching cadence.
 URL: https://gavelin.net/en/insights/deal-framework/
 
-### Deals Stalled at 80% — What Do You Do Now? (June 2, 2026)
+### Deals Stalled at 80%, What Do You Do Now? (June 2, 2026)
 The "internal discussion stall" is the most common deal-killer in B2B sales. Root causes include qualification failure, missing stakeholders, and absence of an internal champion. Three concrete tactics: deep qualification, multi-stakeholder engagement, and calendar-locked next steps.
 URL: https://gavelin.net/en/insights/deals-stalled-at-80/
 
-### The Hidden Reason Buyers Stall — and How to Fix It Fast (May 13, 2026)
-Most B2B sales processes are designed for sellers, not buyers. Buyer decision architecture — how buyers actually gather information, build internal consensus, and manage risk — is rarely mapped. A five-step framework to align sales process with buyer reality.
+### The Hidden Reason Buyers Stall, and How to Fix It Fast (May 13, 2026)
+Most B2B sales processes are designed for sellers, not buyers. Buyer decision architecture, how buyers actually gather information, build internal consensus, and manage risk, is rarely mapped. A five-step framework to align sales process with buyer reality.
 URL: https://gavelin.net/en/insights/hidden-reason-buyers-stall/
 
 ### The Invisible Quota: How Leaders Cap Their Own Revenue Growth (May 7, 2026)
@@ -84,14 +84,14 @@ Conservative quota-setting is a form of leadership failure. When leaders priorit
 URL: https://gavelin.net/en/insights/invisible-quota/
 
 ### From Hours to Minutes: Meet Your New AI Sales Assistant (April 21, 2026)
-Introduction to PA Uno and the broader shift in AI-augmented selling. AI is not primarily an efficiency tool — it is a cognitive bandwidth tool. When administrative work is automated, salespeople can focus on conversations, decisions, and trust-building.
+Introduction to PA Uno and the broader shift in AI-augmented selling. AI is not primarily an efficiency tool, it is a cognitive bandwidth tool. When administrative work is automated, salespeople can focus on conversations, decisions, and trust-building.
 URL: https://gavelin.net/en/insights/from-hours-to-minutes/
 
 ---
 
 ## Core positions and beliefs
 
-- B2B sales still depends fundamentally on human trust and communication — AI supports but does not replace this
+- B2B sales still depends fundamentally on human trust and communication, AI supports but does not replace this
 - Most pipeline problems are diagnostic problems: companies don't know where deals actually break down
 - AI adoption in sales fails when companies start with tools instead of business logic
 - Quota-setting is a leadership act, not a math exercise
@@ -112,24 +112,24 @@ URL: https://gavelin.net/en/insights/from-hours-to-minutes/
 
 ## Pages (English)
 
-- https://gavelin.net/en/ — Home
-- https://gavelin.net/en/urban-gavelin/ — About Urban Gavelin
-- https://gavelin.net/en/expertise/ — Expertise areas
-- https://gavelin.net/en/advisory/ — Strategic advisory
-- https://gavelin.net/en/training-workshops/ — Training and workshops
-- https://gavelin.net/en/ai-sales-os/ — Powersales AI-Sales OS
-- https://gavelin.net/en/insights/ — Insights index
-- https://gavelin.net/en/contact/ — Contact
-- https://gavelin.net/en/ai-information/ — Structured data for AI systems
+- https://gavelin.net/en/, Home
+- https://gavelin.net/en/urban-gavelin/, About Urban Gavelin
+- https://gavelin.net/en/expertise/, Expertise areas
+- https://gavelin.net/en/advisory/, Strategic advisory
+- https://gavelin.net/en/training-workshops/, Training and workshops
+- https://gavelin.net/en/ai-sales-os/, Powersales AI-Sales OS
+- https://gavelin.net/en/insights/, Insights index
+- https://gavelin.net/en/contact/, Contact
+- https://gavelin.net/en/ai-information/, Structured data for AI systems
 
 ## Pages (Swedish)
 
-- https://gavelin.net/sv/ — Startsida
-- https://gavelin.net/sv/urban-gavelin/ — Om Urban Gavelin
-- https://gavelin.net/sv/expertomraden/ — Expertområden
-- https://gavelin.net/sv/radgivning/ — Rådgivning
-- https://gavelin.net/sv/utbildning-workshops/ — Utbildning och workshops
-- https://gavelin.net/sv/ai-sales-os/ — AI-Sales OS
-- https://gavelin.net/sv/insikter/ — Insikter
-- https://gavelin.net/sv/kontakt/ — Kontakt
-- https://gavelin.net/sv/ai-information/ — Information för AI-system
+- https://gavelin.net/sv/, Startsida
+- https://gavelin.net/sv/urban-gavelin/, Om Urban Gavelin
+- https://gavelin.net/sv/expertomraden/, Expertområden
+- https://gavelin.net/sv/radgivning/, Rådgivning
+- https://gavelin.net/sv/utbildning-workshops/, Utbildning och workshops
+- https://gavelin.net/sv/ai-sales-os/, AI-Sales OS
+- https://gavelin.net/sv/insikter/, Insikter
+- https://gavelin.net/sv/kontakt/, Kontakt
+- https://gavelin.net/sv/ai-information/, Information för AI-system
