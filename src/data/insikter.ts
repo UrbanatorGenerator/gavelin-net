@@ -31,7 +31,7 @@ export const artiklar: Artikel[] = [
   {
     url: "/sv/insikter/hastighetsfallen/",
     title: "Hastighetsfällan: varför jakten på tempo bromsar din B2B-försäljning",
-    description: "De flesta säljledare är besatta av kortare säljcykler och snabbare avslut. Det är en fälla. Riktigt momentum i försäljning förtjänas, det tvingas inte fram.",
+    description: "De flesta säljledare är besatta av kortare säljcykler och snabbare avslut. Det är en fälla. Riktigt flyt i försäljning förtjänas, det tvingas inte fram.",
     date: "16 juni 2026",
     category: "Pipeline & Säljledarskap",
   },
@@ -47,7 +47,7 @@ export const artiklar: Artikel[] = [
     title: "Affären fastnar på 80%, vad gör du nu?",
     description: "Det interna diskussionsstoppet är det vanligaste sättet att förlora affärer i B2B. Här är varför det händer och tre konkreta sätt att ta sig ur det.",
     date: "2 juni 2026",
-    category: "Pipeline & Stakeholder Management",
+    category: "Pipeline & Intressenthantering",
   },
   {
     url: "/sv/insikter/dolda-anledningen-kunder-stannar/",
@@ -87,7 +87,7 @@ export const artiklar: Artikel[] = [
   {
     url: "/sv/insikter/fran-brandkamp-till-prognos/",
     title: "Från brandsläckning till prognos: ta tillbaka din tid som säljledare",
-    description: "De flesta säljledare lever i 80% brandkamp och 20% strategi. Så här vänder du kvoten, och vad ett SaaS-bolag i Stockholm uppnådde på tre månader.",
+    description: "De flesta säljledare lever i 80% brandsläckning och 20% strategi. Så här vänder du kvoten, och vad ett SaaS-bolag i Stockholm uppnådde på tre månader.",
     date: "17 mars 2026",
     category: "Säljledning & Pipeline-hantering",
   },
