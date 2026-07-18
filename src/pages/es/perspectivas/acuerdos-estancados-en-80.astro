@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D5612AQF0V78mIxjFhA/article-cover_image-shrink_720_1280/B56Z6D_MBLHcAU-/0/1780330845540?e=2147483647&v=beta&t=2xnD3setmW-rrQCGF6io-xmqqp7kn0Q5iUbWzbLvAqY";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "El acuerdo se estanca en el 80%, ¿qué haces ahora?",
+  "image": coverImage,
   "description": "El bloqueo de 'discusión interna' es la forma más común de perder acuerdos en B2B. Aquí está por qué sucede y tres tácticas concretas para salir de él.",
   "datePublished": "2026-06-02",
   "dateModified": "2026-06-02",
@@ -28,12 +31,14 @@ const schema = {
   description="El bloqueo de 'discusión interna' es la forma más común de perder acuerdos en B2B. Aquí está por qué sucede y tres tácticas concretas para salir de él."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-02">2 de junio de 2026</time>, Pipeline y Gestión de Stakeholders
   </p>
   <h1>El acuerdo se estanca en el 80%, ¿qué haces ahora?</h1>
+  <img src={coverImage} alt="El acuerdo se estanca en el 80%, ¿qué haces ahora?" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Cuando un acuerdo B2B se estanca en el 80%, la causa casi nunca es el producto, es un proceso de decisión interno que el vendedor no mapeó lo suficientemente pronto.</strong> El bloqueo de "discusión interna" es el asesino de acuerdos más común en ventas B2B complejas, y puede prevenirse con tres tácticas concretas: calificación profunda, participación de múltiples stakeholders y próximos pasos confirmados.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

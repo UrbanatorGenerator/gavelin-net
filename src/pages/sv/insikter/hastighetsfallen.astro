@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQHZHiQZqGMugA/article-cover_image-shrink_720_1280/B4DZ7PrmOaIsAQ-/0/1781600778012?e=2147483647&v=beta&t=taOnHdUC6aPKo-QFT7C9P-Ttuup-gPYRajopksI-54M";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Hastighetsfällan: varför jakten på tempo bromsar din B2B-försäljning",
+  "image": coverImage,
   "description": "De flesta säljledare är besatta av kortare säljcykler och snabbare avslut. Det är en fälla. Riktigt flyt i försäljning förtjänas, det tvingas inte fram.",
   "datePublished": "2026-06-16",
   "dateModified": "2026-06-16",
@@ -28,12 +31,14 @@ const schema = {
   description="De flesta säljledare är besatta av kortare säljcykler och snabbare avslut. Det är en fälla. Riktigt flyt i försäljning förtjänas, det tvingas inte fram."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-16">16 juni 2026</time>, Pipeline & Säljledarskap
   </p>
   <h1>Hastighetsfällan: varför jakten på tempo bromsar din B2B-försäljning</h1>
+  <img src={coverImage} alt="Hastighetsfällan: varför jakten på tempo bromsar din B2B-försäljning" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Har du haft en affär som kändes redo att stängas, för att sedan se den rasa ihop i sista sekunden? Du trodde att du påskyndade saker, men på något sätt bromsade du allt. Den där skillnaden är vad jag kallar hastighetsfällan.</strong></p>
 
   <div class="section">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFXhwzQNZGFfw/article-cover_image-shrink_720_1280/B4DZ8YpPMgGkAQ-/0/1782824896159?e=2147483647&v=beta&t=r5-lCIbTxlR8DcCIubeXKk4c9VgRnzYJbbWelqbV5FA";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Why Your Deal Dies After the Buyer Says Yes",
+  "image": coverImage,
   "description": "In B2B sales the verbal yes feels like the finish line. It isn't. The most dangerous moment in any deal is the moment the buyer agrees, because that's when most reps stop selling, and that's when deals quietly die.",
   "datePublished": "2026-07-01",
   "dateModified": "2026-07-01",
@@ -28,12 +31,14 @@ const schema = {
   description="In B2B sales the verbal yes feels like the finish line. It isn't. The most dangerous moment in any deal is the moment the buyer agrees, because that's when most reps stop selling, and that's when deals quietly die."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-07-01">July 1, 2026</time>, Pipeline &amp; Deal Execution
   </p>
   <h1>Why Your Deal Dies After the Buyer Says Yes</h1>
+  <img src={coverImage} alt="Why Your Deal Dies After the Buyer Says Yes" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>In B2B sales, the verbal "yes" feels like the finish line. It isn't. The most dangerous moment in any deal is the moment the buyer agrees, because that's when most reps stop selling, and that's exactly when deals quietly die.</strong></p>
 
   <div class="section">

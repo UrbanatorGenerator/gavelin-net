@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQHZHiQZqGMugA/article-cover_image-shrink_720_1280/B4DZ7PrmOaIsAQ-/0/1781600778012?e=2147483647&v=beta&t=taOnHdUC6aPKo-QFT7C9P-Ttuup-gPYRajopksI-54M";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Velocity Trap: Why Pushing for Speed Is Killing Your B2B Sales Momentum",
+  "image": coverImage,
   "description": "Most B2B sales leaders are obsessed with speed. Shorter cycles, faster closes, push reps to move it along. Here's the inconvenient truth: pushing for speed often backfires.",
   "datePublished": "2026-06-16",
   "dateModified": "2026-06-16",
@@ -28,12 +31,14 @@ const schema = {
   description="Most B2B sales leaders are obsessed with speed. Shorter cycles, faster closes, push reps to move it along. Here's the inconvenient truth: pushing for speed often backfires."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-16">June 16, 2026</time>, Pipeline &amp; Sales Leadership
   </p>
   <h1>The Velocity Trap: Why Pushing for Speed Is Killing Your B2B Sales Momentum</h1>
+  <img src={coverImage} alt="The Velocity Trap: Why Pushing for Speed Is Killing Your B2B Sales Momentum" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Ever had a deal that felt ready to close, only to watch it fall apart at the last second? You thought you were speeding things up, but somehow, you ended up slowing everything down. That disconnect is what I call the Velocity Trap.</strong></p>
 
   <div class="section">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEfRRMZW-e9-w/article-cover_image-shrink_720_1280/B4DZ0p4uHZKAAI-/0/1774524229324?e=2147483647&v=beta&t=_tQ11udNCLqLxMN5nUUN44LVeYER0pCFNygR6lH_cac";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Revenue Ops Blind Spot: When Process Becomes Paralysis",
+  "image": coverImage,
   "description": "Revenue Operations was supposed to streamline sales. For many B2B companies it has done the opposite, burying execution under layers of compliance and turning process into a roadblock.",
   "datePublished": "2026-03-26",
   "dateModified": "2026-03-26",
@@ -28,12 +31,14 @@ const schema = {
   description="Revenue Operations was supposed to streamline sales. For many B2B companies it has done the opposite, burying execution under layers of compliance and turning process into a roadblock."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-26">March 26, 2026</time>, Revenue Operations &amp; Sales Management
   </p>
   <h1>The Revenue Ops Blind Spot: When Process Becomes Paralysis</h1>
+  <img src={coverImage} alt="The Revenue Ops Blind Spot: When Process Becomes Paralysis" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Revenue Operations was designed to give sales teams structure, alignment, and velocity. For many B2B companies, it has done the opposite, creating layers of bureaucracy that frustrate reps, slow deals, and kill momentum.</strong> The fix isn't ripping up the process. It's diagnosing where structure has crossed the line into paralysis, and tuning it back to what actually moves revenue.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

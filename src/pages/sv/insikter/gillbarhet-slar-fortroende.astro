@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEn8wPQLk2ZmA/article-cover_image-shrink_720_1280/B4DZuy3V8xHYAI-/0/1768232414917?e=2147483647&v=beta&t=e7NKumloqGgAR6VO6POtRBpdRmAnI-Y8XoakM7VkKaA";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Varför gillbarhet slår förtroende i dagens affärsklimat",
+  "image": coverImage,
   "description": "I lågförtroendemiljöer blir gillbarhet den nya guldvalutan. Lärdomar från Sydamerika om hur du leder med värme, närvaro och mänsklig resonans, innan du förtjänar förtroende.",
   "datePublished": "2026-01-13",
   "dateModified": "2026-01-13",
@@ -28,12 +31,14 @@ const schema = {
   description="I lågförtroendemiljöer blir gillbarhet den nya guldvalutan. Lärdomar från Sydamerika om hur du leder med värme, närvaro och mänsklig resonans, innan du förtjänar förtroende."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-13">13 januari 2026</time>, Säljpsykologi &amp; Kommersiell närvaro
   </p>
   <h1>Varför gillbarhet slår förtroende i dagens affärsklimat</h1>
+  <img src={coverImage} alt="Varför gillbarhet slår förtroende i dagens affärsklimat" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>I en värld där förtroendet för institutioner urholkas, där AI ersätter mänskliga kontaktytor, tillsynsmyndigheter tappar trovärdighet och köpare redan har blivit brända, har gillbarhet blivit den nya huvudvalutan i försäljning.</strong> Du kan inte leda med förtroende när förtroende är en bristvara. Du leder med gillbarhet. Och gillbarhet kan, till skillnad från förtroende, byggas i ett enda samtal.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

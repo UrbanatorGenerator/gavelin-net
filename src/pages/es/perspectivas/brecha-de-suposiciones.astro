@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEA8VHzDzv5Fw/article-cover_image-shrink_720_1280/B4DZ9Ayh_FJcAQ-/0/1783498421755?e=2147483647&v=beta&t=DyMLENFOtfsdE3lnM1JGyRsvpFYo9cSWWAENFwm7w6o";
+
 const schema = {
 "@context": "https://schema.org",
 "@type": "Article",
 "headline": "Por qué tu equipo de ventas está resolviendo el problema equivocado",
+"image": coverImage,
 "description": "Tu equipo de ventas está en plena actividad y el pipeline se ve sólido, pero los ingresos siguen sin alcanzar el objetivo. El verdadero culpable rara vez es una mala ejecución. Es la Brecha de Suposiciones: el espacio entre lo que asumes sobre tus compradores, tu pipeline y tu product-market fit, y lo que realmente es cierto.",
 "datePublished": "2026-07-08",
 "dateModified": "2026-07-08",
@@ -28,12 +31,14 @@ title="Por qué tu equipo de ventas está resolviendo el problema equivocado | U
 description="Tu equipo de ventas está en plena actividad y el pipeline se ve sólido, pero los ingresos siguen sin alcanzar el objetivo. El verdadero culpable rara vez es una mala ejecución. Es la Brecha de Suposiciones: el espacio entre lo que asumes sobre tus compradores, tu pipeline y tu product-market fit, y lo que realmente es cierto."
 lang="es"
 schema={schema}
+image={coverImage}
 >
 
 <p style="color: var(--color-text-muted); font-size: 0.9rem;">
 Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-07-08">8 de julio de 2026</time>, Claridad Comercial y Calidad de Pipeline
 </p>
 <h1>Por qué tu equipo de ventas está resolviendo el problema equivocado</h1>
+<img src={coverImage} alt="Por qué tu equipo de ventas está resolviendo el problema equivocado" width="1280" height="720" class="hero-img" />
 <p class="lead"><strong>Imagina esto. Tu equipo de ventas está en plena actividad. Las cifras semanales suben sin parar. Las llamadas de descubrimiento llenan las agendas, las demos se suceden. Todos están convencidos de que ya tienen claros los puntos de dolor del comprador. Pero los objetivos de ingresos se te escapan de las manos. La pregunta golpea como un puñetazo en el estómago: ¿qué salió mal?</strong></p>
 
 <div class="section">

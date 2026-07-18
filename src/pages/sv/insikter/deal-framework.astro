@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4E12AQFdpdTvJSPaEg/article-cover_image-shrink_720_1280/B4EZ6t8.x9KUAU-/0/1781034910800?e=2147483647&v=beta&t=zDDjfY23SkIigq2bVUZ8uXxmy7HztChCq_l-QdK1YcM";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "D.E.A.L.-ramverket: väx intäkterna utan att anställa fler",
+  "image": coverImage,
   "description": "Ett enkelt men kraftfullt ramverk för att bygga ett säljsystem som skalar, utan att behöva lägga till personal eller förlita sig på stjärnsäljare.",
   "datePublished": "2026-06-10",
   "dateModified": "2026-06-10",
@@ -28,12 +31,14 @@ const schema = {
   description="Ett enkelt men kraftfullt ramverk för att bygga ett säljsystem som skalar, utan att behöva lägga till personal eller förlita sig på stjärnsäljare."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-10">10 juni 2026</time>, Säljsystem &amp; AI
   </p>
   <h1>D.E.A.L.-ramverket: väx intäkterna utan att anställa fler</h1>
+  <img src={coverImage} alt="D.E.A.L.-ramverket: väx intäkterna utan att anställa fler" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>D.E.A.L.-ramverket är ett fyrastegsramverk för B2B-företag som vill skala intäkterna utan att anställa fler säljare.</strong> Det bygger på Data (ren CRM-data), Execution (repeterbar säljprocess), Augmentation (AI-stöd) och Leadership (coachande ledarskap). Resultatet är ett sammanhängande säljsystem som inte är beroende av enskilda individers prestation.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

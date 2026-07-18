@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEcm2sDJdeaQQ/article-cover_image-shrink_720_1280/B4DZ1HbDSBIYAI-/0/1775019770662?e=2147483647&v=beta&t=hzQ93DEMmVH4VFZDbDT0CcjPR55NGi3JhUf-udfTpjI";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Control vs. Enablement: How to Lead Sales Teams Without Killing Their Fire",
+  "image": coverImage,
   "description": "The Sales Leader's Dilemma: too much control kills initiative, too little creates chaos. Here's how to find the balance using the D.E.A.L. framework.",
   "datePublished": "2026-04-01",
   "dateModified": "2026-04-01",
@@ -28,12 +31,14 @@ const schema = {
   description="The Sales Leader's Dilemma: too much control kills initiative, too little creates chaos. Here's how to find the balance using the D.E.A.L. framework."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-04-01">April 1, 2026</time>, Sales Leadership
   </p>
   <h1>Control vs. Enablement: How to Lead Sales Teams Without Killing Their Fire</h1>
+  <img src={coverImage} alt="Control vs. Enablement: How to Lead Sales Teams Without Killing Their Fire" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>The most common mistake in sales leadership is treating control and enablement as opposites. They're not, they're two ends of a dial that needs to be set correctly for each team and situation.</strong> Too much control kills initiative; too little creates chaos. The D.E.A.L. framework offers a structured way to find the balance: data-driven accountability paired with coaching-oriented leadership that empowers rather than polices.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

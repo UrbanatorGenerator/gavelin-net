@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D5612AQF0V78mIxjFhA/article-cover_image-shrink_720_1280/B56Z6D_MBLHcAU-/0/1780330845540?e=2147483647&v=beta&t=2xnD3setmW-rrQCGF6io-xmqqp7kn0Q5iUbWzbLvAqY";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Deals Stalled at 80%, What Do You Do Now?",
+  "image": coverImage,
   "description": "The 'internal discussion' stall is the most common deal-killer in B2B sales. Here's why it happens and three concrete tactics to break free.",
   "datePublished": "2026-06-02",
   "dateModified": "2026-06-02",
@@ -28,12 +31,14 @@ const schema = {
   description="The 'internal discussion' stall is the most common deal-killer in B2B sales. Here's why it happens and three concrete tactics to break free."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-02">June 2, 2026</time>, Pipeline &amp; Stakeholder Management
   </p>
   <h1>Deals Stalled at 80%, What Do You Do Now?</h1>
+  <img src={coverImage} alt="Deals Stalled at 80%, What Do You Do Now?" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>When a B2B deal stalls at 80%, the cause is almost never the product, it's an internal decision process the seller didn't map early enough.</strong> The "internal discussion" stall is the most common deal-killer in complex B2B sales, and it can be prevented with three concrete tactics: deep qualification, multi-stakeholder engagement, and locked-in next steps.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

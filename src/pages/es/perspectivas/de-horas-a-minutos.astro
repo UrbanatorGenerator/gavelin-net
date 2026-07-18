@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFwcU-Vs2Y0jQ/article-cover_image-shrink_720_1280/B4DZ2vcr67HIAI-/0/1776765034249?e=2147483647&v=beta&t=gye46wcvges1-Bj1WCz19brFS8s16IyN2uCS5JmRvJY";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "De horas a minutos: Conoce a tu nuevo asistente de ventas con IA",
+  "image": coverImage,
   "description": "La IA no solo está mejorando las ventas, las está rediseñando. No en algún momento. Este año. Así es como se ve en la práctica.",
   "datePublished": "2026-04-21",
   "dateModified": "2026-04-21",
@@ -28,12 +31,14 @@ const schema = {
   description="La IA no solo está mejorando las ventas, las está rediseñando. No en algún momento. Este año. Así es como se ve en la práctica."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-04-21">21 de abril de 2026</time>, IA en Ventas
   </p>
   <h1>De horas a minutos: Conoce a tu nuevo asistente de ventas con IA</h1>
+  <img src={coverImage} alt="De horas a minutos: Conoce a tu nuevo asistente de ventas con IA" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>La IA ya no es un tema futuro para las ventas B2B, ya está rediseñando cómo se escriben las propuestas, cómo se identifican los prospectos y cómo los vendedores pasan su tiempo.</strong> Las empresas que usan flujos de trabajo de ventas aumentados por IA están comprimiendo horas de preparación en minutos, liberando ancho de banda cognitivo para lo que realmente impulsa los ingresos: mejores conversaciones, pensamiento más agudo y decisiones más rápidas.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

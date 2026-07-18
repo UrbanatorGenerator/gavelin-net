@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D5612AQGmeJfcel609g/article-cover_image-shrink_720_1280/B56Z794qf4JoAQ-/0/1782375950921?e=2147483647&v=beta&t=0blB846aFmpTgEVU_qcrrFfLwTFgEdvuoAgF2QxK45A";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Revenue Architecture Reset: Why Tactical Fixes Fail When the Foundation Is Broken",
+  "image": coverImage,
   "description": "If your B2B revenue growth feels like a hamster wheel, lots of effort, little forward motion, it's not because you need a new CRM or more sales hires. It's because your revenue architecture is broken.",
   "datePublished": "2026-06-25",
   "dateModified": "2026-06-25",
@@ -28,12 +31,14 @@ const schema = {
   description="If your B2B revenue growth feels like a hamster wheel, lots of effort, little forward motion, it's not because you need a new CRM or more sales hires. It's because your revenue architecture is broken."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-25">June 25, 2026</time>, Sales Systems &amp; Revenue Operations
   </p>
   <h1>The Revenue Architecture Reset: Why Tactical Fixes Fail When the Foundation Is Broken</h1>
+  <img src={coverImage} alt="The Revenue Architecture Reset: Why Tactical Fixes Fail When the Foundation Is Broken" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>If your B2B revenue growth feels like a hamster wheel, lots of effort, little forward motion, it's not because you need a new CRM, a flashier outreach sequence, or another sales hire. It's because your revenue architecture is broken.</strong></p>
 
   <div class="section">

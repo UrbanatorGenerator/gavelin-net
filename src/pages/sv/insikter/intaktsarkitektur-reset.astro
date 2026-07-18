@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D5612AQGmeJfcel609g/article-cover_image-shrink_720_1280/B56Z794qf4JoAQ-/0/1782375950921?e=2147483647&v=beta&t=0blB846aFmpTgEVU_qcrrFfLwTFgEdvuoAgF2QxK45A";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Gör om intäktsarkitekturen: varför snabba lösningar inte håller när grunden brister",
+  "image": coverImage,
   "description": "Om din B2B-intäktstillväxt känns som ett ekorrhjul, mycket ansträngning, lite framåtrörelse, är det inte för att du behöver ett nytt CRM eller fler säljare. Det är för att din intäktsarkitektur är trasig.",
   "datePublished": "2026-06-25",
   "dateModified": "2026-06-25",
@@ -28,12 +31,14 @@ const schema = {
   description="Om din B2B-intäktstillväxt känns som ett ekorrhjul, mycket ansträngning, lite framåtrörelse, är det inte för att du behöver ett nytt CRM eller fler säljare. Det är för att din intäktsarkitektur är trasig."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-25">25 juni 2026</time>, Säljsystem & Revenue Operations
   </p>
   <h1>Gör om intäktsarkitekturen: varför snabba lösningar inte håller när grunden brister</h1>
+  <img src={coverImage} alt="Gör om intäktsarkitekturen: varför snabba lösningar inte håller när grunden brister" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Om din B2B-intäktstillväxt känns som ett ekorrhjul, mycket ansträngning, lite framåtrörelse, är det inte för att du behöver ett nytt CRM, en skarpare bearbetningssekvens eller ännu en säljrekrytering. Det är för att din intäktsarkitektur är trasig.</strong></p>
 
   <div class="section">

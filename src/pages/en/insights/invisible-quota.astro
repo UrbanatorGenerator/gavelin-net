@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFe35hnbShQ4Q/article-cover_image-shrink_720_1280/B4DZ4CyNxlHoAQ-/0/1778163184360?e=2147483647&v=beta&t=d2WdPh7lUKU59K36HwDzAuj94qVvS_cMJkenZ2m_slg";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Invisible Quota: How Leaders Cap Their Own Revenue Growth",
+  "image": coverImage,
   "description": "Twelve straight quarters of quota attainment sounds like success. But what if it's actually a ceiling, made invisible by cautious leadership choices?",
   "datePublished": "2026-05-07",
   "dateModified": "2026-05-07",
@@ -28,12 +31,14 @@ const schema = {
   description="Twelve straight quarters of quota attainment sounds like success. But what if it's actually a ceiling, made invisible by cautious leadership choices?"
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-05-07">May 7, 2026</time>, Sales Leadership &amp; Commercial Governance
   </p>
   <h1>The Invisible Quota: How Leaders Cap Their Own Revenue Growth</h1>
+  <img src={coverImage} alt="The Invisible Quota: How Leaders Cap Their Own Revenue Growth" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Consistent quota attainment can be a sign of success, or a sign of self-imposed limits. When sales leaders set quotas low enough to feel safe, they create an invisible ceiling that caps revenue growth and teaches teams to aim for comfort over ambition.</strong> Breaking this pattern requires radical honesty about market potential, individual capability, and the leadership courage to set targets that stretch rather than reassure.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

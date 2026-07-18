@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEcm2sDJdeaQQ/article-cover_image-shrink_720_1280/B4DZ1HbDSBIYAI-/0/1775019770662?e=2147483647&v=beta&t=hzQ93DEMmVH4VFZDbDT0CcjPR55NGi3JhUf-udfTpjI";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Styrning eller frihet: så leder du säljteam utan att döda drivet",
+  "image": coverImage,
   "description": "Säljledarens dilemma: för mycket kontroll dödar initiativ, för lite skapar kaos. Så hittar du balansen med D.E.A.L.-ramverket.",
   "datePublished": "2026-04-01",
   "dateModified": "2026-04-01",
@@ -28,12 +31,14 @@ const schema = {
   description="Säljledarens dilemma: för mycket kontroll dödar initiativ, för lite skapar kaos. Så hittar du balansen med D.E.A.L.-ramverket."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-04-01">1 april 2026</time>, Säljledning
   </p>
   <h1>Styrning eller frihet: så leder du säljteam utan att döda drivet</h1>
+  <img src={coverImage} alt="Styrning eller frihet: så leder du säljteam utan att döda drivet" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Det vanligaste misstaget inom säljledarskap är att behandla kontroll och självständighet som motsatser. Det är de inte, de är två ändar på ett reglage som behöver ställas in rätt för varje team och situation.</strong> För mycket kontroll dödar initiativ; för lite skapar kaos. D.E.A.L.-ramverket ger ett strukturerat sätt att hitta balansen: datadrivet ansvar i par med coachande ledarskap som stärker snarare än bevakar.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

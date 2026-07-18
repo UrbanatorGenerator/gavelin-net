@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFXhwzQNZGFfw/article-cover_image-shrink_720_1280/B4DZ8YpPMgGkAQ-/0/1782824896159?e=2147483647&v=beta&t=r5-lCIbTxlR8DcCIubeXKk4c9VgRnzYJbbWelqbV5FA";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Varför affären dör efter köparens ja",
+  "image": coverImage,
   "description": "I B2B-försäljning känns det muntliga jaet som mållinjen. Det är det inte. Det farligaste ögonblicket i en affär är stunden köparen säger ja, för då slutar de flesta säljare att sälja, och det är precis då affärer dör i tystnad.",
   "datePublished": "2026-07-01",
   "dateModified": "2026-07-01",
@@ -28,12 +31,14 @@ const schema = {
   description="I B2B-försäljning känns det muntliga jaet som mållinjen. Det är det inte. Det farligaste ögonblicket i en affär är stunden köparen säger ja, för då slutar de flesta säljare att sälja, och det är precis då affärer dör i tystnad."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-07-01">1 juli 2026</time>, Pipeline &amp; Affärsavslut
   </p>
   <h1>Varför affären dör efter köparens ja</h1>
+  <img src={coverImage} alt="Varför affären dör efter köparens ja" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>I B2B-försäljning känns det muntliga "jaet" som mållinjen. Det är det inte. Det farligaste ögonblicket i en affär är stunden köparen går med på det, för då slutar de flesta säljare att sälja, och det är precis då affärer dör i tystnad.</strong></p>
 
   <div class="section">

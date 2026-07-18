@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFwcU-Vs2Y0jQ/article-cover_image-shrink_720_1280/B4DZ2vcr67HIAI-/0/1776765034249?e=2147483647&v=beta&t=gye46wcvges1-Bj1WCz19brFS8s16IyN2uCS5JmRvJY";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Från timmar till minuter: din nya AI-säljassistent",
+  "image": coverImage,
   "description": "AI förbättrar inte bara försäljning, den gör om den. Inte någon gång. Det här året. Så här ser det faktiskt ut i praktiken.",
   "datePublished": "2026-04-21",
   "dateModified": "2026-04-21",
@@ -28,12 +31,14 @@ const schema = {
   description="AI förbättrar inte bara försäljning, den gör om den. Inte någon gång. Det här året. Så här ser det faktiskt ut i praktiken."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-04-21">21 april 2026</time>, AI i försäljning
   </p>
   <h1>Från timmar till minuter: din nya AI-säljassistent</h1>
+  <img src={coverImage} alt="Från timmar till minuter: din nya AI-säljassistent" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>AI är inte längre ett framtidsämne för B2B-försäljning, den gör redan om hur offerter skrivs, hur prospekts identifieras och hur säljare använder sin tid.</strong> Bolag som använder AI-förstärkta säljarbetsflöden komprimerar timmar av förberedelse till minuter och frigör mental kapacitet för det som faktiskt driver intäkter: bättre samtal, skarpare tänkande och snabbare beslut.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFwcU-Vs2Y0jQ/article-cover_image-shrink_720_1280/B4DZ2vcr67HIAI-/0/1776765034249?e=2147483647&v=beta&t=gye46wcvges1-Bj1WCz19brFS8s16IyN2uCS5JmRvJY";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "From Hours to Minutes: Meet Your New AI Sales Assistant",
+  "image": coverImage,
   "description": "AI isn't just improving sales, it's redesigning it. Not someday. This year. Here's what that actually looks like in practice.",
   "datePublished": "2026-04-21",
   "dateModified": "2026-04-21",
@@ -28,12 +31,14 @@ const schema = {
   description="AI isn't just improving sales, it's redesigning it. Not someday. This year. Here's what that actually looks like in practice."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-04-21">April 21, 2026</time>, AI in Sales
   </p>
   <h1>From Hours to Minutes: Meet Your New AI Sales Assistant</h1>
+  <img src={coverImage} alt="From Hours to Minutes: Meet Your New AI Sales Assistant" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>AI is no longer a future topic for B2B sales, it's already redesigning how proposals are written, how prospects are identified, and how sellers spend their time.</strong> Companies using AI-augmented sales workflows are compressing hours of preparation into minutes, freeing up cognitive bandwidth for what actually drives revenue: better conversations, sharper thinking, and faster decisions.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

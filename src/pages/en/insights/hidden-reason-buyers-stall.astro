@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQHEy7GmE7rjOw/article-cover_image-shrink_720_1280/B4DZ4cEjDGJUAQ-/0/1778587415243?e=2147483647&v=beta&t=3Ak-3fqpYyuYuC3lDEZWloP-RuLLkU6rdoPIGMzjd4s";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Hidden Reason Buyers Stall, and How to Fix It Fast",
+  "image": coverImage,
   "description": "Your sales process is probably designed for sellers, not buyers. That's why deals stall, cycles stretch, and prospects slip away quietly.",
   "datePublished": "2026-05-13",
   "dateModified": "2026-05-13",
@@ -28,12 +31,14 @@ const schema = {
   description="Your sales process is probably designed for sellers, not buyers. That's why deals stall, cycles stretch, and prospects slip away quietly."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-05-13">May 13, 2026</time>, Sales Process &amp; Buyer Psychology
   </p>
   <h1>The Hidden Reason Buyers Stall, and How to Fix It Fast</h1>
+  <img src={coverImage} alt="The Hidden Reason Buyers Stall, and How to Fix It Fast" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Most B2B sales processes are designed for the seller's convenience, not the buyer's decision journey. That misalignment is the hidden reason deals stall, cycles stretch, and prospects go quiet.</strong> The fix is to map buyer decision architecture: understanding how your buyers actually gather information, form consensus, and commit, then rebuilding your process to mirror that reality.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQHZHiQZqGMugA/article-cover_image-shrink_720_1280/B4DZ7PrmOaIsAQ-/0/1781600778012?e=2147483647&v=beta&t=taOnHdUC6aPKo-QFT7C9P-Ttuup-gPYRajopksI-54M";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "La Trampa de la Velocidad: Por qué presionar por rapidez está matando tu momentum en ventas B2B",
+  "image": coverImage,
   "description": "La mayoría de los líderes de ventas B2B están obsesionados con la velocidad. Ciclos más cortos, cierres más rápidos, empujar a los vendedores a avanzar. La verdad incómoda: presionar por velocidad suele salir mal.",
   "datePublished": "2026-06-16",
   "dateModified": "2026-06-16",
@@ -28,12 +31,14 @@ const schema = {
   description="La mayoría de los líderes de ventas B2B están obsesionados con la velocidad. Ciclos más cortos, cierres más rápidos. La verdad incómoda: presionar por velocidad suele salir mal."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-16">16 de junio de 2026</time>, Pipeline y Liderazgo de Ventas
   </p>
   <h1>La Trampa de la Velocidad: Por qué presionar por rapidez está matando tu momentum en ventas B2B</h1>
+  <img src={coverImage} alt="La Trampa de la Velocidad: Por qué presionar por rapidez está matando tu momentum en ventas B2B" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>¿Alguna vez tuviste un acuerdo que parecía listo para cerrar, solo para verlo derrumbarse en el último momento? Pensabas que estabas acelerando las cosas, pero de alguna manera, terminaste ralentizando todo. Esa desconexión es lo que llamo la Trampa de la Velocidad.</strong></p>
 
   <div class="section">

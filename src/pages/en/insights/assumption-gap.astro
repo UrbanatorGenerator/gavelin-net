@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEA8VHzDzv5Fw/article-cover_image-shrink_720_1280/B4DZ9Ayh_FJcAQ-/0/1783498421755?e=2147483647&v=beta&t=DyMLENFOtfsdE3lnM1JGyRsvpFYo9cSWWAENFwm7w6o";
+
 const schema = {
 "@context": "https://schema.org",
 "@type": "Article",
 "headline": "Why Your Sales Team Is Solving the Wrong Problem",
+"image": coverImage,
 "description": "Your sales team is buzzing and pipeline looks strong, but revenue still misses target. The real culprit is rarely poor execution. It's the Assumption Gap: the space between what you assume about buyers, pipeline, and product-market fit, and what's genuinely true.",
 "datePublished": "2026-07-08",
 "dateModified": "2026-07-08",
@@ -28,12 +31,14 @@ title="Why Your Sales Team Is Solving the Wrong Problem | Urban Gavelin"
 description="Your sales team is buzzing and pipeline looks strong, but revenue still misses target. The real culprit is rarely poor execution. It's the Assumption Gap: the space between what you assume about buyers, pipeline, and product-market fit, and what's genuinely true."
 lang="en"
 schema={schema}
+image={coverImage}
 >
 
 <p style="color: var(--color-text-muted); font-size: 0.9rem;">
 By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-07-08">July 8, 2026</time>, Commercial Clarity &amp; Pipeline Quality
 </p>
 <h1>Why Your Sales Team Is Solving the Wrong Problem</h1>
+<img src={coverImage} alt="Why Your Sales Team Is Solving the Wrong Problem" width="1280" height="720" class="hero-img" />
 <p class="lead"><strong>Picture this. Your sales team is buzzing. Weekly activity numbers are soaring. Discovery calls fill calendars, demos are happening. Everyone's convinced the buyer's pain points have been nailed down. But revenue targets slip through your fingers. The question hits like a punch in the gut: what went wrong?</strong></p>
 
 <div class="section">

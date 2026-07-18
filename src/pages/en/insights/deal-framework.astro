@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4E12AQFdpdTvJSPaEg/article-cover_image-shrink_720_1280/B4EZ6t8.x9KUAU-/0/1781034910800?e=2147483647&v=beta&t=zDDjfY23SkIigq2bVUZ8uXxmy7HztChCq_l-QdK1YcM";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The D.E.A.L. Framework: Scale Revenue Without Adding People",
+  "image": coverImage,
   "description": "A simple but powerful approach to build a revenue system that scales cleanly, without adding headcount or relying on miracle workers.",
   "datePublished": "2026-06-10",
   "dateModified": "2026-06-10",
@@ -28,12 +31,14 @@ const schema = {
   description="A simple but powerful approach to build a revenue system that scales cleanly, without adding headcount or relying on miracle workers."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-10">June 10, 2026</time>, Sales Systems &amp; AI
   </p>
   <h1>The D.E.A.L. Framework: Scale Revenue Without Adding People</h1>
+  <img src={coverImage} alt="The D.E.A.L. Framework: Scale Revenue Without Adding People" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>The D.E.A.L. Framework is a four-step system for B2B companies that want to scale revenue without adding more salespeople.</strong> It is built on Data (clean CRM data), Execution (a repeatable sales process), Augmentation (AI support), and Leadership (coaching-oriented management). The result is a coherent sales system that is not dependent on individual heroics.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

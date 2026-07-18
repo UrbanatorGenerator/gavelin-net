@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEfRRMZW-e9-w/article-cover_image-shrink_720_1280/B4DZ0p4uHZKAAI-/0/1774524229324?e=2147483647&v=beta&t=_tQ11udNCLqLxMN5nUUN44LVeYER0pCFNygR6lH_cac";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "El punto ciego de Revenue Ops: Cuando el proceso se convierte en parálisis",
+  "image": coverImage,
   "description": "Revenue Operations se suponía que debía agilizar las ventas. Para muchas empresas B2B ha hecho lo contrario, creando burocracia que frustra a los vendedores y frena los acuerdos.",
   "datePublished": "2026-03-26",
   "dateModified": "2026-03-26",
@@ -28,12 +31,14 @@ const schema = {
   description="Revenue Operations se suponía que debía agilizar las ventas. Para muchas empresas B2B ha hecho lo contrario, creando burocracia que frustra a los vendedores y frena los acuerdos."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-26">26 de marzo de 2026</time>, Revenue Operations y Liderazgo de Ventas
   </p>
   <h1>El punto ciego de Revenue Ops: Cuando el proceso se convierte en parálisis</h1>
+  <img src={coverImage} alt="El punto ciego de Revenue Ops: Cuando el proceso se convierte en parálisis" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Revenue Operations fue diseñado para dar a los equipos de ventas estructura, alineación y velocidad. Para muchas empresas B2B ha hecho lo contrario, creando capas de burocracia que frustran a los vendedores, ralentizan los acuerdos y matan el momentum.</strong> La solución no es desmantelar el proceso. Es diagnosticar dónde la estructura ha cruzado la línea hacia la parálisis, y ajustarla de vuelta a lo que realmente mueve los ingresos.</p>
 
   <div class="section">

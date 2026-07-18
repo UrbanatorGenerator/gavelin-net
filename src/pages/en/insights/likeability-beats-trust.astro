@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEn8wPQLk2ZmA/article-cover_image-shrink_720_1280/B4DZuy3V8xHYAI-/0/1768232414917?e=2147483647&v=beta&t=e7NKumloqGgAR6VO6POtRBpdRmAnI-Y8XoakM7VkKaA";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Why Likeability Beats Trust in Today's Business Landscape",
+  "image": coverImage,
   "description": "In low-trust environments, likeability becomes the golden currency. Lessons from South America on how to lead with warmth, presence, and human resonance, before you earn trust.",
   "datePublished": "2026-01-13",
   "dateModified": "2026-01-13",
@@ -28,12 +31,14 @@ const schema = {
   description="In low-trust environments, likeability becomes the golden currency. Lessons from South America on how to lead with warmth, presence, and human resonance, before you earn trust."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-13">January 13, 2026</time>, Sales Psychology &amp; Commercial Presence
   </p>
   <h1>Why Likeability Beats Trust in Today's Business Landscape</h1>
+  <img src={coverImage} alt="Why Likeability Beats Trust in Today's Business Landscape" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>In a world where institutional trust is eroding, where AI is replacing human touchpoints, regulators are losing credibility, and buyers have been burned before, likeability has become the new first currency in sales.</strong> You can't lead with trust when trust is scarce. You lead with likeability. And likeability, unlike trust, can be built in a single conversation.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

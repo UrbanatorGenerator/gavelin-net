@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQFXhwzQNZGFfw/article-cover_image-shrink_720_1280/B4DZ8YpPMgGkAQ-/0/1782824896159?e=2147483647&v=beta&t=r5-lCIbTxlR8DcCIubeXKk4c9VgRnzYJbbWelqbV5FA";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Por qué tu acuerdo muere después de que el comprador dice que sí",
+  "image": coverImage,
   "description": "En ventas B2B, el sí verbal se siente como la línea de meta. No lo es. El momento más peligroso de cualquier acuerdo es cuando el comprador acepta, porque ahí es cuando la mayoría de los vendedores dejan de vender, y ahí es cuando los acuerdos mueren en silencio.",
   "datePublished": "2026-07-01",
   "dateModified": "2026-07-01",
@@ -28,12 +31,14 @@ const schema = {
   description="En ventas B2B, el sí verbal se siente como la línea de meta. No lo es. El momento más peligroso de cualquier acuerdo es cuando el comprador acepta, porque ahí es cuando la mayoría de los vendedores dejan de vender, y ahí es cuando los acuerdos mueren en silencio."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-07-01">1 de julio de 2026</time>, Pipeline y Cierre de Acuerdos
   </p>
   <h1>Por qué tu acuerdo muere después de que el comprador dice que sí</h1>
+  <img src={coverImage} alt="Por qué tu acuerdo muere después de que el comprador dice que sí" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>En ventas B2B, el "sí" verbal se siente como la línea de meta. No lo es. El momento más peligroso de cualquier acuerdo es el instante en que el comprador acepta, porque ahí es cuando la mayoría de los vendedores dejan de vender, y ahí es exactamente cuando los acuerdos mueren en silencio.</strong></p>
 
   <div class="section">

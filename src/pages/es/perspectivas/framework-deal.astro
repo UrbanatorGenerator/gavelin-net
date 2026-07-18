@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4E12AQFdpdTvJSPaEg/article-cover_image-shrink_720_1280/B4EZ6t8.x9KUAU-/0/1781034910800?e=2147483647&v=beta&t=zDDjfY23SkIigq2bVUZ8uXxmy7HztChCq_l-QdK1YcM";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "El Framework D.E.A.L.: Escala los ingresos sin contratar más personas",
+  "image": coverImage,
   "description": "Un enfoque simple pero poderoso para construir un sistema de ventas que escala, sin añadir headcount ni depender de vendedores estrella.",
   "datePublished": "2026-06-10",
   "dateModified": "2026-06-10",
@@ -28,12 +31,14 @@ const schema = {
   description="Un enfoque simple pero poderoso para construir un sistema de ventas que escala, sin añadir headcount ni depender de vendedores estrella."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-10">10 de junio de 2026</time>, Sistemas de Ventas e IA
   </p>
   <h1>El Framework D.E.A.L.: Escala los ingresos sin contratar más personas</h1>
+  <img src={coverImage} alt="El Framework D.E.A.L.: Escala los ingresos sin contratar más personas" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>El Framework D.E.A.L. es un sistema de cuatro pasos para empresas B2B que quieren escalar los ingresos sin añadir más vendedores.</strong> Se construye sobre Datos (datos CRM limpios), Ejecución (un proceso de ventas repetible), Aumentación (soporte de IA), y Liderazgo (gestión orientada al coaching). El resultado es un sistema de ventas cohesionado que no depende de heroísmos individuales.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D5612AQGmeJfcel609g/article-cover_image-shrink_720_1280/B56Z794qf4JoAQ-/0/1782375950921?e=2147483647&v=beta&t=0blB846aFmpTgEVU_qcrrFfLwTFgEdvuoAgF2QxK45A";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "El Reset de la Arquitectura de Ingresos: Por qué los parches tácticos fallan cuando los cimientos están rotos",
+  "image": coverImage,
   "description": "Si tu crecimiento de ingresos B2B se siente como una rueda de hámster, mucho esfuerzo, poco avance, no es porque necesites un nuevo CRM o más vendedores. Es porque tu arquitectura de ingresos está rota.",
   "datePublished": "2026-06-25",
   "dateModified": "2026-06-25",
@@ -28,12 +31,14 @@ const schema = {
   description="Si tu crecimiento de ingresos B2B se siente como una rueda de hámster, mucho esfuerzo, poco avance, no es porque necesites un nuevo CRM o más vendedores. Es porque tu arquitectura de ingresos está rota."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-25">25 de junio de 2026</time>, Sistemas de Ventas y Revenue Operations
   </p>
   <h1>El Reset de la Arquitectura de Ingresos: Por qué los parches tácticos fallan cuando los cimientos están rotos</h1>
+  <img src={coverImage} alt="El Reset de la Arquitectura de Ingresos: Por qué los parches tácticos fallan cuando los cimientos están rotos" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Si tu crecimiento de ingresos B2B se siente como una rueda de hámster, mucho esfuerzo, poco avance, no es porque necesites un nuevo CRM, una secuencia de contacto más brillante, o contratar más vendedores. Es porque tu arquitectura de ingresos está rota.</strong></p>
 
   <div class="section">

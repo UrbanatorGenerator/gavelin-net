@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEn8wPQLk2ZmA/article-cover_image-shrink_720_1280/B4DZuy3V8xHYAI-/0/1768232414917?e=2147483647&v=beta&t=e7NKumloqGgAR6VO6POtRBpdRmAnI-Y8XoakM7VkKaA";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Por qué la simpatía supera a la confianza en el panorama empresarial actual",
+  "image": coverImage,
   "description": "En entornos de baja confianza, la simpatía se convierte en la moneda de oro. Lecciones de América del Sur sobre cómo liderar con calidez, presencia y resonancia humana, antes de ganarte la confianza.",
   "datePublished": "2026-01-13",
   "dateModified": "2026-01-13",
@@ -28,12 +31,14 @@ const schema = {
   description="En entornos de baja confianza, la simpatía se convierte en la moneda de oro. Lecciones de América del Sur sobre cómo liderar con calidez, presencia y resonancia humana, antes de ganarte la confianza."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-13">13 de enero de 2026</time>, Psicología de Ventas y Presencia Comercial
   </p>
   <h1>Por qué la simpatía supera a la confianza en el panorama empresarial actual</h1>
+  <img src={coverImage} alt="Por qué la simpatía supera a la confianza en el panorama empresarial actual" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>En un mundo donde la confianza institucional se erosiona, donde la IA está reemplazando los puntos de contacto humanos, los reguladores pierden credibilidad y los compradores ya han sido defraudados antes, la simpatía se ha convertido en la nueva primera moneda en ventas.</strong> No puedes liderar con confianza cuando la confianza escasea. Lideras con simpatía. Y la simpatía, a diferencia de la confianza, puede construirse en una sola conversación.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

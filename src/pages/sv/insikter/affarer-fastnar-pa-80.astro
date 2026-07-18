@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D5612AQF0V78mIxjFhA/article-cover_image-shrink_720_1280/B56Z6D_MBLHcAU-/0/1780330845540?e=2147483647&v=beta&t=2xnD3setmW-rrQCGF6io-xmqqp7kn0Q5iUbWzbLvAqY";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Affären fastnar på 80%, vad gör du nu?",
+  "image": coverImage,
   "description": "Det interna diskussionsstoppet är det vanligaste sättet att förlora affärer i B2B. Här är varför det händer och tre konkreta sätt att ta sig ur det.",
   "datePublished": "2026-06-02",
   "dateModified": "2026-06-02",
@@ -28,12 +31,14 @@ const schema = {
   description="Det interna diskussionsstoppet är det vanligaste sättet att förlora affärer i B2B. Här är varför det händer och tre konkreta sätt att ta sig ur det."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-06-02">2 juni 2026</time>, Pipeline &amp; intressenthantering
   </p>
   <h1>Affären fastnar på 80%, vad gör du nu?</h1>
+  <img src={coverImage} alt="Affären fastnar på 80%, vad gör du nu?" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>När en B2B-affär fastnar på 80% är orsaken nästan aldrig produkten, det är en intern beslutsprocess som säljaren inte kartlade tillräckligt tidigt.</strong> Det "interna diskussionsstoppet" är det vanligaste sättet att förlora affärer i komplex B2B-försäljning, och det kan förebyggas med tre konkreta åtgärder: djupkvalificering, engagemang av flera intressenter och låsta nästa steg.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

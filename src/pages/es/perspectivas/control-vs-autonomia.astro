@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "https://media.licdn.com/dms/image/v2/D4D12AQEcm2sDJdeaQQ/article-cover_image-shrink_720_1280/B4DZ1HbDSBIYAI-/0/1775019770662?e=2147483647&v=beta&t=hzQ93DEMmVH4VFZDbDT0CcjPR55NGi3JhUf-udfTpjI";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Control vs. autonomía: Cómo liderar equipos de ventas sin apagar su fuego",
+  "image": coverImage,
   "description": "El dilema del líder de ventas: demasiado control mata la iniciativa, demasiado poco crea caos. Así encuentras el equilibrio con el framework D.E.A.L.",
   "datePublished": "2026-04-01",
   "dateModified": "2026-04-01",
@@ -28,12 +31,14 @@ const schema = {
   description="El dilema del líder de ventas: demasiado control mata la iniciativa, demasiado poco crea caos. Así encuentras el equilibrio con el framework D.E.A.L."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-04-01">1 de abril de 2026</time>, Liderazgo de Ventas
   </p>
   <h1>Control vs. autonomía: Cómo liderar equipos de ventas sin apagar su fuego</h1>
+  <img src={coverImage} alt="Control vs. autonomía: Cómo liderar equipos de ventas sin apagar su fuego" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>El error más común en el liderazgo de ventas es tratar el control y la habilitación como opuestos. No lo son, son dos extremos de un dial que necesita configurarse correctamente para cada equipo y situación.</strong> Demasiado control mata la iniciativa; muy poco crea caos. El Framework D.E.A.L. ofrece una forma estructurada de encontrar el equilibrio: responsabilidad basada en datos combinada con liderazgo orientado al coaching que empodera en lugar de vigilar.</p>
 
   <div class="section">
