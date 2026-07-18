@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Privat Obsidian-valv, ska aldrig till GitHub
+vault/
