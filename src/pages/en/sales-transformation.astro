@@ -1,0 +1,305 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://gavelin.net/en/sales-transformation/#service",
+      "name": "B2B Sales Transformation with Powersales Revenue Architecture",
+      "serviceType": "Sales transformation and commercial development",
+      "description": "Powersales helps founder-led B2B companies build sales that can be directed, measured and scaled. Through the Powersales Revenue Architecture method, strategy, sales process, leadership, skills, data and AI are connected into one working commercial system.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://gavelin.net/#powersales",
+        "name": "Powersales Communication",
+        "url": "https://powersales.se"
+      },
+      "areaServed": "SE",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Offer ladder",
+        "itemListElement": [
+          { "@type": "Offer", "name": "Revenue Architecture Diagnostic", "description": "Current-state analysis of process, pipeline, governance, skills, data and AI usage. Identifies the three biggest revenue leaks and a prioritised 90-day plan." },
+          { "@type": "Offer", "name": "Sales AI Sprint", "description": "Three to five prioritised AI workflows implemented in the sales team's actual daily work, with measurement of adoption and time saved." },
+          { "@type": "Offer", "name": "Revenue Transformation Program", "description": "An AI-enabled Sales Operating System adapted to the company: sales process, pipeline, KPIs, leadership cadence, CRM and AI workflows." },
+          { "@type": "Offer", "name": "Executive Revenue Advisory", "description": "Monthly advisory for the CEO or sales leader: pipeline and forecast reviews, decision support and follow-through on the transformation." }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Powersales Revenue Architecture?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Powersales Revenue Architecture is the method Powersales uses to make strategy, sales process, leadership, skills, data and AI work together as one coherent commercial system. The result is an AI-enabled Sales Operating System adapted to the company."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in a Revenue Architecture Diagnostic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interviews with the CEO and sales leader, analysis of process, pipeline, governance, skills, data and AI usage, identification of the three biggest revenue leaks, and a prioritised 90-day recommendation. The deliverable is a concrete current-state picture and action plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an AI-enabled Sales Operating System?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A shared way of working across sales process, pipeline, CRM and AI that works in the sales team's daily reality, not just in the management meeting. AI removes friction and repetitive work, people build trust and drive decisions."
+          }
+        }
+      ]
+    }
+  ]
+};
+---
+
+<Base
+  title="B2B Sales Transformation | Powersales Revenue Architecture™"
+  description="We help B2B companies build sales that can be directed, measured and scaled. Powersales Revenue Architecture™ makes process, people, data and AI work as one system."
+  lang="en"
+  schema={schema}
+>
+
+  <div class="section">
+    <p class="kicker">Sales transformation for B2B</p>
+    <h1>A clearer sales process.<br/>A pipeline you can trust.<br/>AI that actually gets used.</h1>
+    <p class="lead">
+      We help B2B companies that have outgrown their current way of selling. Through Powersales Revenue Architecture&trade;, your strategy, process, people, data and AI start working as one coherent system.
+    </p>
+    <a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Book a Revenue Architecture Diagnostic</a>
+  </div>
+
+  <div class="section graybox">
+    <h2 style="margin-top:0;">Does this sound familiar?</h2>
+    <ul class="triggers">
+      <li>Revenue growth has stalled.</li>
+      <li>Forecasts keep missing.</li>
+      <li>CRM data is incomplete.</li>
+      <li>Every salesperson works in their own way.</li>
+      <li>Deals get stuck late in the process.</li>
+      <li>Leadership has bought AI tools but adoption is low.</li>
+      <li>You have run sales training without lasting effect.</li>
+      <li>The sales leader spends their time on admin and firefighting.</li>
+    </ul>
+    <p style="margin-bottom:0;"><strong>Recognise two or more?</strong> Then it is most likely not a skills problem. It is a system problem.</p>
+  </div>
+
+  <div class="section">
+    <h2>Point solutions do not fix system problems</h2>
+    <p>When B2B sales stalls, companies often try to solve a system problem with a point solution. They train the sales team, replace the CRM, buy an AI tool or hire a new manager.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Common measure</th><th>Why it gets chosen</th><th>Common limitation</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sales training</td><td>Familiar and concrete</td><td>Does not change systems, data or leadership</td></tr>
+          <tr><td>AI workshop</td><td>Topical and inspiring</td><td>Risks becoming isolated experiments</td></tr>
+          <tr><td>New CRM or new tools</td><td>Looks like a structural fix</td><td>Technology does not solve process and behaviour</td></tr>
+          <tr><td>RevOps consultant</td><td>Creates process and data governance</td><td>Can become technical and far from the sales floor</td></tr>
+          <tr><td>Hiring a sales manager</td><td>Clear accountability</td><td>One person cannot repair the whole system alone</td></tr>
+          <tr><td>Management consultant</td><td>Strategic altitude</td><td>Risk of PowerPoint without execution</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Each measure can be good. But none of them automatically makes the whole work.</p>
+  </div>
+
+  <div class="section">
+    <h2>What it actually takes</h2>
+    <p>A working solution needs to connect commercial direction, sales process, leadership, skills, data and AI. And it has to work in the sales team's daily reality, not just in the management meeting.</p>
+    <p>That is what we build through <strong>Powersales Revenue Architecture&trade;</strong>, our method for making every part of your sales effort pull in the same direction. The result is your own <strong>AI-enabled Sales Operating System</strong>: a shared way of working across sales process, pipeline, CRM and AI.</p>
+    <p>What you buy is not a collection of activities. It is a shift:</p>
+    <p class="shift">From scattered, person-dependent selling<br/>to a shared, manageable and AI-enabled sales system.</p>
+  </div>
+
+  <div class="section">
+    <h2>How we get you there</h2>
+    <p>Four steps that follow your readiness to buy. You start small and scale once the value is proven.</p>
+
+    <div class="ladder">
+      <div class="step">
+        <div class="step-head"><span class="step-num">1</span><h3>Revenue Architecture Diagnostic</h3></div>
+        <p class="quote">&rdquo;We know sales is not performing at its best, but we do not know exactly where it leaks.&rdquo;</p>
+        <ul>
+          <li>Interviews with the CEO and sales leader</li>
+          <li>Analysis of process, pipeline, governance, skills, data and AI usage</li>
+          <li>The three biggest revenue leaks, identified and prioritised</li>
+        </ul>
+        <p class="deliver"><strong>You get:</strong> a concrete current-state picture and a prioritised 90-day plan.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-head"><span class="step-num">2</span><h3>Sales AI Sprint</h3></div>
+        <p class="quote">&rdquo;We want our salespeople to use AI practically and consistently.&rdquo;</p>
+        <ul>
+          <li>Mapping of repetitive sales tasks</li>
+          <li>Three to five prioritised AI workflows with tailored assistants</li>
+          <li>Training in the sales team's actual daily work, with measurement of adoption and time saved</li>
+        </ul>
+        <p class="deliver"><strong>You get:</strong> a working AI-enabled way of selling, not just an inspiration day.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-head"><span class="step-num">3</span><h3>Revenue Transformation Program</h3></div>
+        <p class="quote">&rdquo;We need to rebuild how our sales actually works.&rdquo;</p>
+        <ul>
+          <li>Commercial direction, ICP and positioning</li>
+          <li>Sales process, pipeline, forecast and KPIs</li>
+          <li>Leadership structure, sales cadence, CRM and AI workflows</li>
+          <li>Training, implementation and follow-through</li>
+        </ul>
+        <p class="deliver"><strong>You get:</strong> an AI-enabled Sales Operating System adapted to your company.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-head"><span class="step-num">4</span><h3>Executive Revenue Advisory</h3></div>
+        <p class="quote">&rdquo;We have the direction, but we need external sharpness and continuity.&rdquo;</p>
+        <ul>
+          <li>Monthly advisory for the CEO or sales leader</li>
+          <li>Pipeline and forecast reviews, decision support and prioritisation</li>
+          <li>Critical sparring on team, customers and investments</li>
+        </ul>
+        <p class="deliver"><strong>You get:</strong> better decisions and stronger execution over time.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Why Powersales?</h2>
+    <p>Powersales helps founder-led B2B companies build more manageable and scalable sales. Unlike traditional sales training, standalone AI workshops and technical CRM projects, we connect strategy, process, leadership, skills, data and AI into one working commercial system.</p>
+    <p>We combine sales strategy, hands-on sales development and AI implementation in the same change process. That is the difference between a good initiative and a lasting result.</p>
+  </div>
+
+  <div class="section">
+    <h2>Who is this for?</h2>
+    <p>We mainly work with founder-led B2B companies with 10 to 50 salespeople or account managers, where sales has grown organically and where the CEO or sales leader lacks a shared system for process, pipeline, follow-up and AI usage.</p>
+    <p>Have you reached the point where gut feeling is no longer enough as a management system? Then you are probably the right company for us.</p>
+  </div>
+
+  <div class="section">
+    <h2>Frequently asked questions</h2>
+    <h3>What is Powersales Revenue Architecture&trade;?</h3>
+    <p>The method we use to make strategy, sales process, leadership, skills, data and AI work together as one coherent commercial system. The result is your AI-enabled Sales Operating System.</p>
+    <h3>What is included in a Revenue Architecture Diagnostic?</h3>
+    <p>Interviews with the CEO and sales leader, analysis of the whole sales system, identification of the three biggest revenue leaks, and a prioritised 90-day recommendation. A safe and limited entry point, you do not have to buy the whole transformation before the problem is properly defined.</p>
+    <h3>What is an AI-enabled Sales Operating System?</h3>
+    <p>A shared way of working across sales process, pipeline, CRM and AI that works in the sales team's daily reality. AI does the work that does not require human presence. People build trust, read the situation and drive decisions.</p>
+  </div>
+
+  <div class="section cta-box">
+    <h2 style="margin-top:0;">Next step</h2>
+    <p>We start with a Revenue Architecture Diagnostic that shows where revenue is leaking and which three changes will have the biggest effect.</p>
+    <p>Book a short call. 30 minutes. Clear. Practical. No circus.</p>
+    <a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Book a call</a>
+  </div>
+
+</Base>
+
+<style>
+  .kicker {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .graybox {
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 4px;
+  }
+  .triggers {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0.25rem 1.5rem;
+  }
+  .triggers li {
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  .triggers li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+  .table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+  }
+  th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+  }
+  .shift {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-left: 3px solid var(--color-accent);
+    padding: 0.75rem 1.25rem;
+    background: #f8f8f8;
+    border-radius: 0 4px 4px 0;
+  }
+  .ladder {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+  .step {
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 1.5rem;
+  }
+  .step-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .step-head h3 { margin: 0; }
+  .step-num {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quote {
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+  .deliver { margin-bottom: 0; }
+  .cta-box {
+    background: #f8f8f8;
+    padding: 2rem 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+</style>
