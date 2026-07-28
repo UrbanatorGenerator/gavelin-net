@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/odysseus-att-bli-ledare/",
+    title: "Odysseus: hur en ledare blir till",
+    description: "Det som skiljer en chef från en ledare är varken en titel, en budget eller ens erfarenhet, det är viljan att låta sig förändras av resan. Homeros skrev den definitiva ledarskapshandboken för 2 700 år sedan och förklädde den till ett äventyr.",
+    date: "28 juli 2026",
+    category: "Ledarskap & Personlig Utveckling",
+  },
+  {
     url: "/sv/insikter/antagandeglappet/",
     title: "Varför ditt säljteam löser fel problem",
     description: "Säljteamet är i full aktivitet och pipeline ser stark ut, men intäkterna missar ändå målet. Boven är sällan dålig exekvering. Det är Antagandeglappet: avståndet mellan vad ni antar om köpare, pipeline och product-market fit, och vad som faktiskt är sant.",

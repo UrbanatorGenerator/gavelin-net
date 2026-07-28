@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/odiseo-como-se-forja-un-lider/",
+    title: "Odiseo: cómo se forja un líder",
+    description: "Lo que separa a un jefe de un líder no es un título, un presupuesto ni siquiera la experiencia, es la disposición a dejarse transformar por el viaje. Homero escribió el manual de liderazgo definitivo hace 2.700 años y lo disfrazó de aventura.",
+    date: "28 de julio de 2026",
+    category: "Liderazgo y Crecimiento Personal",
+  },
+  {
     url: "/es/perspectivas/brecha-de-suposiciones/",
     title: "Por qué tu equipo de ventas está resolviendo el problema equivocado",
     description: "Tu equipo de ventas está en plena actividad y el pipeline se ve sólido, pero los ingresos siguen sin alcanzar el objetivo. El verdadero culpable rara vez es una mala ejecución. Es la Brecha de Suposiciones: el espacio entre lo que asumes sobre tus compradores, tu pipeline y tu product-market fit, y lo que realmente es cierto.",

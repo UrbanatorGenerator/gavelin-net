@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/odysseus-becoming-a-leader/",
+    title: "Odysseus: The Becoming of a Leader",
+    description: "What separates a boss from a leader isn't a title, a budget, or even experience, it's the willingness to be changed by the journey. Homer wrote the definitive leadership manual 2,700 years ago and disguised it as an adventure story.",
+    date: "July 28, 2026",
+    category: "Leadership & Personal Growth",
+  },
+  {
     url: "/en/insights/assumption-gap/",
     title: "Why Your Sales Team Is Solving the Wrong Problem",
     description: "Your sales team is buzzing and pipeline looks strong, but revenue still misses target. The real culprit is rarely poor execution. It's the Assumption Gap: the space between what you assume about buyers, pipeline, and product-market fit, and what's genuinely true.",
