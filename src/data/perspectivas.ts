@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/eq-humana-e-ia-en-ventas/",
+    title: "Navegando el punto de encuentro entre la inteligencia emocional humana y la IA en ventas",
+    description: "Cinco aprendizajes clave sobre como la inteligencia emocional y la IA pueden combinarse para transformar las ventas B2B. Un repaso a lo que realmente importa cuando la tecnologia avanza mas rapido que nuestra capacidad de adaptarnos.",
+    date: "25 de junio de 2025",
+    category: "Liderazgo Comercial e Inteligencia Emocional",
+  },
+  {
     url: "/es/perspectivas/odiseo-como-se-forja-un-lider/",
     title: "Odiseo: cómo se forja un líder",
     description: "Lo que separa a un jefe de un líder no es un título, un presupuesto ni siquiera la experiencia, es la disposición a dejarse transformar por el viaje. Homero escribió el manual de liderazgo definitivo hace 2.700 años y lo disfrazó de aventura.",

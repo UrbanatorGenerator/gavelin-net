@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/manniskans-eq-och-ai-i-forsaljning/",
+    title: "I skarningspunkten mellan manskligt EQ och AI i forsaljning",
+    description: "Fem viktiga insikter fran tidigare nummer av Sales Mastery Newsletter om hur emotionell intelligens och AI tillsammans kan forandra forsaljning. Artikeln visar hur relationer, fortroende och teknik kan forenas for att skapa battre kundupplevelser.",
+    date: "25 juni 2025",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/sv/insikter/odysseus-att-bli-ledare/",
     title: "Odysseus: hur en ledare blir till",
     description: "Det som skiljer en chef från en ledare är varken en titel, en budget eller ens erfarenhet, det är viljan att låta sig förändras av resan. Homeros skrev den definitiva ledarskapshandboken för 2 700 år sedan och förklädde den till ett äventyr.",
