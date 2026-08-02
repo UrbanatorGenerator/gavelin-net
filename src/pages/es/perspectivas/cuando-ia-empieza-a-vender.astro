@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/when-ai-starts-selling.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Cuando la IA empieza a vender sin ti, y deja de pedir permiso",
+  "image": coverImage,
   "description": "Los modelos de IA avanzados ya están precalificando, juzgando previamente y preseleccionando vendedores B2B antes de que el comprador haga el primer contacto. Así te posicionas antes de la reunión.",
   "datePublished": "2025-10-30",
   "dateModified": "2025-10-30",
@@ -28,12 +31,14 @@ const schema = {
   description="Los modelos de IA avanzados ya están precalificando, juzgando previamente y preseleccionando vendedores B2B antes de que el comprador haga el primer contacto. Así te posicionas antes de la reunión."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-30">30 de octubre de 2025</time>, IA en Ventas y el Futuro de las Ventas
   </p>
   <h1>Cuando la IA empieza a vender sin ti, y deja de pedir permiso</h1>
+  <img src={coverImage} alt="Cuando la IA empieza a vender sin ti, y deja de pedir permiso" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Los modelos de IA avanzados ya están realizando investigaciones previas a las reuniones en tu nombre, precalificando, juzgando previamente y preseleccionando vendedores B2B antes de que el comprador envíe el primer correo electrónico.</strong> La antigua regla era: quien se presenta mejor en la reunión gana. La nueva regla es: quien se presenta mejor en la investigación previa a la reunión de la IA gana. Si la IA prefiere a otra persona, es posible que ni siquiera recibas la llamada.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

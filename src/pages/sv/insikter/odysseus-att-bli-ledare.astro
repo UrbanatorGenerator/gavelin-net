@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/odysseus-becoming-a-leader.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Odysseus: hur en ledare blir till",
+  "image": coverImage,
   "description": "Det som skiljer en chef från en ledare är varken en titel, en budget eller ens erfarenhet, det är viljan att låta sig förändras av resan. Homeros skrev den definitiva ledarskapshandboken för 2 700 år sedan och förklädde den till ett äventyr.",
   "datePublished": "2026-07-28",
   "dateModified": "2026-07-28",
@@ -28,6 +31,7 @@ const schema = {
   description="Det som skiljer en chef från en ledare är varken en titel, en budget eller ens erfarenhet, det är viljan att låta sig förändras av resan. Homeros skrev den definitiva ledarskapshandboken för 2 700 år sedan och förklädde den till ett äventyr."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
@@ -35,6 +39,7 @@ const schema = {
     <time datetime="2026-07-28">28 juli 2026</time> &mdash; Ledarskap &amp; Personlig Utveckling
   </p>
   <h1>Odysseus: hur en ledare blir till</h1>
+  <img src={coverImage} alt="Odysseus: hur en ledare blir till" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Det som skiljer en chef från en ledare är varken en titel, en budget eller ens erfarenhet. Det är viljan att låta sig förändras av resan.</strong> Homeros skrev den definitiva ledarskapshandboken för 2 700 år sedan, och förklädde den till ett äventyr. Så här undervisar Odysseus fortfarande varje ledare om ego, bekvämlighet, rädsla och det brutala arbetet att komma hem förändrad.</p>
 
   <div class="section">

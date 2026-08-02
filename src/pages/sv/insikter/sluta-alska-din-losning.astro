@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/stop-loving-your-solution.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Sluta älska din lösning. Börja lösa problemet.",
+  "image": coverImage,
   "description": "Den tysta fällan som dödar fler bolag än dålig strategi: att förälska sig i produkten istället för i det problem den löser. Här är hur du gör skiftet.",
   "datePublished": "2026-01-27",
   "dateModified": "2026-01-27",
@@ -28,12 +31,14 @@ const schema = {
   description="Den tysta fällan som dödar fler bolag än dålig strategi: att förälska sig i produkten istället för i det problem den löser. Här är hur du gör skiftet."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-27">27 januari 2026</time>, Säljstrategi &amp; Kommersiell klarhet
   </p>
   <h1>Sluta älska din lösning. Börja lösa problemet.</h1>
+  <img src={coverImage} alt="Sluta älska din lösning. Börja lösa problemet." width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Den tysta fällan som dödar fler bolag än dålig strategi eller långsam tillväxt är att förälska sig i produkten istället för i det problem den löser.</strong> När marknaden förändras, och det gör den alltid, satsar lösningsförälskade bolag ännu hårdare på funktioner och putsad pitch i stället för att återknyta till vad kunderna faktiskt behöver. Lösningen är ett mentalitetsskifte: sluta behöva ha rätt, börja behöva vara användbar.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

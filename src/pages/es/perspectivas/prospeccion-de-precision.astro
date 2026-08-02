@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/precision-prospecting.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "El arte de la prospección con precisión: Cómo la detección de señales cambia el juego de ventas",
+  "image": coverImage,
   "description": "La mayoría de los equipos de ventas creen que su problema es tener pocos leads. El problema real es tener demasiadas oportunidades de baja probabilidad obstruyendo el pipeline.",
   "datePublished": "2026-03-05",
   "dateModified": "2026-03-05",
@@ -28,12 +31,14 @@ const schema = {
   description="La mayoría de los equipos de ventas creen que su problema es tener pocos leads. El problema real es tener demasiadas oportunidades de baja probabilidad obstruyendo el pipeline."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-05">5 de marzo de 2026</time>, Prospección y Estrategia de Pipeline
   </p>
   <h1>El arte de la prospección con precisión: Cómo la detección de señales cambia el juego de ventas</h1>
+  <img src={coverImage} alt="El arte de la prospección con precisión: Cómo la detección de señales cambia el juego de ventas" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>La mayoría de los equipos de ventas creen que su problema es tener pocos leads. El problema real es tener demasiadas oportunidades de baja probabilidad obstruyendo el pipeline.</strong> La prospección basada en señales desplaza el foco del volumen de actividad a la inteligencia de timing, identificando qué empresas se están convirtiendo en compradores ahora mismo, no cuáles podrían comprar algún día. El resultado: menos contactos, más reuniones, más acuerdos cerrados.</p>
 
   <div class="section">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/selling-to-ai-savvy-buyers.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Att sälja till den AI-kunniga köparen: nu är rollerna ombytta",
+  "image": coverImage,
   "description": "Köpare kommer numera till möten med AI-insamlad data, konkurrentjämförelser och dina kundrecensioner. De behöver inte mer information, de behöver bättre omdöme. Så blir du linsen de söker.",
   "datePublished": "2025-10-22",
   "dateModified": "2025-10-22",
@@ -28,12 +31,14 @@ const schema = {
   description="Köpare kommer numera till möten med AI-insamlad data, konkurrentjämförelser och dina kundrecensioner. De behöver inte mer information, de behöver bättre omdöme. Så blir du linsen de söker."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-22">22 oktober 2025</time>, AI i försäljning &amp; Köparpsykologi
   </p>
   <h1>Att sälja till den AI-kunniga köparen: nu är rollerna ombytta</h1>
+  <img src={coverImage} alt="Att sälja till den AI-kunniga köparen: nu är rollerna ombytta" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Det brukade vara vi, säljproffsen, som kom in i möten med övertaget: marknadsdata, kundcase, konkurrentanalys. Nu är det köparna som kommer med det övertaget.</strong> De har redan kört jämförelserna, ställt de hårda frågorna till ChatGPT och kollat dina kundrecensioner. De vill inte ha en pitch. De vill ha en meningsskapare. Det är din nya arbetsbeskrivning.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/when-ai-starts-selling.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "When AI Starts Selling Without You, And Stops Asking for Permission",
+  "image": coverImage,
   "description": "AI is now pre-qualifying, pre-judging, and pre-selecting B2B sellers before buyers ever reach out. Here's how to show up before the meeting, and stay relevant when the machine already made its call.",
   "datePublished": "2025-10-30",
   "dateModified": "2025-10-30",
@@ -28,12 +31,14 @@ const schema = {
   description="AI is now pre-qualifying, pre-judging, and pre-selecting B2B sellers before buyers ever reach out. Here's how to show up before the meeting, and stay relevant when the machine already made its call."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-30">October 30, 2025</time>, AI in Sales &amp; Future of Selling
   </p>
   <h1>When AI Starts Selling Without You, And Stops Asking for Permission</h1>
+  <img src={coverImage} alt="When AI Starts Selling Without You, And Stops Asking for Permission" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Advanced AI models are already conducting pre-meeting research on your behalf, pre-qualifying, pre-judging, and pre-selecting B2B sellers before a buyer ever sends the first email.</strong> The old rule was: whoever shows up best in the meeting wins. The new rule is: whoever shows up best in the AI's pre-meeting research wins. If the AI likes someone else better, you may never even get the call.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

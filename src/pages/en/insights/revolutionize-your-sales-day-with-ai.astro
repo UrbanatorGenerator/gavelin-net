@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/revolutionize-your-sales-day-with-ai.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "How Simply You Can Revolutionise Your Sales Day with AI",
+  "image": coverImage,
   "description": "A full day of AI for salespeople at Roda Utbildning in Stockholm. How easy it actually is to get started, and why it's about freeing up time, simplifying processes, and becoming more human.",
   "datePublished": "2025-09-09",
   "dateModified": "2025-09-09",
@@ -28,12 +31,14 @@ const schema = {
   description="A full day of AI for salespeople at Roda Utbildning in Stockholm. How easy it actually is to get started, and why it's about freeing up time, simplifying processes, and becoming more human."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-09-09">September 9, 2025</time>, AI in Sales &amp; Sales Training
   </p>
   <h1>How Simply You Can Revolutionise Your Sales Day with AI</h1>
+  <img src={coverImage} alt="How Simply You Can Revolutionise Your Sales Day with AI" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>It doesn't happen often that I get shaken up. But at Roda Utbildning in Stockholm, it did.</strong> We ran a packed full day of AI for salespeople, and the response was electric. It wasn't the technology that impressed. It was the simplicity: how quickly a salesperson can start working differently, more freely, and more humanly when the right AI tools are in place.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

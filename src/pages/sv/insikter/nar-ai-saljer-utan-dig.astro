@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/when-ai-starts-selling.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "När AI börjar sälja utan dig, och slutar be om tillstånd",
+  "image": coverImage,
   "description": "AI gör redan researchen inför mötet åt köparen, kvalificerar, bedömer och gallrar bort B2B-säljare innan en enda kontakt tagits. Här är hur du syns i den researchen.",
   "datePublished": "2025-10-30",
   "dateModified": "2025-10-30",
@@ -28,12 +31,14 @@ const schema = {
   description="AI gör redan researchen inför mötet åt köparen, kvalificerar, bedömer och gallrar bort B2B-säljare innan en enda kontakt tagits. Här är hur du syns i den researchen."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-30">30 oktober 2025</time>, AI i försäljning &amp; Framtidens sälj
   </p>
   <h1>När AI börjar sälja utan dig, och slutar be om tillstånd</h1>
+  <img src={coverImage} alt="När AI börjar sälja utan dig, och slutar be om tillstånd" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Avancerade AI-modeller gör redan researchen inför mötet åt köparen, förkvalificerar, förvärderar och gallrar ut B2B-säljare innan köparen ens skickat det första mejlet.</strong> Den gamla regeln var: den som syns bäst i mötet vinner. Den nya regeln är: den som syns bäst i AI:ns research inför mötet vinner. Om AI:n gillar någon annan bättre, kanske du aldrig ens får samtalet.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

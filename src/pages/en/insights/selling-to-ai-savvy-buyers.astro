@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/selling-to-ai-savvy-buyers.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "When Selling to the AI-Savvy Buyer: The Tables Have Turned",
+  "image": coverImage,
   "description": "Buyers now come to meetings armed with AI-researched data, competitor comparisons, and your customer reviews. They don't need more information, they need better judgement. Here's how to be the lens they're looking for.",
   "datePublished": "2025-10-22",
   "dateModified": "2025-10-22",
@@ -28,12 +31,14 @@ const schema = {
   description="Buyers now come to meetings armed with AI-researched data, competitor comparisons, and your customer reviews. They don't need more information, they need better judgement. Here's how to be the lens they're looking for."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-22">October 22, 2025</time>, AI in Sales &amp; Buyer Psychology
   </p>
   <h1>When Selling to the AI-Savvy Buyer: The Tables Have Turned</h1>
+  <img src={coverImage} alt="When Selling to the AI-Savvy Buyer: The Tables Have Turned" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>It used to be that sales professionals walked into meetings with the edge, market data, case studies, competitive intelligence. Now buyers show up with that edge instead.</strong> They've already run the comparisons, asked ChatGPT the tough questions, and checked your customer reviews. They don't need a pitch. They need a sense-maker. That's your new job description.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

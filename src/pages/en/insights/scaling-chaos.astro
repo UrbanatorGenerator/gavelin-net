@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/scaling-chaos.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Scaling Chaos: The Silent Cost of AI in Sales",
+  "image": coverImage,
   "description": "Most sales teams are stuck at Level 1 AI, accelerating chaos rather than transforming it. Here's how to diagnose which level you're really at, and what it takes to reach Level 3: AI as a sales operating system.",
   "datePublished": "2026-01-20",
   "dateModified": "2026-01-20",
@@ -28,12 +31,14 @@ const schema = {
   description="Most sales teams are stuck at Level 1 AI, accelerating chaos rather than transforming it. Here's how to diagnose which level you're really at, and what it takes to reach Level 3: AI as a sales operating system."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-20">January 20, 2026</time>, AI in Sales &amp; Sales Leadership
   </p>
   <h1>Scaling Chaos: The Silent Cost of AI in Sales</h1>
+  <img src={coverImage} alt="Scaling Chaos: The Silent Cost of AI in Sales" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Most sales teams have bought the AI tools, sat through the vendor demos, and subscribed to the copilots, and still ask themselves why it feels so hard. The reason is simple: AI doesn't fix dysfunction, it amplifies it.</strong> Weak structure becomes automated confusion. Poor process becomes scaled chaos. The question isn't whether you're using AI. It's which level you're really operating at, and what's blocking the next one.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

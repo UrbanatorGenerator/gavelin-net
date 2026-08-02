@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/odysseus-becoming-a-leader.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Odiseo: cómo se forja un líder",
+  "image": coverImage,
   "description": "Lo que separa a un jefe de un líder no es un título, un presupuesto ni siquiera la experiencia, es la disposición a dejarse transformar por el viaje. Homero escribió el manual de liderazgo definitivo hace 2.700 años y lo disfrazó de aventura.",
   "datePublished": "2026-07-28",
   "dateModified": "2026-07-28",
@@ -28,6 +31,7 @@ const schema = {
   description="Lo que separa a un jefe de un líder no es un título, un presupuesto ni siquiera la experiencia, es la disposición a dejarse transformar por el viaje. Homero escribió el manual de liderazgo definitivo hace 2.700 años y lo disfrazó de aventura."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
@@ -35,6 +39,7 @@ const schema = {
     <time datetime="2026-07-28">28 de julio de 2026</time> &mdash; Liderazgo y Crecimiento Personal
   </p>
   <h1>Odiseo: cómo se forja un líder</h1>
+  <img src={coverImage} alt="Odiseo: cómo se forja un líder" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Lo que separa a un jefe de un líder no es un título, un presupuesto ni siquiera la experiencia. Es la disposición a dejarse transformar por el viaje.</strong> Homero escribió el manual de liderazgo definitivo hace 2.700 años, y lo disfrazó de aventura. Esto es lo que Odiseo sigue enseñando a todo líder sobre el ego, la comodidad, el miedo y el brutal trabajo de volver a casa transformado.</p>
 
   <div class="section">

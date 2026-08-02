@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/meet-uno.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Meet Uno: My $8 Digital Colleague Changing the Game of Business",
+  "image": coverImage,
   "description": "I built a digital coworker equipped with my knowledge in sales, leadership, and business strategy, for roughly $8. Here's what it signals about the shift already underway in the SME business landscape.",
   "datePublished": "2026-02-28",
   "dateModified": "2026-02-28",
@@ -28,12 +31,14 @@ const schema = {
   description="I built a digital coworker equipped with my knowledge in sales, leadership, and business strategy, for roughly $8. Here's what it signals about the shift already underway in the SME business landscape."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-02-28">February 28, 2026</time>, AI in Business &amp; Sales
   </p>
   <h1>Meet Uno: My $8 Digital Colleague Changing the Game of Business</h1>
+  <img src={coverImage} alt="Meet Uno: My $8 Digital Colleague Changing the Game of Business" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>AI now enables individual professionals and small teams to access analytical, communication, and decision-support capabilities that previously required significant staff or consulting investment, for a few dollars per day.</strong> This isn't a future scenario. It's happening now, and the companies building this capacity today are accumulating a competitive advantage that will be very difficult to close within the next 12–24 months.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

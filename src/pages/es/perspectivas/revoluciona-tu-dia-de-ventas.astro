@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/revolutionize-your-sales-day-with-ai.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Qué fácil es revolucionar tu día de ventas con IA",
+  "image": coverImage,
   "description": "Un día completo de IA para vendedores en Roda Utbildning en Estocolmo. Lo sencillo que es realmente empezar, y por qué se trata de liberar tiempo, simplificar procesos y ser más humano.",
   "datePublished": "2025-09-09",
   "dateModified": "2025-09-09",
@@ -28,12 +31,14 @@ const schema = {
   description="Un día completo de IA para vendedores en Roda Utbildning en Estocolmo. Lo sencillo que es realmente empezar, y por qué se trata de liberar tiempo, simplificar procesos y ser más humano."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-09-09">9 de septiembre de 2025</time>, IA en Ventas y Formación en Ventas
   </p>
   <h1>Qué fácil es revolucionar tu día de ventas con IA</h1>
+  <img src={coverImage} alt="Qué fácil es revolucionar tu día de ventas con IA" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>No ocurre a menudo que me sacuden. Pero en Roda Utbildning en Estocolmo, ocurrió.</strong> Realizamos una jornada completa de IA para vendedores, y la respuesta fue electrizante. No fue la tecnología lo que impresionó. Fue la simplicidad: lo rápido que un vendedor puede empezar a trabajar de manera diferente, más libre y más humana cuando las herramientas de IA correctas están en su lugar.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

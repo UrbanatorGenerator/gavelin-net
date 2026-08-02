@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/from-firefighting-to-forecasting.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "From Firefighting to Forecasting: Reclaim Your Time as a Sales Leader",
+  "image": coverImage,
   "description": "Most sales leaders spend 80% of their time firefighting and 20% on strategy. Here's how to flip that ratio using the D.E.A.L. framework, and what one Stockholm SaaS company achieved in three months.",
   "datePublished": "2026-03-17",
   "dateModified": "2026-03-17",
@@ -28,12 +31,14 @@ const schema = {
   description="Most sales leaders spend 80% of their time firefighting and 20% on strategy. Here's how to flip that ratio using the D.E.A.L. framework, and what one Stockholm SaaS company achieved in three months."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-17">March 17, 2026</time>, Sales Leadership &amp; Pipeline Management
   </p>
   <h1>From Firefighting to Forecasting: Reclaim Your Time as a Sales Leader</h1>
+  <img src={coverImage} alt="From Firefighting to Forecasting: Reclaim Your Time as a Sales Leader" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Most sales leaders operate in an 80/20 split, 80% firefighting urgent problems, 20% strategic work. That ratio is both a symptom and a cause: reactive leadership makes fires more likely, which leaves less time for the systems that would prevent them.</strong> The shift from firefighting to forecasting is not about working harder. It's about building the four conditions, clean data, repeatable process, smart automation, and coaching-oriented leadership, that make fires rare rather than routine.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

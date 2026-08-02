@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/from-firefighting-to-forecasting.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "De apagar fuegos a pronosticar: Recupera tu tiempo como líder de ventas",
+  "image": coverImage,
   "description": "La mayoría de los líderes de ventas pasan el 80% de su tiempo apagando fuegos. Así inviertes esa proporción, y lo que una empresa SaaS de Estocolmo logró en tres meses.",
   "datePublished": "2026-03-17",
   "dateModified": "2026-03-17",
@@ -28,12 +31,14 @@ const schema = {
   description="La mayoría de los líderes de ventas pasan el 80% de su tiempo apagando fuegos. Así inviertes esa proporción, y lo que una empresa SaaS de Estocolmo logró en tres meses."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-17">17 de marzo de 2026</time>, Liderazgo de Ventas y Gestión de Pipeline
   </p>
   <h1>De apagar fuegos a pronosticar: Recupera tu tiempo como líder de ventas</h1>
+  <img src={coverImage} alt="De apagar fuegos a pronosticar: Recupera tu tiempo como líder de ventas" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>La mayoría de los líderes de ventas operan en una división 80/20, 80% apagando problemas urgentes, 20% trabajo estratégico. Esa proporción es tanto un síntoma como una causa: el liderazgo reactivo hace que los fuegos sean más probables, lo que deja menos tiempo para los sistemas que los prevendrían.</strong> El cambio de apagar fuegos a pronosticar no se trata de trabajar más duro. Se trata de construir las cuatro condiciones, datos limpios, proceso repetible, automatización inteligente y liderazgo orientado al coaching, que hacen que los fuegos sean raros en lugar de rutinarios.</p>
 
   <div class="section">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/stop-loving-your-solution.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Deja de amar tu solución. Empieza a resolver el problema.",
+  "image": coverImage,
   "description": "La trampa silenciosa que mata más empresas que una mala estrategia: enamorarse del producto en lugar del problema del cliente. Así haces el cambio.",
   "datePublished": "2026-01-27",
   "dateModified": "2026-01-27",
@@ -28,12 +31,14 @@ const schema = {
   description="La trampa silenciosa que mata más empresas que una mala estrategia: enamorarse del producto en lugar del problema del cliente. Así haces el cambio."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-27">27 de enero de 2026</time>, Estrategia de Ventas y Claridad Comercial
   </p>
   <h1>Deja de amar tu solución. Empieza a resolver el problema.</h1>
+  <img src={coverImage} alt="Deja de amar tu solución. Empieza a resolver el problema." width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>La trampa silenciosa que mata más empresas que una mala estrategia o un crecimiento lento es enamorarse del producto en lugar del problema que resuelve.</strong> Cuando el mercado cambia, y siempre lo hace, las empresas obsesionadas con la solución duplican las características y el pulido del pitch en lugar de reconectarse con lo que sus clientes realmente necesitan. La solución es un cambio de mentalidad: deja de necesitar tener razón, empieza a necesitar ser útil.</p>
 
   <div class="section">

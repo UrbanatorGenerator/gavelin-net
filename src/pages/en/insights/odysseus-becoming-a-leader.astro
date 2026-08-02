@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/odysseus-becoming-a-leader.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Odysseus: The Becoming of a Leader",
+  "image": coverImage,
   "description": "What separates a boss from a leader isn't a title, a budget, or even experience, it's the willingness to be changed by the journey. Homer wrote the definitive leadership manual 2,700 years ago and disguised it as an adventure story.",
   "datePublished": "2026-07-28",
   "dateModified": "2026-07-28",
@@ -28,6 +31,7 @@ const schema = {
   description="What separates a boss from a leader isn't a title, a budget, or even experience, it's the willingness to be changed by the journey. Homer wrote the definitive leadership manual 2,700 years ago and disguised it as an adventure story."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
@@ -35,6 +39,7 @@ const schema = {
     <time datetime="2026-07-28">July 28, 2026</time> &mdash; Leadership &amp; Personal Growth
   </p>
   <h1>Odysseus: The Becoming of a Leader</h1>
+  <img src={coverImage} alt="Odysseus: The Becoming of a Leader" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>What separates a boss from a leader isn't a title, a budget, or even experience. It's the willingness to be changed by the journey.</strong> Homer wrote the definitive leadership manual 2,700 years ago, and disguised it as an adventure story. Here's what Odysseus still teaches every leader about ego, comfort, fear, and the brutal work of coming home changed.</p>
 
   <div class="section">

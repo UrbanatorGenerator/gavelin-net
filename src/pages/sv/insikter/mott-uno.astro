@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/meet-uno.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Möt Uno: min digitala kollega för 75 kronor",
+  "image": coverImage,
   "description": "Jag byggde en digital medarbetare utrustad med min kunskap inom försäljning, ledarskap och affärsstrategi, för ungefär 75 kronor. Här är vad det signalerar om det skifte som redan pågår.",
   "datePublished": "2026-02-28",
   "dateModified": "2026-02-28",
@@ -28,12 +31,14 @@ const schema = {
   description="Jag byggde en digital medarbetare utrustad med min kunskap inom försäljning, ledarskap och affärsstrategi, för ungefär 75 kronor. Här är vad det signalerar om det skifte som redan pågår."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-02-28">28 februari 2026</time>, AI i affärer &amp; försäljning
   </p>
   <h1>Möt Uno: min digitala kollega för 75 kronor</h1>
+  <img src={coverImage} alt="Möt Uno: min digitala kollega för 75 kronor" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>AI gör det nu möjligt för enskilda yrkespersoner och små team att få tillgång till analytisk, kommunikativ och beslutsstödjande kapacitet som tidigare krävde betydande personal- eller konsultinvestering, för några kronor om dagen.</strong> Det här är inte ett framtidsscenario. Det händer nu, och de bolag som bygger den här förmågan idag bygger upp ett konkurrensförsprång som kan bli mycket svårt att ta igen inom de närmaste 12–24 månaderna.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

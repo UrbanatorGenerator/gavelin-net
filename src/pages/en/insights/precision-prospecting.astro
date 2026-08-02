@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/precision-prospecting.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Art of Precision Prospecting: How Signal Detection Changes the Sales Game",
+  "image": coverImage,
   "description": "Most sales teams think their problem is too few leads. The real problem is too many low-probability opportunities clogging the pipeline. Signal-based prospecting fixes that.",
   "datePublished": "2026-03-05",
   "dateModified": "2026-03-05",
@@ -28,12 +31,14 @@ const schema = {
   description="Most sales teams think their problem is too few leads. The real problem is too many low-probability opportunities clogging the pipeline. Signal-based prospecting fixes that."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-05">March 5, 2026</time>, Prospecting &amp; Pipeline Strategy
   </p>
   <h1>The Art of Precision Prospecting: How Signal Detection Changes the Sales Game</h1>
+  <img src={coverImage} alt="The Art of Precision Prospecting: How Signal Detection Changes the Sales Game" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Most sales teams think their problem is too few leads. The real problem is too many low-probability opportunities clogging the pipeline.</strong> Signal-based prospecting shifts the focus from activity volume to timing intelligence, identifying which companies are becoming buyers right now, not which ones might buy someday. The result: fewer contacts, more meetings, more closed deals.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

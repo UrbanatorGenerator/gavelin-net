@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/selling-to-ai-savvy-buyers.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Vender al comprador experto en IA: Las tornas han cambiado",
+  "image": coverImage,
   "description": "Los compradores llegan a las reuniones armados con datos investigados con IA, comparaciones de competidores y reseñas de clientes. No necesitan más información, necesitan mejor criterio. Así te conviertes en el intérprete que buscan.",
   "datePublished": "2025-10-22",
   "dateModified": "2025-10-22",
@@ -28,12 +31,14 @@ const schema = {
   description="Los compradores llegan a las reuniones armados con datos investigados con IA, comparaciones de competidores y reseñas de clientes. No necesitan más información, necesitan mejor criterio. Así te conviertes en el intérprete que buscan."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-22">22 de octubre de 2025</time>, IA en Ventas y Psicología del Comprador
   </p>
   <h1>Vender al comprador experto en IA: Las tornas han cambiado</h1>
+  <img src={coverImage} alt="Vender al comprador experto en IA: Las tornas han cambiado" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Antes, los profesionales de ventas entraban a las reuniones con la ventaja, datos de mercado, estudios de caso, inteligencia competitiva. Ahora los compradores llegan con esa ventaja.</strong> Ya han hecho las comparaciones, le han hecho las preguntas difíciles a ChatGPT y revisado tus reseñas de clientes. No necesitan un pitch. Necesitan un intérprete. Esa es tu nueva descripción del puesto.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

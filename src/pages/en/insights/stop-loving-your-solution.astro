@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/stop-loving-your-solution.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Stop Loving Your Solution. Start Solving the Problem.",
+  "image": coverImage,
   "description": "The quiet trap that kills more companies than bad strategy: falling in love with your product instead of your customer's problem. Here's how to make the shift.",
   "datePublished": "2026-01-27",
   "dateModified": "2026-01-27",
@@ -28,12 +31,14 @@ const schema = {
   description="The quiet trap that kills more companies than bad strategy: falling in love with your product instead of your customer's problem. Here's how to make the shift."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-27">January 27, 2026</time>, Sales Strategy &amp; Commercial Clarity
   </p>
   <h1>Stop Loving Your Solution. Start Solving the Problem.</h1>
+  <img src={coverImage} alt="Stop Loving Your Solution. Start Solving the Problem." width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>The quiet trap that kills more companies than bad strategy or slow growth is falling in love with the product instead of the problem it solves.</strong> When the market shifts, and it always does, solution-obsessed companies double down on features and pitch polish instead of reconnecting with what their customers actually need. The fix is a mindset shift: stop needing to be right, start needing to be useful.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

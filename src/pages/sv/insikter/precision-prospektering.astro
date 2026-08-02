@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/precision-prospecting.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Prospektera med precision: så förändrar köpsignaler ditt säljarbete",
+  "image": coverImage,
   "description": "De flesta säljteam tror att problemet är för få leads. Det verkliga problemet är för många möjligheter med låg sannolikhet som blockerar pipeline. Precisionsbaserad prospektering löser det.",
   "datePublished": "2026-03-05",
   "dateModified": "2026-03-05",
@@ -28,12 +31,14 @@ const schema = {
   description="De flesta säljteam tror att problemet är för få leads. Det verkliga problemet är för många möjligheter med låg sannolikhet som blockerar pipeline. Precisionsbaserad prospektering löser det."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-05">5 mars 2026</time>, Prospektering &amp; Pipeline-strategi
   </p>
   <h1>Prospektera med precision: så förändrar köpsignaler ditt säljarbete</h1>
+  <img src={coverImage} alt="Prospektera med precision: så förändrar köpsignaler ditt säljarbete" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>De flesta säljteam tror att problemet är för få leads. Det verkliga problemet är för många möjligheter med låg sannolikhet som blockerar pipeline.</strong> Signalbaserad prospektering flyttar fokus från aktivitetsvolym till rätt tajming, att identifiera vilka bolag som håller på att bli köpare just nu, inte vilka som kanske köper någon gång. Resultatet: färre kontakter, fler möten, fler stängda affärer.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/scaling-chaos.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Escalar el caos: El costo silencioso de la IA en ventas",
+  "image": coverImage,
   "description": "La mayoría de los equipos de ventas están atascados en el Nivel 1 de IA, acelerando el caos en lugar de transformarlo. Así diagnosticas en qué nivel estás realmente.",
   "datePublished": "2026-01-20",
   "dateModified": "2026-01-20",
@@ -28,12 +31,14 @@ const schema = {
   description="La mayoría de los equipos de ventas están atascados en el Nivel 1 de IA, acelerando el caos en lugar de transformarlo. Así diagnosticas en qué nivel estás realmente."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-20">20 de enero de 2026</time>, IA en Ventas y Liderazgo de Ventas
   </p>
   <h1>Escalar el caos: El costo silencioso de la IA en ventas</h1>
+  <img src={coverImage} alt="Escalar el caos: El costo silencioso de la IA en ventas" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>La mayoría de los equipos de ventas han comprado las herramientas de IA, asistido a las demos de los proveedores y se suscrito a los copilotos, y todavía se preguntan por qué se siente tan difícil. La razón es simple: la IA no arregla la disfunción, la amplifica.</strong> La estructura débil se convierte en confusión automatizada. El proceso pobre se convierte en caos escalado. La pregunta no es si estás usando IA. Es en qué nivel estás realmente operando, y qué está bloqueando el siguiente.</p>
 
   <div class="section">

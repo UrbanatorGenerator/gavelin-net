@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/revolutionize-your-sales-day-with-ai.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Så enkelt kan du revolutionera din säljvardag med AI",
+  "image": coverImage,
   "description": "En fullmatad heldag med AI för säljare på Roda Utbildning i Stockholm. Hur enkelt det faktiskt är att komma igång, och varför det handlar om att frigöra tid, förenkla processer och bli mer mänsklig.",
   "datePublished": "2025-09-09",
   "dateModified": "2025-09-09",
@@ -28,12 +31,14 @@ const schema = {
   description="En fullmatad heldag med AI för säljare på Roda Utbildning i Stockholm. Hur enkelt det faktiskt är att komma igång, och varför det handlar om att frigöra tid, förenkla processer och bli mer mänsklig."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-09-09">9 september 2025</time>, AI i försäljning &amp; Säljutbildning
   </p>
   <h1>Så enkelt kan du revolutionera din säljvardag med AI</h1>
+  <img src={coverImage} alt="Så enkelt kan du revolutionera din säljvardag med AI" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Det händer inte ofta att jag själv blir omskakad. Men på Roda Utbildning i Stockholm hände det.</strong> Vi körde en fullmatad heldag i AI för säljare, och responsen var elektrisk. Det är inte tekniken som imponerar. Det är enkelheten: hur snabbt en säljare kan börja jobba annorlunda, friare och mer mänskligt när rätt AI-verktyg är på plats.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

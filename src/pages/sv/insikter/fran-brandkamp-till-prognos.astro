@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/from-firefighting-to-forecasting.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Från brandsläckning till prognos: ta tillbaka din tid som säljledare",
+  "image": coverImage,
   "description": "De flesta säljledare lever i ett 80/20-förhållande, 80% brandsläckning, 20% strategiskt arbete. Så här vänder du den kvoten med D.E.A.L.-ramverket, och vad ett SaaS-bolag i Stockholm uppnådde på tre månader.",
   "datePublished": "2026-03-17",
   "dateModified": "2026-03-17",
@@ -28,12 +31,14 @@ const schema = {
   description="De flesta säljledare lever i ett 80/20-förhållande, 80% brandsläckning, 20% strategiskt arbete. Så här vänder du den kvoten med D.E.A.L.-ramverket, och vad ett SaaS-bolag i Stockholm uppnådde på tre månader."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-03-17">17 mars 2026</time>, Säljledning &amp; Pipeline-hantering
   </p>
   <h1>Från brandsläckning till prognos: ta tillbaka din tid som säljledare</h1>
+  <img src={coverImage} alt="Från brandsläckning till prognos: ta tillbaka din tid som säljledare" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>De flesta säljledare lever i ett 80/20-förhållande, 80% brandsläckning med akuta problem, 20% strategiskt arbete. Det förhållandet är både ett symptom och en orsak: reaktivt ledarskap gör bränder mer sannolika, vilket lämnar mindre tid för de system som skulle förebygga dem.</strong> Skiftet från brandsläckning till prognos handlar inte om att jobba hårdare. Det handlar om att bygga de fyra förutsättningarna, ren data, repeterbar process, smart automatisering och coachande ledarskap, som gör bränder sällsynta snarare än rutinmässiga.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

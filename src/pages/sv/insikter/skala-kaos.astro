@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/scaling-chaos.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Skala upp kaoset: den dolda kostnaden för AI i försäljning",
+  "image": coverImage,
   "description": "De flesta säljteam är fast på Nivå 1 AI, de accelererar kaos snarare än att transformera det. Här är hur du diagnostiserar vilken nivå du verkligen är på, och vad som krävs för att nå Nivå 3: AI som ett säljoperativsystem.",
   "datePublished": "2026-01-20",
   "dateModified": "2026-01-20",
@@ -28,12 +31,14 @@ const schema = {
   description="De flesta säljteam är fast på Nivå 1 AI, de accelererar kaos snarare än att transformera det. Här är hur du diagnostiserar vilken nivå du verkligen är på, och vad som krävs för att nå Nivå 3: AI som ett säljoperativsystem."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-01-20">20 januari 2026</time>, AI i försäljning &amp; Säljledning
   </p>
   <h1>Skala upp kaoset: den dolda kostnaden för AI i försäljning</h1>
+  <img src={coverImage} alt="Skala upp kaoset: den dolda kostnaden för AI i försäljning" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>De flesta säljteam har köpt AI-verktygen, suttit igenom leverantörsdemos och prenumererat på copilots, och frågar sig ändå varför det känns så svårt. Anledningen är enkel: AI fixar inte dysfunktion, den förstärker den.</strong> Svag struktur blir automatiserad förvirring. Dålig process blir skalat kaos. Frågan är inte om ni använder AI. Det är vilken nivå ni verkligen arbetar på, och vad som blockerar nästa.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">
