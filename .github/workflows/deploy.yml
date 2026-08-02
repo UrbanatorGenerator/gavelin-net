@@ -3,6 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # Spec drops and their generated commits are deployed by publish-insight.yml,
+    # which would otherwise race this workflow over the same Pages deployment.
+    paths-ignore:
+      - 'pipeline/**'
   workflow_dispatch:
 
 permissions:
