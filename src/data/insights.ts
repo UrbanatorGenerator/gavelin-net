@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/navigating-the-nexus-of-human-eq-and-ai-in-sales/",
+    title: "Navigating the Nexus of Human EQ and AI in Sales",
+    description: "Five key insights from past Sales Mastery Newsletters explore how emotional intelligence and artificial intelligence can work together to transform selling. The piece examines trust, self-service, pressure management, relationships, and the right tech-human balance.",
+    date: "June 25, 2025",
+    category: "Sales Leadership & AI",
+  },
+  {
     url: "/en/insights/odysseus-becoming-a-leader/",
     title: "Odysseus: The Becoming of a Leader",
     description: "What separates a boss from a leader isn't a title, a budget, or even experience, it's the willingness to be changed by the journey. Homer wrote the definitive leadership manual 2,700 years ago and disguised it as an adventure story.",
