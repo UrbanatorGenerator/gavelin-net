@@ -1,4 +1,7 @@
 ---
+import { alternatesByUrl } from '../data/insight-alternates';
+import { pageAlternatesByUrl } from '../data/page-alternates';
+
 export interface Props {
   title: string;
   description: string;
@@ -8,9 +11,10 @@ export interface Props {
   image?: string;
   author?: string;
   datePublished?: string;
+  alternates?: Record<string, string>;
 }
 
-const { title, description, lang = 'sv', schema, canonicalUrl, author, datePublished, image } = Astro.props;
+const { title, description, lang = 'sv', schema, canonicalUrl, author, datePublished, image, alternates } = Astro.props;
 const canonical = canonicalUrl ?? new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = image ? new URL(image, Astro.site).href : undefined;
 
@@ -25,10 +29,14 @@ const updatedLabel = lang === 'sv'
   : `Last updated ${buildDate.getDate()} ${monthsEn[buildDate.getMonth()]} ${buildDate.getFullYear()}`;
 
 const allLangs = ['sv', 'en', 'es'];
-const alternateLinks = allLangs.map(l => ({
+const pathname = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const alternateMap: Record<string, string> | undefined =
+  alternates ?? alternatesByUrl[pathname] ?? pageAlternatesByUrl[pathname];
+const alternateLinks = (alternateMap ? allLangs.filter(l => alternateMap[l]) : allLangs).map(l => ({
   lang: l,
-  href: new URL(Astro.url.pathname.replace(`/${lang}/`, `/${l}/`), Astro.site).href
+  href: new URL(alternateMap?.[l] ?? pathname.replace(`/${lang}/`, `/${l}/`), Astro.site).href
 }));
+const defaultHref = (alternateLinks.find(a => a.lang === 'sv') ?? alternateLinks[0])?.href;
 
 const contactHref = lang === 'sv' ? '/sv/kontakt/' : lang === 'en' ? '/en/contact/' : '/es/contacto/';
 const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Contacto';
@@ -45,7 +53,7 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
     {alternateLinks.map(alt => (
       <link rel="alternate" hreflang={alt.lang} href={alt.href} />
     ))}
-    <link rel="alternate" hreflang="x-default" href={alternateLinks[0].href} />
+    {defaultHref && <link rel="alternate" hreflang="x-default" href={defaultHref} />}
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
