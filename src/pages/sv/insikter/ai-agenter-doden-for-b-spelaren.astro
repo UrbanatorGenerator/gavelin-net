@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/ai-agents-death-of-b-player.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "AI-agenter sätter stopp för B-spelaren",
+  "image": coverImage,
   "description": "AI-agenter kommer inte att döda ditt säljteam, men de kommer att avslöja det. Ju mer förutsägbar din säljprocess är, desto snabbare automatiserar AI den. Här är det mentala modellskiftet som skiljer vinnarna från resten.",
   "datePublished": "2025-10-10",
   "dateModified": "2025-10-10",
@@ -28,12 +31,14 @@ const schema = {
   description="AI-agenter kommer inte att döda ditt säljteam, men de kommer att avslöja det. Ju mer förutsägbar din säljprocess är, desto snabbare automatiserar AI den. Här är det mentala modellskiftet som skiljer vinnarna från resten."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-10">10 oktober 2025</time>, AI i försäljning &amp; Säljledning
   </p>
   <h1>AI-agenter sätter stopp för B-spelaren</h1>
+  <img src={coverImage} alt="AI-agenter sätter stopp för B-spelaren" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>AI-agenter kommer inte att döda ditt säljteam. Men de kommer att avslöja det.</strong> Ju mer förutsägbar din säljprocess är, desto snabbare automatiserar AI den. Medelpresterare som utför repetitiva uppgifter ersätts redan nu, inte av robotar, utan av AI som gör samma arbete snabbare, billigare och utan semesterdagar. De säljorganisationer som överlever det här skiftet är inte de med flest verktyg. De är de som strukturerar om kring sin elit och låter AI hantera resten.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

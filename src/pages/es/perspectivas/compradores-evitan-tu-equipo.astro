@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/buyers-avoid-your-sales-team.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Los compradores evitan a tu equipo de ventas a propósito, y eso lo cambia todo",
+  "image": coverImage,
   "description": "El 71% de los compradores B2B no quieren hablar con tu equipo de ventas. Están comprando a tu competidor sin que lo sepas. Esto es lo que revela el LinkedIn B2B Thought Leadership Impact Report 2025, y qué hacer al respecto.",
   "datePublished": "2025-10-08",
   "dateModified": "2025-10-08",
@@ -28,12 +31,14 @@ const schema = {
   description="El 71% de los compradores B2B no quieren hablar con tu equipo de ventas. Están comprando a tu competidor sin que lo sepas. Esto es lo que revela el LinkedIn B2B Thought Leadership Impact Report 2025, y qué hacer al respecto."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-08">8 de octubre de 2025</time>, Estrategia de Ventas B2B y Liderazgo de Pensamiento
   </p>
   <h1>Los compradores evitan a tu equipo de ventas a propósito, y eso lo cambia todo</h1>
+  <img src={coverImage} alt="Los compradores evitan a tu equipo de ventas a propósito, y eso lo cambia todo" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>El 71% de los compradores B2B no quiere hablar con tu equipo de ventas. En absoluto.</strong> Están viendo tus demos en YouTube, obteniendo precios de tu sitio web, leyendo reseñas en G2, y tomando su decisión antes de que sepas que existen. Los compradores no están evitando a tu equipo por accidente. Lo están haciendo a propósito. Y las empresas que entienden esto están ganando antes de que empiece la conversación.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

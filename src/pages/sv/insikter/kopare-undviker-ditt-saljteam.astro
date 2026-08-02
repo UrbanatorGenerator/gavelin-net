@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/buyers-avoid-your-sales-team.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Köpare undviker ditt säljteam med flit, och det förändrar allt",
+  "image": coverImage,
   "description": "71% av B2B-köpare vill inte prata med ditt säljteam. De köper av din konkurrent utan att du vet om det. Här är vad LinkedIns 2025 B2B Thought Leadership Impact Report avslöjar, och vad du gör åt det.",
   "datePublished": "2025-10-08",
   "dateModified": "2025-10-08",
@@ -28,12 +31,14 @@ const schema = {
   description="71% av B2B-köpare vill inte prata med ditt säljteam. De köper av din konkurrent utan att du vet om det. Här är vad LinkedIns 2025 B2B Thought Leadership Impact Report avslöjar, och vad du gör åt det."
   lang="sv"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-08">8 oktober 2025</time>, B2B-säljstrategi &amp; Thought Leadership
   </p>
   <h1>Köpare undviker ditt säljteam med flit, och det förändrar allt</h1>
+  <img src={coverImage} alt="Köpare undviker ditt säljteam med flit, och det förändrar allt" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>71% av B2B-köpare vill inte prata med ditt säljteam. Överhuvudtaget.</strong> De tittar på dina demos på YouTube, hittar prissättning på din hemsida, läser recensioner på G2, och fattar sitt beslut innan du ens vet att de finns. Köpare undviker inte ditt team av misstag. De gör det med flit. Och de bolag som förstår det vinner innan samtalet ens har börjat.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

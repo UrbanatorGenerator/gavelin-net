@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/ai-agents-death-of-b-player.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "AI Agents Will Be the Death of the B Player",
+  "image": coverImage,
   "description": "AI agents aren't here to kill your sales team, they're here to expose it. The more predictable your sales process, the faster AI automates it. Here's the mental model shift that separates winners from the rest.",
   "datePublished": "2025-10-10",
   "dateModified": "2025-10-10",
@@ -28,12 +31,14 @@ const schema = {
   description="AI agents aren't here to kill your sales team, they're here to expose it. The more predictable your sales process, the faster AI automates it. Here's the mental model shift that separates winners from the rest."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-10">October 10, 2025</time>, AI in Sales &amp; Sales Leadership
   </p>
   <h1>AI Agents Will Be the Death of the B Player</h1>
+  <img src={coverImage} alt="AI Agents Will Be the Death of the B Player" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>AI agents won't kill your sales team. But they will expose it.</strong> The more predictable your sales process, the faster AI automates it. Average performers doing repeatable tasks are already being replaced, not by robots, but by AI that does the same work faster, cheaper, and without vacation days. The sales organisations that survive this shift aren't the ones with the most tools. They're the ones that restructure around their elite and let AI handle the rest.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/buyers-avoid-your-sales-team.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Buyers Avoid Your Sales Team on Purpose, and That Changes Everything",
+  "image": coverImage,
   "description": "71% of B2B buyers don't want to talk to your sales team. They're buying from your competitor without you knowing. Here's what the LinkedIn 2025 B2B Thought Leadership Impact Report reveals, and what to do about it.",
   "datePublished": "2025-10-08",
   "dateModified": "2025-10-08",
@@ -28,12 +31,14 @@ const schema = {
   description="71% of B2B buyers don't want to talk to your sales team. They're buying from your competitor without you knowing. Here's what the LinkedIn 2025 B2B Thought Leadership Impact Report reveals, and what to do about it."
   lang="en"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-08">October 8, 2025</time>, B2B Sales Strategy &amp; Thought Leadership
   </p>
   <h1>Buyers Avoid Your Sales Team on Purpose, and That Changes Everything</h1>
+  <img src={coverImage} alt="Buyers Avoid Your Sales Team on Purpose, and That Changes Everything" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>71% of B2B buyers don't want to talk to your sales team. At all.</strong> They're watching your demos on YouTube, getting pricing from your website, reading reviews on G2, and making their decision before you even know they exist. Buyers aren't avoiding your team by accident. They're doing it on purpose. And the companies that understand this are winning before the conversation starts.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">

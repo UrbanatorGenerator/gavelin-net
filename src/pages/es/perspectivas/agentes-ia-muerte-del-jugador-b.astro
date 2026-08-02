@@ -1,10 +1,13 @@
 ---
 import Base from '../../../layouts/Base.astro';
 
+const coverImage = "/images/insights/ai-agents-death-of-b-player.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Los agentes de IA serán la muerte del jugador B",
+  "image": coverImage,
   "description": "Los agentes de IA no están aquí para matar a tu equipo de ventas, están aquí para exponerlo. Cuanto más predecible sea tu proceso de ventas, más rápido lo automatiza la IA. El cambio de modelo mental que separa a los ganadores del resto.",
   "datePublished": "2025-10-10",
   "dateModified": "2025-10-10",
@@ -28,12 +31,14 @@ const schema = {
   description="Los agentes de IA no están aquí para matar a tu equipo de ventas, están aquí para exponerlo. Cuanto más predecible sea tu proceso de ventas, más rápido lo automatiza la IA. El cambio de modelo mental que separa a los ganadores del resto."
   lang="es"
   schema={schema}
+  image={coverImage}
 >
 
   <p style="color: var(--color-text-muted); font-size: 0.9rem;">
     Por <a href="/es/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2025-10-10">10 de octubre de 2025</time>, IA en Ventas y Liderazgo de Ventas
   </p>
   <h1>Los agentes de IA serán la muerte del jugador B</h1>
+  <img src={coverImage} alt="Los agentes de IA serán la muerte del jugador B" width="1280" height="720" class="hero-img" />
   <p class="lead"><strong>Los agentes de IA no matarán a tu equipo de ventas. Pero lo expondrán.</strong> Cuanto más predecible sea tu proceso de ventas, más rápido lo automatiza la IA. Los performers medios haciendo tareas repetibles ya están siendo reemplazados, no por robots, sino por IA que hace el mismo trabajo más rápido, más barato y sin días de vacaciones. Las organizaciones de ventas que sobreviven este cambio no son las que tienen más herramientas. Son las que se reestructuran alrededor de sus élites y dejan que la IA maneje el resto.</p>
 
   <div class="section" style="background:#f8f8f8; padding:1.5rem; border-radius:4px; margin-bottom:2rem;">
