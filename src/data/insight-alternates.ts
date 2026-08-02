@@ -7,6 +7,7 @@ export interface AlternateSet {
 }
 
 export const alternateSets: AlternateSet[] = [
+  { sv: "/sv/insikter/odysseus-att-bli-ledare/", en: "/en/insights/odysseus-becoming-a-leader/", es: "/es/perspectivas/odiseo-como-se-forja-un-lider/" },
   { sv: "/sv/insikter/antagandeglappet/", en: "/en/insights/assumption-gap/", es: "/es/perspectivas/brecha-de-suposiciones/" },
   { sv: "/sv/insikter/affaren-dor-efter-ja/", en: "/en/insights/deal-dies-after-yes/", es: "/es/perspectivas/acuerdo-muere-despues-del-si/" },
   { sv: "/sv/insikter/intaktsarkitektur-reset/", en: "/en/insights/revenue-architecture-reset/", es: "/es/perspectivas/arquitectura-de-ingresos/" },
