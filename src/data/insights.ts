@@ -8,13 +8,6 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    url: "/en/insights/human-eq-and-ai-in-sales/",
-    title: "Navigating the Nexus of Human EQ and AI in Sales",
-    description: "Five key insights on blending emotional intelligence with artificial intelligence in modern sales. From trusted advisory to tech human balance, this piece explores how empathy and automation can work together to build lasting customer relationships.",
-    date: "June 25, 2025",
-    category: "Sales Leadership & AI",
-  },
-  {
     url: "/en/insights/odysseus-becoming-a-leader/",
     title: "Odysseus: The Becoming of a Leader",
     description: "What separates a boss from a leader isn't a title, a budget, or even experience, it's the willingness to be changed by the journey. Homer wrote the definitive leadership manual 2,700 years ago and disguised it as an adventure story.",
