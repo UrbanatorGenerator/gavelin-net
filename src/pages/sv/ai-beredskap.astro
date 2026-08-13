@@ -1,0 +1,434 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "AI-beredskapstestet",
+  "applicationCategory": "BusinessApplication",
+  "description": "Tolv frågor som visar hur redo ert B2B-säljteam är att få ut något av AI. Tar tre minuter och ger svar direkt.",
+  "url": "https://gavelin.net/sv/ai-beredskap/",
+  "inLanguage": "sv",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "SEK" },
+  "provider": {
+    "@type": "Organization",
+    "name": "Powersales Communication",
+    "url": "https://powersales.se"
+  }
+};
+---
+
+<Base
+  title="AI-beredskapstestet | Är ert säljteam redo för AI?"
+  description="Tolv frågor som visar hur redo ert B2B-säljteam är att få ut något av AI. Tre minuter, svar direkt, ingen e-post krävs för resultatet."
+  lang="sv"
+  schema={schema}
+  alternates={{ sv: '/sv/ai-beredskap/' }}
+>
+
+  <h1>Är ert säljteam redo för AI?</h1>
+  <p class="lead">Tolv frågor. Tre minuter. Svar direkt, utan att du lämnar din e-post.</p>
+
+  <div class="abt">
+
+  <div class="section" id="intro">
+    <p>De flesta B2B-bolag köper AI innan de bestämt vilket problem det ska lösa. Sedan undrar de varför ingen använder det. Verktyget är sällan felet. Ordningen är felet.</p>
+    <p>Testet mäter fyra saker: era data, er process, er verktygsanvändning och er styrning. Det säger inte om AI är bra. Det säger om ni skulle få ut något av det just nu.</p>
+    <button class="btn" id="start" type="button">Starta testet</button>
+  </div>
+
+  <div class="section" id="quiz" hidden>
+    <div class="progress" aria-hidden="true"><div class="progress-bar" id="bar"></div></div>
+    <p class="progress-text" id="counter"></p>
+    <fieldset id="q-fieldset">
+      <legend id="q-text"></legend>
+      <div id="q-options"></div>
+    </fieldset>
+    <div class="quiz-nav">
+      <button type="button" class="btn-ghost" id="back">Tillbaka</button>
+    </div>
+  </div>
+
+  <div class="section" id="result" hidden>
+    <div class="score-card">
+      <p class="score-num"><span id="score-total"></span> <span class="score-max">av 36</span></p>
+      <p class="score-level" id="score-level"></p>
+    </div>
+
+    <p class="lead" id="score-verdict"></p>
+
+    <h2>Så fördelar sig poängen</h2>
+    <div id="dims"></div>
+
+    <h2 id="weak-head"></h2>
+    <p id="weak-intro"></p>
+    <ol id="weak-actions"></ol>
+
+    <div class="next-step" id="next-step"></div>
+
+    <h2>Vill du ha hela genomgången?</h2>
+    <p>Den fullständiga rapporten går igenom alla fyra dimensionerna, inte bara den svagaste, och vad ordningen bör vara. Den skickas som ett mejl.</p>
+
+    <form id="lead-form" novalidate>
+      <label for="epost">E-post</label>
+      <input type="email" id="epost" name="epost" required autocomplete="email" />
+
+      <label for="foretag">Företag</label>
+      <input type="text" id="foretag" name="foretag" autocomplete="organization" />
+
+      <label for="roll">Roll</label>
+      <input type="text" id="roll" name="roll" autocomplete="organization-title" />
+
+      <div class="hp" aria-hidden="true">
+        <label for="webbplats">Lämna tomt</label>
+        <input type="text" id="webbplats" name="webbplats" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="consent">
+        <label class="check"><input type="checkbox" id="samtycke-rapport" required />
+          <span>Ja, skicka rapporten till min e-post. Adressen sparas så länge dialogen pågår och lämnas inte vidare.</span></label>
+        <label class="check"><input type="checkbox" id="samtycke-nyhetsbrev" />
+          <span>Skicka gärna nyhetsbrevet också. En gång i veckan, går att avsluta när som helst.</span></label>
+      </div>
+
+      <button type="submit" class="btn" id="submit">Skicka rapporten</button>
+      <p class="form-msg" id="form-msg" role="status"></p>
+    </form>
+
+    <p class="restart"><button type="button" class="btn-ghost" id="restart">Gör om testet</button></p>
+  </div>
+
+  </div>
+
+  <!--
+    is:global med .abt som prefix, inte Astros scopade style. Skalen: halva
+    granssnittet skapas i JavaScript, och Astro satter bara sitt scope-attribut
+    pa element som finns i mallen vid kompilering. Scopad CSS traffar darfor
+    aldrig svarsknapparna eller poangstaplarna. Prefixet ger scopningen tillbaka.
+  -->
+  <style is:global>
+    .abt .progress { height: 4px; background: var(--color-border); border-radius: 2px; overflow: hidden; }
+    .abt .progress-bar { height: 100%; width: 0; background: var(--color-accent); transition: width .2s ease; }
+    .abt .progress-text { font-size: .9rem; color: var(--color-text-muted); margin: var(--space-xs) 0 var(--space-md); }
+    .abt #q-fieldset { border: 0; }
+    .abt #q-fieldset legend { font-size: 1.3rem; font-weight: 700; line-height: 1.35; margin-bottom: var(--space-sm); }
+    .abt .opt { display: block; width: 100%; text-align: left; background: #fff; border: 1px solid var(--color-border);
+           border-radius: 6px; padding: .85rem 1rem; margin-bottom: .6rem; font: inherit; color: var(--color-text);
+           cursor: pointer; line-height: 1.5; }
+    .abt .opt:hover, .abt .opt:focus-visible { border-color: var(--color-accent); background: #f7faff; outline: none; }
+    .abt .quiz-nav { margin-top: var(--space-sm); }
+    .abt .btn-ghost { background: none; border: 0; color: var(--color-text-muted); font: inherit; cursor: pointer;
+                 text-decoration: underline; padding: 0; }
+    .abt .btn-ghost:hover { color: var(--color-accent); }
+    .abt .btn-ghost[hidden] { display: none; }
+    .abt .score-card { border: 1px solid var(--color-border); border-radius: 6px; padding: var(--space-md);
+                  text-align: center; margin-bottom: var(--space-md); }
+    .abt .score-num { font-size: 3rem; font-weight: 800; line-height: 1; margin: 0; }
+    .abt .score-max { font-size: 1.1rem; font-weight: 400; color: var(--color-text-muted); }
+    .abt .score-level { font-size: 1.1rem; font-weight: 600; color: var(--color-accent); margin: var(--space-xs) 0 0; }
+    .abt .dim { margin-bottom: .75rem; }
+    .abt .dim-head { display: flex; justify-content: space-between; font-size: .95rem; margin-bottom: .2rem; }
+    .abt .dim-name { font-weight: 600; }
+    .abt .dim-track { height: 6px; background: var(--color-border); border-radius: 3px; overflow: hidden; }
+    .abt .dim-fill { height: 100%; background: var(--color-accent); }
+    .abt .dim-fill.weak { background: #c2410c; }
+    .abt .next-step { border-left: 3px solid var(--color-accent); background: #f8f8f8; padding: .75rem 1.25rem;
+                 border-radius: 0 4px 4px 0; margin: var(--space-md) 0; }
+    .abt .next-step p:last-child { margin-bottom: 0; }
+    .abt form label { display: block; font-size: .9rem; font-weight: 600; margin-top: var(--space-sm); }
+    .abt form input[type=email], .abt form input[type=text] { width: 100%; padding: .6rem .75rem; font: inherit;
+      border: 1px solid var(--color-border); border-radius: 4px; margin-top: .25rem; }
+    .abt form input:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+    .abt .consent { margin-top: var(--space-sm); }
+    .abt .check { display: flex; gap: .6rem; align-items: flex-start; font-weight: 400; font-size: .95rem;
+             margin-top: .6rem; cursor: pointer; }
+    .abt .check input { margin-top: .35rem; flex-shrink: 0; }
+    .abt .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+    .abt .form-msg { margin-top: var(--space-sm); font-size: .95rem; }
+    .abt .form-msg.ok { color: #15803d; }
+    .abt .form-msg.err { color: #b91c1c; }
+    .abt .restart { margin-top: var(--space-lg); text-align: center; }
+  </style>
+
+  <script is:inline>
+    (function () {
+      'use strict';
+
+      // ---------------------------------------------------------------
+      // KONFIGURATION. Det enda som behover andras nar n8n-flodet star,
+      // eller nar erbjudandetrappan andras.
+      // ---------------------------------------------------------------
+      var ENDPOINT = ''; // TODO: n8n-webhookens URL. Tom sträng ger mailto-fallback.
+      var FALLBACK_EPOST = 'urban.gavelin@powersales.se';
+
+      var NIVAER = [
+        {
+          min: 0, max: 12, namn: 'Inte redo',
+          verdict: 'Problemet är inte AI. Det är grunderna. AI ovanpå det här skulle göra befintlig oreda snabbare, inte mindre.',
+          steg: '<p><strong>Vad jag skulle göra först:</strong> lägg AI åt sidan i ett kvartal och bygg processen. Det är inte ett tråkigare svar, det är ett billigare.</p><p><a href="/sv/utbildning-workshops/">Utbildning och workshops</a></p>'
+        },
+        {
+          min: 13, max: 24, namn: 'Delvis redo',
+          verdict: 'Ni har underlaget men inte systemet. Det är det vanligaste läget, och det är också det läge där det går snabbast att flytta sig.',
+          steg: '<p><strong>Vad jag skulle göra först:</strong> en genomlysning som visar var det faktiskt läcker, innan ni bygger något. Det tar ett par veckor och sparar oftast ett halvår.</p><p><a href="/sv/forsaljningstransformation/">Revenue Architecture-diagnos</a> eller <a href="/sv/kontakt/">boka ett samtal</a></p>'
+        },
+        {
+          min: 25, max: 36, namn: 'Redo',
+          verdict: 'Ni klarar er förmodligen själva. Det här är ovanligt, och ni behöver knappast anlita någon för att komma vidare.',
+          steg: '<p>Jag har inget att sälja er. Om ni vill ha uppslag ändå skriver jag ett brev i veckan om precis det här.</p><p><a href="/sv/insikter/">Insikter</a></p>'
+        }
+      ];
+
+      var DIMENSIONER = {
+        D: {
+          namn: 'Data',
+          beskrivning: 'Om AI:n inte kan läsa det finns det inte. Allt annat vilar på den här.',
+          atgarder: [
+            'Bestäm ett enda ställe där pipeline bor. Allt annat är anteckningar.',
+            'Skriv ned vad som måste vara sant i varje steg, med kundens egna ord och inte era.',
+            'Testa hållbarheten: låt någon ta över en affär utan att först prata med säljaren.'
+          ]
+        },
+        E: {
+          namn: 'Execution',
+          beskrivning: 'En process som finns på pappret men inte i praktiken är ingen process.',
+          atgarder: [
+            'Rita processen som den faktiskt ser ut, inte som den borde se ut.',
+            'Sätt kriterier för när en affär får gå vidare. Två meningar per steg räcker.',
+            'Flytta pipeline-genomgången från att prata utfall till att pröva kriterier.'
+          ]
+        },
+        A: {
+          namn: 'Augmentation',
+          beskrivning: 'Verktyg löser inga problem som ingen har formulerat.',
+          atgarder: [
+            'Mät var tiden går innan ni köper något. En vecka med enkel loggning räcker.',
+            'Välj ett moment att automatisera, inte ett verktyg att införa.',
+            'Ge det en ägare och ett datum. Utan det rinner det ut i sanden som förra gången.'
+          ]
+        },
+        L: {
+          namn: 'Leadership',
+          beskrivning: 'Det här är dyrast att sakna och billigast att åtgärda.',
+          atgarder: [
+            'Enas om ett intäktsmål som sälj och marknad delar, inte två som krockar.',
+            'Utse någon som äger frågan om hur säljarbetet ska fungera, med mandat och budget.',
+            'Svara på hur nästa trettio procent ska komma innan budgeten sätts, inte efter.'
+          ]
+        }
+      };
+
+      var FRAGOR = [
+        { d: 'D', t: 'Om du frågar systemet hur många affärer som ligger i steget efter skickad offert, hur säkert är svaret?',
+          o: ['Vi har ingen sådan uppgift', 'Vi får ett tal, men jag litar inte på det', 'Ungefär rätt, kräver handpåläggning', 'Rätt, och alla i ledningen ser samma siffra'] },
+        { d: 'D', t: 'Hur mycket av det som avgör en affär finns nedskrivet, till skillnad från i säljarens huvud?',
+          o: ['Nästan ingenting', 'Utfallet, men inte varför', 'Utfall och grova anteckningar', 'Kundens egna ord, invändningarna och nästa steg finns dokumenterade'] },
+        { d: 'D', t: 'När en säljare slutar, hur mycket av kundrelationen följer med ut?',
+          o: ['Allt', 'Det mesta', 'Kontaktuppgifterna finns kvar', 'Nästa person kan ta vid inom en vecka'] },
+        { d: 'E', t: 'Hur många säljprocesser har ni?',
+          o: ['Ingen uttalad', 'En på pappret, flera i praktiken', 'En, men den följs olika', 'En, och den följs'] },
+        { d: 'E', t: 'Kan dina säljare beskriva vad som måste vara sant för att en affär ska gå vidare till nästa steg?',
+          o: ['Nej, stegen är känsla', 'Några kan', 'De flesta kan', 'Kriterierna är skrivna och används i pipeline-genomgången'] },
+        { d: 'E', t: 'Hur långt i förväg vet du att en månad kommer bli dålig?',
+          o: ['När månaden är slut', 'Sista veckan', 'Ett par veckor in', 'Innan månaden börjar'] },
+        { d: 'A', t: 'Vilka AI-verktyg används i säljarbetet idag, och vem betalar för dem?',
+          o: ['Vet inte, misstänker privata konton', 'Enskilda testar på egen hand', 'Vi har infört något centralt, användningen är ojämn', 'Inbyggt i processen och används dagligen'] },
+        { d: 'A', t: 'Hur stor del av en säljares vecka går till att flytta information mellan system?',
+          o: ['Mer än en dag', 'Ungefär en dag', 'Några timmar', 'Nästan inget, det sker automatiskt'] },
+        { d: 'A', t: 'Vad hände när ni senast provade ett AI-verktyg i säljarbetet?',
+          o: ['Vi har inte provat', 'Vi provade, det rann ut i sanden', 'Det används av några', 'Det är kvar och har mätbar effekt'] },
+        { d: 'L', t: 'Mäts sälj och marknad på mål som drar åt samma håll?',
+          o: ['De drar åt olika håll', 'Målen är olika men krockar sällan öppet', 'Delvis gemensamma mål', 'Gemensamt intäktsmål med delat ansvar'] },
+        { d: 'L', t: 'Intäkten ska öka trettio procent nästa år. Vad är planen?',
+          o: ['Anställa fler', 'Anställa fler och hoppas på effektivisering', 'Delvis effektivisering, delvis rekrytering', 'Utan att öka huvudräkningen'] },
+        { d: 'L', t: 'Vem äger frågan om hur säljarbetet ska fungera om två år?',
+          o: ['Ingen', 'Vd, mellan allt annat', 'Säljchefen', 'Uttalat ansvar, med mandat och budget'] }
+      ];
+
+      // ---------------------------------------------------------------
+
+      var $ = function (id) { return document.getElementById(id); };
+      var svar = [];
+      var i = 0;
+
+      function kalla() {
+        try { return new URLSearchParams(location.search).get('k') || ''; }
+        catch (e) { return ''; }
+      }
+
+      function visaFraga() {
+        var f = FRAGOR[i];
+        $('bar').style.width = (i / FRAGOR.length * 100) + '%';
+        $('counter').textContent = 'Fråga ' + (i + 1) + ' av ' + FRAGOR.length;
+        $('q-text').textContent = f.t;
+        var box = $('q-options');
+        box.textContent = '';
+        f.o.forEach(function (text, p) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'opt';
+          b.textContent = text;
+          b.addEventListener('click', function () { valj(p); });
+          box.appendChild(b);
+        });
+        $('back').hidden = i === 0;
+        var first = box.querySelector('.opt');
+        if (first && i > 0) first.focus();
+      }
+
+      function valj(poang) {
+        svar[i] = poang;
+        i++;
+        if (i < FRAGOR.length) visaFraga();
+        else visaResultat();
+      }
+
+      function visaResultat() {
+        var per = { D: 0, E: 0, A: 0, L: 0 };
+        FRAGOR.forEach(function (f, n) { per[f.d] += svar[n]; });
+        var total = per.D + per.E + per.A + per.L;
+
+        var nivaObj = NIVAER.filter(function (n) { return total >= n.min && total <= n.max; })[0];
+
+        var svagast = ['D', 'E', 'A', 'L'].reduce(function (a, b) {
+          return per[b] < per[a] ? b : a;
+        });
+
+        $('score-total').textContent = total;
+        $('score-level').textContent = nivaObj.namn;
+        $('score-verdict').textContent = nivaObj.verdict;
+        $('next-step').innerHTML = nivaObj.steg;
+
+        var dims = $('dims');
+        dims.textContent = '';
+        ['D', 'E', 'A', 'L'].forEach(function (k) {
+          var wrap = document.createElement('div');
+          wrap.className = 'dim';
+          var head = document.createElement('div');
+          head.className = 'dim-head';
+          var namn = document.createElement('span');
+          namn.className = 'dim-name';
+          namn.textContent = DIMENSIONER[k].namn;
+          var val = document.createElement('span');
+          val.textContent = per[k] + ' av 9';
+          head.appendChild(namn); head.appendChild(val);
+          var track = document.createElement('div');
+          track.className = 'dim-track';
+          var fill = document.createElement('div');
+          fill.className = 'dim-fill' + (k === svagast ? ' weak' : '');
+          fill.style.width = (per[k] / 9 * 100) + '%';
+          track.appendChild(fill);
+          wrap.appendChild(head); wrap.appendChild(track);
+          dims.appendChild(wrap);
+        });
+
+        // Ligger alla dimensioner hogt ar det missvisande att peka ut en som svag.
+        if (per[svagast] >= 7) {
+          $('weak-head').textContent = 'Jämnt över hela linjen';
+          $('weak-intro').textContent = 'Ingen dimension sticker ut som svag. Lägst ligger ' +
+            DIMENSIONER[svagast].namn + ', så om ni vill skruva vidare är det där:';
+        } else {
+          $('weak-head').textContent = 'Er svagaste dimension: ' + DIMENSIONER[svagast].namn;
+          $('weak-intro').textContent = DIMENSIONER[svagast].beskrivning + ' Tre saker att göra först:';
+        }
+        var lista = $('weak-actions');
+        lista.textContent = '';
+        DIMENSIONER[svagast].atgarder.forEach(function (a) {
+          var li = document.createElement('li');
+          li.textContent = a;
+          lista.appendChild(li);
+        });
+
+        window.__resultat = {
+          total: total, D: per.D, E: per.E, A: per.A, L: per.L,
+          svagast: DIMENSIONER[svagast].namn, niva: nivaObj.namn,
+          svar: svar.slice(), kalla: kalla()
+        };
+
+        $('quiz').hidden = true;
+        $('result').hidden = false;
+        $('result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      $('start').addEventListener('click', function () {
+        $('intro').hidden = true;
+        $('quiz').hidden = false;
+        visaFraga();
+      });
+
+      $('back').addEventListener('click', function () {
+        if (i > 0) { i--; visaFraga(); }
+      });
+
+      $('restart').addEventListener('click', function () {
+        svar = []; i = 0;
+        $('result').hidden = true;
+        $('quiz').hidden = false;
+        $('form-msg').textContent = '';
+        $('lead-form').reset();
+        visaFraga();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      $('lead-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var msg = $('form-msg');
+        msg.className = 'form-msg';
+
+        if ($('webbplats').value) { return; } // bot
+
+        var epost = $('epost').value.trim();
+        if (!epost || epost.indexOf('@') < 1) {
+          msg.className = 'form-msg err';
+          msg.textContent = 'Fyll i en e-postadress som fungerar.';
+          return;
+        }
+        if (!$('samtycke-rapport').checked) {
+          msg.className = 'form-msg err';
+          msg.textContent = 'Kryssa i rutan så vet jag att jag får skicka rapporten.';
+          return;
+        }
+
+        var data = Object.assign({}, window.__resultat, {
+          epost: epost,
+          foretag: $('foretag').value.trim(),
+          roll: $('roll').value.trim(),
+          nyhetsbrev: $('samtycke-nyhetsbrev').checked,
+          tidpunkt: new Date().toISOString()
+        });
+
+        if (!ENDPOINT) {
+          var rad = 'Poäng ' + data.total + ' av 36, nivå ' + data.niva +
+            '. Data ' + data.D + ', Execution ' + data.E +
+            ', Augmentation ' + data.A + ', Leadership ' + data.L +
+            '. Svagast: ' + data.svagast + '.';
+          location.href = 'mailto:' + FALLBACK_EPOST +
+            '?subject=' + encodeURIComponent('AI-beredskapstestet: ' + data.total + ' av 36') +
+            '&body=' + encodeURIComponent(rad + '\n\nFöretag: ' + data.foretag + '\nRoll: ' + data.roll + '\n\nSkicka gärna hela rapporten.');
+          msg.className = 'form-msg ok';
+          msg.textContent = 'Ditt e-postprogram öppnas med resultatet ifyllt. Skicka så kommer rapporten.';
+          return;
+        }
+
+        $('submit').disabled = true;
+        msg.textContent = 'Skickar ...';
+
+        fetch(ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        }).then(function (r) {
+          if (!r.ok) throw new Error(r.status);
+          msg.className = 'form-msg ok';
+          msg.textContent = 'Tack. Rapporten är på väg till ' + epost + '.';
+          $('lead-form').reset();
+        }).catch(function () {
+          msg.className = 'form-msg err';
+          msg.textContent = 'Något gick fel på vägen. Mejla ' + FALLBACK_EPOST + ' så skickar jag den för hand.';
+          $('submit').disabled = false;
+        });
+      });
+    })();
+  </script>
+
+</Base>
