@@ -63,6 +63,7 @@ const schema = {
     <h2 id="weak-head"></h2>
     <p id="weak-intro"></p>
     <ol id="weak-actions"></ol>
+    <p id="weak-offer" hidden></p>
 
     <div class="next-step" id="next-step"></div>
 
@@ -210,6 +211,9 @@ const schema = {
         L: {
           namn: 'Leadership',
           beskrivning: 'Det här är dyrast att sakna och billigast att åtgärda.',
+          // vidare visas bara nar nivan inte ar Redo. Satts per dimension nar det
+          // finns ett erbjudande som adresserar just den bristen.
+          vidare: 'Executive coaching kring precis det här ingår i <a href="/sv/forsaljningstransformation/">Revenue Transformation Program</a>.',
           atgarder: [
             'Enas om ett intäktsmål som sälj och marknad delar, inte två som krockar.',
             'Utse någon som äger frågan om hur säljarbetet ska fungera, med mandat och budget.',
@@ -338,6 +342,17 @@ const schema = {
           li.textContent = a;
           lista.appendChild(li);
         });
+
+        // Peka pa ett erbjudande bara nar bristen ar verklig. Den som far Redo
+        // har just fatt hora att de klarar sig sjalva, och da vore det marklig
+        // att salja i nasta andetag.
+        var vidare = $('weak-offer');
+        if (DIMENSIONER[svagast].vidare && nivaObj.namn !== 'Redo') {
+          vidare.innerHTML = DIMENSIONER[svagast].vidare;
+          vidare.hidden = false;
+        } else {
+          vidare.hidden = true;
+        }
 
         window.__resultat = {
           total: total, D: per.D, E: per.E, A: per.A, L: per.L,
