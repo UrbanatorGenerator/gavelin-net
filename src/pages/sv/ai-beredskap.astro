@@ -159,7 +159,10 @@ const schema = {
       // KONFIGURATION. Det enda som behover andras nar n8n-flodet star,
       // eller nar erbjudandetrappan andras.
       // ---------------------------------------------------------------
-      var ENDPOINT = ''; // TODO: n8n-webhookens URL. Tom sträng ger mailto-fallback.
+      // n8n pa mini1, workflow "AI-beredskapstestet — Lead" (j96LJ5vQEcdtHZdd).
+      // Tom strang har ger mailto-fallback i stallet, sa sidan aldrig blir en
+      // atervandsgrand om flodet ligger nere.
+      var ENDPOINT = 'https://n8n.powersales.se/webhook/ai-beredskap';
       var FALLBACK_EPOST = 'urban.gavelin@powersales.se';
 
       var NIVAER = [
