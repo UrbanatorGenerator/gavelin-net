@@ -112,6 +112,47 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
       nav ul { list-style: none; display: flex; gap: var(--space-md); flex-wrap: wrap; }
       nav ul li a { color: var(--color-text-muted); font-size: 0.95rem; }
       nav ul li a:hover { color: var(--color-accent); text-decoration: none; }
+      /* Undermeny. Oppnas pa hover och pa tangentbordsfokus, sa den gar att na
+         utan mus. Pa smala skarmar finns ingen hover, darfor ligger den alltid
+         utfalld dar i stallet. */
+      nav li.has-sub { position: relative; }
+      nav li.has-sub > ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: -0.75rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        background: var(--color-bg);
+        border: 1px solid var(--color-border);
+        border-radius: 4px;
+        padding: 0.75rem 1rem;
+        margin-top: 0.5rem;
+        min-width: 11rem;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+        z-index: 10;
+      }
+      nav li.has-sub:hover > ul,
+      nav li.has-sub:focus-within > ul { display: flex; }
+      @media (max-width: 767px) {
+        /* Ingen hover pa pekskarm. Undermenyn plattas darfor ut till vanliga
+           menyval i samma rad. Forsta posten doljs eftersom den bara upprepar
+           foraldralanken. */
+        nav li.has-sub { display: flex; flex-wrap: wrap; gap: var(--space-md); }
+        nav li.has-sub > ul {
+          display: flex;
+          position: static;
+          flex-direction: row;
+          gap: var(--space-md);
+          background: none;
+          border: 0;
+          box-shadow: none;
+          padding: 0;
+          margin: 0;
+          min-width: 0;
+        }
+        nav li.has-sub > ul > li:first-child { display: none; }
+      }
       main { max-width: var(--max-width); margin: 0 auto; padding: var(--space-lg) var(--space-md); }
       h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: var(--space-md); font-weight: 800; }
       h2 { font-size: 1.5rem; line-height: 1.3; margin: var(--space-md) 0 var(--space-sm); font-weight: 700; }
@@ -158,7 +199,13 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
         {lang === 'sv' ? (
           <>
             <li><a href="/sv/urban-gavelin/">Om Urban</a></li>
-            <li><a href="/sv/forsaljningstransformation/">Erbjudande</a></li>
+            <li class="has-sub">
+              <a href="/sv/forsaljningstransformation/">Erbjudande</a>
+              <ul>
+                <li><a href="/sv/forsaljningstransformation/">Hela erbjudandet</a></li>
+                <li><a href="/sv/veckotakten/">Veckotakten</a></li>
+              </ul>
+            </li>
             <li><a href="/sv/expertomraden/">Expertområden</a></li>
             <li><a href="/sv/insikter/">Insikter</a></li>
             <li><a href="/sv/kontakt/">Kontakt</a></li>
