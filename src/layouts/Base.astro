@@ -216,7 +216,13 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
         ) : lang === 'en' ? (
           <>
             <li><a href="/en/urban-gavelin/">About</a></li>
-            <li><a href="/en/sales-transformation/">Services</a></li>
+            <li class="has-sub">
+              <a href="/en/sales-transformation/">Services</a>
+              <ul>
+                <li><a href="/en/sales-transformation/">All services</a></li>
+                <li><a href="/en/ai-sales-os/">AI-Sales OS</a></li>
+              </ul>
+            </li>
             <li><a href="/en/expertise/">Expertise</a></li>
             <li><a href="/en/insights/">Insights</a></li>
             <li><a href="/en/contact/">Contact</a></li>
