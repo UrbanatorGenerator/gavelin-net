@@ -4,10 +4,10 @@ import Base from '../../layouts/Base.astro';
 const schema = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "AI-beredskapstestet",
+  "name": "AI-mognadstestet",
   "applicationCategory": "BusinessApplication",
   "description": "Tolv frågor som visar hur redo ert B2B-säljteam är att få ut något av AI. Tar tre minuter och ger svar direkt.",
-  "url": "https://gavelin.net/sv/ai-beredskap/",
+  "url": "https://gavelin.net/sv/ai-mognad/",
   "inLanguage": "sv",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "SEK" },
   "provider": {
@@ -19,11 +19,11 @@ const schema = {
 ---
 
 <Base
-  title="AI-beredskapstestet | Är ert säljteam redo för AI?"
+  title="AI-mognadstestet | Är ert säljteam redo för AI?"
   description="Tolv frågor som visar hur redo ert B2B-säljteam är att få ut något av AI. Tre minuter, svar direkt, ingen e-post krävs för resultatet."
   lang="sv"
   schema={schema}
-  alternates={{ sv: '/sv/ai-beredskap/' }}
+  alternates={{ sv: '/sv/ai-mognad/' }}
 >
 
   <h1>Är ert säljteam redo för AI?</h1>
@@ -159,10 +159,10 @@ const schema = {
       // KONFIGURATION. Det enda som behover andras nar n8n-flodet star,
       // eller nar erbjudandetrappan andras.
       // ---------------------------------------------------------------
-      // n8n pa mini1, workflow "AI-beredskapstestet — Lead" (j96LJ5vQEcdtHZdd).
+      // n8n pa mini1, workflow "AI-mognadstestet — Lead" (j96LJ5vQEcdtHZdd).
       // Tom strang har ger mailto-fallback i stallet, sa sidan aldrig blir en
       // atervandsgrand om flodet ligger nere.
-      var ENDPOINT = 'https://n8n.powersales.se/webhook/ai-beredskap';
+      var ENDPOINT = 'https://n8n.powersales.se/webhook/ai-mognad';
       var FALLBACK_EPOST = 'urban.gavelin@powersales.se';
 
       var NIVAER = [
@@ -426,7 +426,7 @@ const schema = {
             ', Augmentation ' + data.A + ', Leadership ' + data.L +
             '. Svagast: ' + data.svagast + '.';
           location.href = 'mailto:' + FALLBACK_EPOST +
-            '?subject=' + encodeURIComponent('AI-beredskapstestet: ' + data.total + ' av 36') +
+            '?subject=' + encodeURIComponent('AI-mognadstestet: ' + data.total + ' av 36') +
             '&body=' + encodeURIComponent(rad + '\n\nFöretag: ' + data.foretag + '\nRoll: ' + data.roll + '\n\nSkicka gärna hela rapporten.');
           msg.className = 'form-msg ok';
           msg.textContent = 'Ditt e-postprogram öppnas med resultatet ifyllt. Skicka så kommer rapporten.';
