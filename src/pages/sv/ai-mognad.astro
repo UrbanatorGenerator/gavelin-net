@@ -34,6 +34,7 @@ const schema = {
   <div class="section" id="intro">
     <p>De flesta B2B-bolag köper AI innan de bestämt vilket problem det ska lösa. Sedan undrar de varför ingen använder det. Verktyget är sällan felet. Ordningen är felet.</p>
     <p>Testet mäter fyra saker: era data, er process, er verktygsanvändning och er styrning. Det säger inte om AI är bra. Det säger om ni skulle få ut något av det just nu.</p>
+    <p>Svara som det är, inte som det borde vara. Ingen ser svaren utom ni, och ett skönmålat resultat hjälper er ingenting.</p>
     <button class="btn" id="start" type="button">Starta testet</button>
   </div>
 
@@ -167,17 +168,17 @@ const schema = {
 
       var NIVAER = [
         {
-          min: 0, max: 12, namn: 'Inte redo',
+          min: 0, max: 14, namn: 'Inte redo',
           verdict: 'Problemet är inte AI. Det är grunderna. AI ovanpå det här skulle göra befintlig oreda snabbare, inte mindre.',
           steg: '<p><strong>Vad jag skulle göra först:</strong> lägg AI åt sidan i ett kvartal och bygg processen. Det är inte ett tråkigare svar, det är ett billigare.</p><p><a href="/sv/utbildning-workshops/">Utbildning och workshops</a></p>'
         },
         {
-          min: 13, max: 24, namn: 'Delvis redo',
+          min: 15, max: 29, namn: 'Delvis redo',
           verdict: 'Ni har underlaget men inte systemet. Det är det vanligaste läget, och det är också det läge där det går snabbast att flytta sig.',
           steg: '<p><strong>Vad jag skulle göra först:</strong> en genomlysning som visar var det faktiskt läcker, innan ni bygger något. Det tar ett par veckor och sparar oftast ett halvår.</p><p><a href="/sv/forsaljningstransformation/">Revenue Architecture-diagnos</a> eller <a href="/sv/kontakt/">boka ett samtal</a></p>'
         },
         {
-          min: 25, max: 36, namn: 'Redo',
+          min: 30, max: 36, namn: 'Redo',
           verdict: 'Ni klarar er förmodligen själva. Det här är ovanligt, och ni behöver knappast anlita någon för att komma vidare.',
           steg: '<p>Jag har inget att sälja er. Om ni vill ha uppslag ändå skriver jag ett brev i veckan om precis det här.</p><p><a href="/sv/insikter/">Insikter</a></p>'
         }
@@ -230,17 +231,17 @@ const schema = {
 
       var FRAGOR = [
         { d: 'D', t: 'Om du frågar systemet hur många affärer som ligger i steget efter skickad offert, hur säkert är svaret?',
-          o: ['Vi har ingen sådan uppgift', 'Vi får ett tal, men jag litar inte på det', 'Ungefär rätt, kräver handpåläggning', 'Rätt, och alla i ledningen ser samma siffra'] },
+          o: ['Vi har ingen sådan uppgift', 'Vi får ett tal, men jag litar inte på det', 'Ungefär rätt, men någon måste städa det först', 'Rätt, och jag kan visa det för ledningen utan att förbereda något'] },
         { d: 'D', t: 'Hur mycket av det som avgör en affär finns nedskrivet, till skillnad från i säljarens huvud?',
           o: ['Nästan ingenting', 'Utfallet, men inte varför', 'Utfall och grova anteckningar', 'Kundens egna ord, invändningarna och nästa steg finns dokumenterade'] },
         { d: 'D', t: 'När en säljare slutar, hur mycket av kundrelationen följer med ut?',
-          o: ['Allt', 'Det mesta', 'Kontaktuppgifterna finns kvar', 'Nästa person kan ta vid inom en vecka'] },
+          o: ['Allt', 'Det mesta', 'Kontaktuppgifterna finns kvar', 'Senast en säljare slutade tog någon annan över inom en vecka'] },
         { d: 'E', t: 'Hur många säljprocesser har ni?',
-          o: ['Ingen uttalad', 'En på pappret, flera i praktiken', 'En, men den följs olika', 'En, och den följs'] },
+          o: ['Ingen uttalad', 'En på pappret, flera i praktiken', 'En, men den följs olika', 'En, och stegen finns nedskrivna där säljarna faktiskt arbetar'] },
         { d: 'E', t: 'Kan dina säljare beskriva vad som måste vara sant för att en affär ska gå vidare till nästa steg?',
           o: ['Nej, stegen är känsla', 'Några kan', 'De flesta kan', 'Kriterierna är skrivna och används i pipeline-genomgången'] },
         { d: 'E', t: 'Hur långt i förväg vet du att en månad kommer bli dålig?',
-          o: ['När månaden är slut', 'Sista veckan', 'Ett par veckor in', 'Innan månaden börjar'] },
+          o: ['När månaden är slut', 'Sista veckan', 'Ett par veckor in', 'Innan månaden börjar, och förra gången stämde det'] },
         { d: 'A', t: 'Vilka AI-verktyg används i säljarbetet idag, och vem betalar för dem?',
           o: ['Vet inte, misstänker privata konton', 'Enskilda testar på egen hand', 'Vi har infört något centralt, användningen är ojämn', 'Inbyggt i processen och används dagligen'] },
         { d: 'A', t: 'Hur stor del av en säljares vecka går till att flytta information mellan system?',
@@ -248,7 +249,7 @@ const schema = {
         { d: 'A', t: 'Vad hände när ni senast provade ett AI-verktyg i säljarbetet?',
           o: ['Vi har inte provat', 'Vi provade, det rann ut i sanden', 'Det används av några', 'Det är kvar och har mätbar effekt'] },
         { d: 'L', t: 'Mäts sälj och marknad på mål som drar åt samma håll?',
-          o: ['De drar åt olika håll', 'Målen är olika men krockar sällan öppet', 'Delvis gemensamma mål', 'Gemensamt intäktsmål med delat ansvar'] },
+          o: ['De drar åt olika håll', 'Målen är olika men krockar sällan öppet', 'Delvis gemensamma mål', 'Gemensamt intäktsmål, och båda cheferna mäts på samma siffra'] },
         { d: 'L', t: 'Intäkten ska öka trettio procent nästa år. Vad är planen?',
           o: ['Anställa fler', 'Anställa fler och hoppas på effektivisering', 'Delvis effektivisering, delvis rekrytering', 'Utan att utöka teamet'] },
         { d: 'L', t: 'Vem äger frågan om hur säljarbetet ska fungera om två år?',
