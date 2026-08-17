@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/lo-que-pasa-en-la-reunion-semanal-lo-decide-todo/",
+    title: "Lo que pasa en la reunión semanal lo decide todo lo demás",
+    description: "La mayoría de las reuniones semanales de ventas se centran en creencias, no en hechos verificables. Este artículo explica por qué cambiar las preguntas del pipeline review transforma la precisión del forecast y qué rutina implementar desde el próximo lunes.",
+    date: "17 de agosto de 2026",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/es/perspectivas/navegando-el-nexo-entre-la-inteligencia-emocional-humana-y-la-ia-en-ventas/",
     title: "Navegando el nexo entre la inteligencia emocional humana y la IA en ventas",
     description: "Cinco aprendizajes clave extraídos de anteriores boletines de Sales Mastery sobre cómo la inteligencia emocional y la IA pueden combinarse en ventas B2B. Un repaso a la confianza, el self-service, la gestión del estrés y el equilibrio entre tecnología y conexión humana.",

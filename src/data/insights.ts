@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/what-happens-in-the-weekly-meeting-decides-everything-else/",
+    title: "What Happens in the Weekly Meeting Decides Everything Else",
+    description: "Urban Gavelin explains why most weekly sales meetings waste time and what changes when belief-based questions are replaced with measurable criteria. A practical look at rhythm, accountability, and forecast accuracy.",
+    date: "August 17, 2026",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/en/insights/navigating-the-nexus-of-human-eq-and-ai-in-sales/",
     title: "Navigating the Nexus of Human EQ and AI in Sales",
     description: "Five key insights from past Sales Mastery Newsletters explore how emotional intelligence and artificial intelligence can work together to transform selling. The piece examines trust, self-service, pressure management, relationships, and the right tech-human balance.",

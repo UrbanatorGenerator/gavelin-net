@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/det-som-hander-pa-veckomotet-avgor-allt-annat/",
+    title: "Det som händer på veckomötet avgör allt annat",
+    description: "Ett veckomöte som bara redovisar pipeline bygger på tro, inte fakta. Genom att byta ut frågorna från vad säljaren tror till vad som faktiskt måste vara sant blir prognosen träffsäker och aktiviteterna mätbara. Rytmen, inte innehållet, är vad som gör skillnaden över tid.",
+    date: "17 augusti 2026",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/sv/insikter/navigera-mellan-mansklig-eq-och-ai-i-forsaljning/",
     title: "Att navigera mellan mänsklig EQ och AI i försäljning",
     description: "Fem viktiga insikter från Sales Mastery Newsletter om hur emotionell intelligens och AI tillsammans kan förändra försäljning för gott. Urban Gavelin visar hur säljare kan bli rådgivare, hantera press och bygga relationer som varar, samtidigt som AI sköter det tunga lyftet.",
