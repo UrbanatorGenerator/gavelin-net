@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/si-la-ia-no-puede-leerlo-no-existe/",
+    title: "Si la IA no puede leerlo, no existe",
+    description: "La mayoría de los proyectos de IA en ventas fracasan mucho antes de que el modelo sea el problema. El motivo casi siempre es el mismo: el conocimiento clave vive en la cabeza del vendedor, no en el CRM.",
+    date: "24 de agosto de 2026",
+    category: "Datos & Adopción de IA en Ventas",
+  },
+  {
     url: "/es/perspectivas/lo-que-pasa-en-la-reunion-semanal-lo-decide-todo/",
     title: "Lo que pasa en la reunión semanal lo decide todo lo demás",
     description: "La mayoría de las reuniones semanales de ventas se centran en creencias, no en hechos verificables. Este artículo explica por qué cambiar las preguntas del pipeline review transforma la precisión del forecast y qué rutina implementar desde el próximo lunes.",

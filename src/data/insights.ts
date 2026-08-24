@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/if-the-ai-cant-read-it-it-doesnt-exist/",
+    title: "If the AI Can't Read It, It Doesn't Exist",
+    description: "Most AI projects in sales fail long before the model becomes the problem. This piece explains why CRM data built for reporting cannot feed an AI that needs to reason, and what to check before you invest further.",
+    date: "August 24, 2026",
+    category: "Sales Data & AI Readiness",
+  },
+  {
     url: "/en/insights/what-happens-in-the-weekly-meeting-decides-everything-else/",
     title: "What Happens in the Weekly Meeting Decides Everything Else",
     description: "Urban Gavelin explains why most weekly sales meetings waste time and what changes when belief-based questions are replaced with measurable criteria. A practical look at rhythm, accountability, and forecast accuracy.",

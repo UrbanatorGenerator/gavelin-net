@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+const coverImage = "/images/insights/if-the-ai-cant-read-it-it-doesnt-exist.webp";
+
+const schema = {"@context":"https://schema.org","@type":"Article","headline":"Om AI:n inte kan läsa det finns det inte","image":"/images/insights/if-the-ai-cant-read-it-it-doesnt-exist.webp","description":"De flesta AI-projekt i sälj kraschar inte på grund av modellen, utan på grund av datan. Urban Gavelin visar varför CRM-system byggda för rapportering saknar den resonemangsdata en AI faktiskt behöver, och hur du testar var er organisation står redan idag.","datePublished":"2026-08-24","dateModified":"2026-08-24","author":{"@type":"Person","name":"Urban Gavelin","url":"https://gavelin.net/sv/urban-gavelin/"},"publisher":{"@type":"Organization","name":"Powersales Communication","url":"https://powersales.se"},"keywords":["AI i sälj","CRM-data","pipeline","säljprocess","resonemangsdata","säljledarskap","digital mognad"],"url":"https://gavelin.net/sv/insikter/om-ain-inte-kan-lasa-det-finns-det-inte/"};
+---
+
+<Base
+title="Om AI:n inte kan läsa det finns det inte | Urban Gavelin"
+description="De flesta AI-projekt i sälj kraschar inte på grund av modellen, utan på grund av datan. Urban Gavelin visar varför CRM-system byggda för rapportering saknar den resonemangsdata en AI faktiskt behöver, och hur du testar var er organisation står redan idag."
+lang="sv"
+schema={schema}
+image={coverImage}
+>
+
+<p style="color: var(--color-text-muted); font-size: 0.9rem;">
+Av <a href="/sv/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-08-24">24 augusti 2026</time>, AI &amp; Data i Sälj
+</p>
+<h1>Om AI:n inte kan läsa det finns det inte</h1>
+<img src={coverImage} alt="Om AI:n inte kan läsa det finns det inte" width="1280" height="720" class="hero-img" />
+<p class="lead"><strong>Det finns en mening jag säger på nästan varje möte om AI i säljarbetet, och det brukar bli tyst i rummet efteråt: om AI:n inte kan läsa det finns det inte. Det här brevet handlar om varför de flesta AI-projekt i sälj havererar långt innan modellen är problemet.</strong></p>
+
+<div class="section">
+<h2>Två sorters data</h2>
+<p>De flesta CRM-system är byggda för rapportering. De ska svara på hur mycket som ligger i pipeline, hur många möten som bokats och hur långt kvar det är till budget. Siffror till en människa som ska fatta ett beslut.</p><p>Det en AI behöver är något annat: resonemangsdata. Inte att affären ligger i steg tre, utan varför den fastnade där. Inte att kunden sa nej, utan vad hon faktiskt sa när hon sa det.</p><p>Skillnaden låter akademisk tills du provar. Be en modell prioritera er pipeline och den kommer att prioritera på belopp och datum, för det är det enda som finns. En erfaren säljchef hade prioriterat på något helt annat: vem som svarar snabbt, vilken deal som har en riktig deadline, var invändningen aldrig blev besvarad. Den kunskapen finns, men bara i huvudet på säljaren.</p>
+</div>
+
+<div class="section">
+<h2>Testet som avslöjar sanningen</h2>
+<p>Ta en pågående deal i sen fas. Be någon annan än säljaren svara på tre saker: Vad krävs för att den ska gå i mål? Vem fattar beslutet? Vad invände kunden mot senast?</p><p>Om svaret är tystnad har ni inte data. Ni har en person.</p><p>Det spelar mindre roll så länge personen är kvar i organisationen. Det spelar väldigt stor roll den dagen hon slutar, och det är då de flesta upptäcker hur mycket av kundrelationen som aldrig fanns dokumenterad någon annanstans.</p>
+</div>
+
+<div class="section">
+<h2>Varför misslyckandet blir dyrare än det låter</h2>
+<p>Ett AI-projekt som körs mot tunn data misslyckas inte högljutt. Det misslyckas artigt. Verktyget införs, några testar, resultaten blir lagom, entusiasmen rinner ut, och ett halvår senare säger någon i ledningsgruppen att de provade AI och att det inte gav så mycket.</p><p>Licenskostnaden är den billiga delen. Det dyra är att ni har förlorat rätten att föreslå det igen på ett tag.</p><p>Det som ser ut som ett teknikmisslyckande är i själva verket ett datamisslyckande, och det är mycket svårare att laga förtroendet efteråt än att fixa datan innan.</p>
+</div>
+
+<div class="section">
+<h2>Vad du kan göra redan nästa vecka</h2>
+<p>Välj tre affärer som avgjordes förra kvartalet: en vunnen, två förlorade. Skriv ned vad som faktiskt avgjorde dem, med kundens egna ord där du minns dem, och jämför sedan med vad som faktiskt står i CRM om samma affärer.</p><p>Skillnaden mellan de två är precis det AI:n inte kan se.</p><p>Fundera samtidigt på detta: om er bästa säljare slutade på fredag, hur mycket av hennes kundrelationer skulle finnas kvar på måndag? Svaret säger mer om er AI-mognad än något demoverktyg kan göra.</p>
+</div>
+
+<div class="section">
+<h2>Vanliga frågor</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+
+<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+<h3 itemprop="name">Vad menas med resonemangsdata i motsats till rapporteringsdata?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Rapporteringsdata är siffror till en människa som ska fatta beslut, som belopp, datum och steg i pipeline. Resonemangsdata är istället varför en affär fastnade, vad kunden faktiskt sa och vilka invändningar som aldrig besvarades, det vill säga det som krävs för att en AI ska kunna resonera kring en affär snarare än bara räkna på den.</p>
+</div>
+</div>
+
+<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+<h3 itemprop="name">Hur vet vi om vår organisation faktiskt har ett dataproblem?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Gör testet i artikeln: låt någon annan än säljaren själv svara på vad som krävs för att en pågående deal ska gå i mål, vem som fattar beslutet och vad kunden senast invände mot. Om svaret blir tystnad har ni inte data utan en person, och det är först då det verkliga problemet blir synligt.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Gör det tolv frågor långa testet och se svart på vitt hur redo er data, process och styrning faktiskt är för AI i sälj.</a>
+</div>
+
+<div class="section" style="border-top: 1px solid var(--color-border); padding-top: 2rem; margin-top: 3rem;">
+<p style="color: var(--color-text-muted); font-size: 0.9rem;"><a href="https://www.linkedin.com/pulse/om-ain-inte-kan-l%C3%A4sa-det-finns-urban-gavelin-07vrf/" style="color: var(--color-text-muted);">Publicerat ursprungligen som LinkedIn-nyhetsbrev 24 augusti 2026.</a> <a href="https://www.linkedin.com/in/urbangavelin/" style="color: var(--color-text-muted);">Följ Urban Gavelin på LinkedIn &rarr;</a></p>
+<h3 style="margin-top: 1.5rem;">Relaterat</h3>
+<ul>
+<li><a href="/sv/insikter/det-som-hander-pa-veckomotet-avgor-allt-annat/">Det som händer på veckomötet avgör allt annat</a></li>
+<li><a href="/sv/insikter/navigera-mellan-mansklig-eq-och-ai-i-forsaljning/">Att navigera mellan mänsklig EQ och AI i försäljning</a></li>
+<li><a href="/sv/insikter/odysseus-att-bli-ledare/">Odysseus: hur en ledare blir till</a></li>
+<li><a href="/sv/insikter/">Fler insikter</a></li>
+</ul>
+</div>
+
+</Base>

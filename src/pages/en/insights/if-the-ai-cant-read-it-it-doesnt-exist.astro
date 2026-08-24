@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+const coverImage = "/images/insights/if-the-ai-cant-read-it-it-doesnt-exist.webp";
+
+const schema = {"@context":"https://schema.org","@type":"Article","headline":"If the AI Can't Read It, It Doesn't Exist","image":"/images/insights/if-the-ai-cant-read-it-it-doesnt-exist.webp","description":"Most AI projects in sales fail long before the model becomes the problem. This piece explains why CRM data built for reporting cannot feed an AI that needs to reason, and what to check before you invest further.","datePublished":"2026-08-24","dateModified":"2026-08-24","author":{"@type":"Person","name":"Urban Gavelin","url":"https://gavelin.net/en/urban-gavelin/"},"publisher":{"@type":"Organization","name":"Powersales Communication","url":"https://powersales.se"},"keywords":["sales AI","CRM data","pipeline management","sales leadership","AI readiness","reasoning data","deal intelligence"],"url":"https://gavelin.net/en/insights/if-the-ai-cant-read-it-it-doesnt-exist/"};
+---
+
+<Base
+title="If the AI Can't Read It, It Doesn't Exist | Urban Gavelin"
+description="Most AI projects in sales fail long before the model becomes the problem. This piece explains why CRM data built for reporting cannot feed an AI that needs to reason, and what to check before you invest further."
+lang="en"
+schema={schema}
+image={coverImage}
+>
+
+<p style="color: var(--color-text-muted); font-size: 0.9rem;">
+By <a href="/en/urban-gavelin/" rel="author">Urban Gavelin</a>, <time datetime="2026-08-24">August 24, 2026</time>, Sales Data &amp; AI Readiness
+</p>
+<h1>If the AI Can't Read It, It Doesn't Exist</h1>
+<img src={coverImage} alt="If the AI Can't Read It, It Doesn't Exist" width="1280" height="720" class="hero-img" />
+<p class="lead"><strong>There is a sentence I say at almost every meeting about AI in sales, and the room usually goes quiet afterward. If the AI can't read it, it doesn't exist. This letter is about why most AI projects in sales collapse long before the model becomes the problem.</strong></p>
+
+<div class="section">
+<h2>Two kinds of data</h2>
+<p>Most CRM systems are built for reporting. They are meant to answer how much sits in the pipeline, how many meetings got booked, how far you are from budget. Numbers for a human who has to make a decision.</p><p>What an AI needs is something else. It needs reasoning data. Not that a deal sits in stage three, but why it got stuck there. Not that the customer said no, but what she actually said when she said it.</p><p>The difference sounds academic until you try it. Ask a model to prioritize your pipeline and it will prioritize on amount and date, because that is all it has. An experienced sales manager would have prioritized on something entirely different: who responds quickly, which deal has a real deadline, where an objection was never actually answered. That knowledge exists. It just lives in the salesperson's head.</p>
+</div>
+
+<div class="section">
+<h2>The test I usually run</h2>
+<p>Take one active deal in a late stage. Ask someone other than the rep to answer three questions.</p><p>What does it take to close this? Who makes the decision? What did the customer object to most recently?</p><p>If the answer is silence, you don't have data. You have a person. That is fine as long as the person stays. It matters a great deal the day she leaves, and that is usually when people discover how much of the customer relationship never existed anywhere else.</p>
+</div>
+
+<div class="section">
+<h2>Why it costs more than it sounds</h2>
+<p>An AI project run on thin data doesn't fail loudly. It fails politely. The tool gets rolled out, a few people try it, the results are middling, enthusiasm drains away, and six months later someone in leadership says they tried AI and it didn't do much.</p><p>The license fee is the cheap part. The expensive part is that you have lost the right to propose it again for a while.</p>
+</div>
+
+<div class="section">
+<h2>What to do next week</h2>
+<p>Pick three deals that were decided last quarter. One won, two lost. Write down what actually decided them, using the customer's own words where you remember them. Then compare that with what the CRM says about the same deals.</p><p>The gap between the two is exactly what the AI cannot see.</p><p>Here is something worth sitting with: if your best salesperson quit on Friday, how much of her customer relationships would still exist on Monday?</p>
+</div>
+
+<div class="section">
+<h2>Frequently asked questions</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+
+<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+<h3 itemprop="name">What exactly counts as reasoning data?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">It's the context behind a number, not the number itself. Why a deal stalled, what objection was raised and how it was handled, who actually influences the decision. Most of this lives in call notes, emails, and memory rather than structured CRM fields.</p>
+</div>
+</div>
+
+<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:1.5rem;">
+<h3 itemprop="name">Do we need to overhaul our CRM before using AI at all?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Not necessarily, but you do need to start capturing reasoning alongside the usual stage and amount fields. Even a simple habit of logging the actual objection and the actual next step in a rep's own words will give a model something real to work with.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<a href="https://calendly.com/urbgav/30min" class="btn" target="_blank" rel="noopener">Pick three deals from last quarter and run the test yourself. If you want a structured way to check where your data, process, and tools actually stand before investing further in AI, ask Urban about the readiness assessment he built for exactly this.</a>
+</div>
+
+<div class="section" style="border-top: 1px solid var(--color-border); padding-top: 2rem; margin-top: 3rem;">
+<p style="color: var(--color-text-muted); font-size: 0.9rem;"><a href="https://www.linkedin.com/pulse/om-ain-inte-kan-l%C3%A4sa-det-finns-urban-gavelin-07vrf/" style="color: var(--color-text-muted);">Originally published as a LinkedIn newsletter August 24, 2026.</a> <a href="https://www.linkedin.com/in/urbangavelin/" style="color: var(--color-text-muted);">Follow Urban Gavelin on LinkedIn &rarr;</a></p>
+<h3 style="margin-top: 1.5rem;">Related</h3>
+<ul>
+<li><a href="/en/insights/what-happens-in-the-weekly-meeting-decides-everything-else/">What Happens in the Weekly Meeting Decides Everything Else</a></li>
+<li><a href="/en/insights/navigating-the-nexus-of-human-eq-and-ai-in-sales/">Navigating the Nexus of Human EQ and AI in Sales</a></li>
+<li><a href="/en/insights/odysseus-becoming-a-leader/">Odysseus: The Becoming of a Leader</a></li>
+<li><a href="/en/insights/">More insights</a></li>
+</ul>
+</div>
+
+</Base>

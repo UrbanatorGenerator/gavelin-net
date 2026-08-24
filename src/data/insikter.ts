@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/om-ain-inte-kan-lasa-det-finns-det-inte/",
+    title: "Om AI:n inte kan läsa det finns det inte",
+    description: "De flesta AI-projekt i sälj kraschar inte på grund av modellen, utan på grund av datan. Urban Gavelin visar varför CRM-system byggda för rapportering saknar den resonemangsdata en AI faktiskt behöver, och hur du testar var er organisation står redan idag.",
+    date: "24 augusti 2026",
+    category: "AI & Data i Sälj",
+  },
+  {
     url: "/sv/insikter/det-som-hander-pa-veckomotet-avgor-allt-annat/",
     title: "Det som händer på veckomötet avgör allt annat",
     description: "Ett veckomöte som bara redovisar pipeline bygger på tro, inte fakta. Genom att byta ut frågorna från vad säljaren tror till vad som faktiskt måste vara sant blir prognosen träffsäker och aktiviteterna mätbara. Rytmen, inte innehållet, är vad som gör skillnaden över tid.",
