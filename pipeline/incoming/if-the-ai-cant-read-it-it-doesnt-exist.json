@@ -1,0 +1,143 @@
+{
+  "date": "2026-08-24",
+  "linkedinUrl": "https://www.linkedin.com/pulse/om-ain-inte-kan-l%C3%A4sa-det-finns-urban-gavelin-07vrf/",
+  "imageSource": "https://media.licdn.com/dms/image/v2/D4D12AQFaATsEQCIswg/article-cover_image-shrink_720_1280/B4DaAyzV5THgAQ-/0/1787558715396?e=2147483647&v=beta&t=CQjyoyKz4RMRheuD3I3xyPTAJgr11l6d2l0NJ3GeAGQ",
+  "imageSlug": "if-the-ai-cant-read-it-it-doesnt-exist",
+  "articles": {
+    "en": {
+      "slug": "if-the-ai-cant-read-it-it-doesnt-exist",
+      "title": "If the AI Can't Read It, It Doesn't Exist",
+      "description": "Most AI projects in sales fail long before the model becomes the problem. This piece explains why CRM data built for reporting cannot feed an AI that needs to reason, and what to check before you invest further.",
+      "category": "Sales Data & AI Readiness",
+      "keywords": [
+        "sales AI",
+        "CRM data",
+        "pipeline management",
+        "sales leadership",
+        "AI readiness",
+        "reasoning data",
+        "deal intelligence"
+      ],
+      "lead": "There is a sentence I say at almost every meeting about AI in sales, and the room usually goes quiet afterward. If the AI can't read it, it doesn't exist. This letter is about why most AI projects in sales collapse long before the model becomes the problem.",
+      "sections": [
+        {
+          "heading": "Two kinds of data",
+          "html": "<p>Most CRM systems are built for reporting. They are meant to answer how much sits in the pipeline, how many meetings got booked, how far you are from budget. Numbers for a human who has to make a decision.</p><p>What an AI needs is something else. It needs reasoning data. Not that a deal sits in stage three, but why it got stuck there. Not that the customer said no, but what she actually said when she said it.</p><p>The difference sounds academic until you try it. Ask a model to prioritize your pipeline and it will prioritize on amount and date, because that is all it has. An experienced sales manager would have prioritized on something entirely different: who responds quickly, which deal has a real deadline, where an objection was never actually answered. That knowledge exists. It just lives in the salesperson's head.</p>"
+        },
+        {
+          "heading": "The test I usually run",
+          "html": "<p>Take one active deal in a late stage. Ask someone other than the rep to answer three questions.</p><p>What does it take to close this? Who makes the decision? What did the customer object to most recently?</p><p>If the answer is silence, you don't have data. You have a person. That is fine as long as the person stays. It matters a great deal the day she leaves, and that is usually when people discover how much of the customer relationship never existed anywhere else.</p>"
+        },
+        {
+          "heading": "Why it costs more than it sounds",
+          "html": "<p>An AI project run on thin data doesn't fail loudly. It fails politely. The tool gets rolled out, a few people try it, the results are middling, enthusiasm drains away, and six months later someone in leadership says they tried AI and it didn't do much.</p><p>The license fee is the cheap part. The expensive part is that you have lost the right to propose it again for a while.</p>"
+        },
+        {
+          "heading": "What to do next week",
+          "html": "<p>Pick three deals that were decided last quarter. One won, two lost. Write down what actually decided them, using the customer's own words where you remember them. Then compare that with what the CRM says about the same deals.</p><p>The gap between the two is exactly what the AI cannot see.</p><p>Here is something worth sitting with: if your best salesperson quit on Friday, how much of her customer relationships would still exist on Monday?</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What exactly counts as reasoning data?",
+          "a": "It's the context behind a number, not the number itself. Why a deal stalled, what objection was raised and how it was handled, who actually influences the decision. Most of this lives in call notes, emails, and memory rather than structured CRM fields."
+        },
+        {
+          "q": "Do we need to overhaul our CRM before using AI at all?",
+          "a": "Not necessarily, but you do need to start capturing reasoning alongside the usual stage and amount fields. Even a simple habit of logging the actual objection and the actual next step in a rep's own words will give a model something real to work with."
+        }
+      ],
+      "cta": "Pick three deals from last quarter and run the test yourself. If you want a structured way to check where your data, process, and tools actually stand before investing further in AI, ask Urban about the readiness assessment he built for exactly this."
+    },
+    "sv": {
+      "slug": "om-ain-inte-kan-lasa-det-finns-det-inte",
+      "title": "Om AI:n inte kan läsa det finns det inte",
+      "description": "De flesta AI-projekt i sälj kraschar inte på grund av modellen, utan på grund av datan. Urban Gavelin visar varför CRM-system byggda för rapportering saknar den resonemangsdata en AI faktiskt behöver, och hur du testar var er organisation står redan idag.",
+      "category": "AI & Data i Sälj",
+      "keywords": [
+        "AI i sälj",
+        "CRM-data",
+        "pipeline",
+        "säljprocess",
+        "resonemangsdata",
+        "säljledarskap",
+        "digital mognad"
+      ],
+      "lead": "Det finns en mening jag säger på nästan varje möte om AI i säljarbetet, och det brukar bli tyst i rummet efteråt: om AI:n inte kan läsa det finns det inte. Det här brevet handlar om varför de flesta AI-projekt i sälj havererar långt innan modellen är problemet.",
+      "sections": [
+        {
+          "heading": "Två sorters data",
+          "html": "<p>De flesta CRM-system är byggda för rapportering. De ska svara på hur mycket som ligger i pipeline, hur många möten som bokats och hur långt kvar det är till budget. Siffror till en människa som ska fatta ett beslut.</p><p>Det en AI behöver är något annat: resonemangsdata. Inte att affären ligger i steg tre, utan varför den fastnade där. Inte att kunden sa nej, utan vad hon faktiskt sa när hon sa det.</p><p>Skillnaden låter akademisk tills du provar. Be en modell prioritera er pipeline och den kommer att prioritera på belopp och datum, för det är det enda som finns. En erfaren säljchef hade prioriterat på något helt annat: vem som svarar snabbt, vilken deal som har en riktig deadline, var invändningen aldrig blev besvarad. Den kunskapen finns, men bara i huvudet på säljaren.</p>"
+        },
+        {
+          "heading": "Testet som avslöjar sanningen",
+          "html": "<p>Ta en pågående deal i sen fas. Be någon annan än säljaren svara på tre saker: Vad krävs för att den ska gå i mål? Vem fattar beslutet? Vad invände kunden mot senast?</p><p>Om svaret är tystnad har ni inte data. Ni har en person.</p><p>Det spelar mindre roll så länge personen är kvar i organisationen. Det spelar väldigt stor roll den dagen hon slutar, och det är då de flesta upptäcker hur mycket av kundrelationen som aldrig fanns dokumenterad någon annanstans.</p>"
+        },
+        {
+          "heading": "Varför misslyckandet blir dyrare än det låter",
+          "html": "<p>Ett AI-projekt som körs mot tunn data misslyckas inte högljutt. Det misslyckas artigt. Verktyget införs, några testar, resultaten blir lagom, entusiasmen rinner ut, och ett halvår senare säger någon i ledningsgruppen att de provade AI och att det inte gav så mycket.</p><p>Licenskostnaden är den billiga delen. Det dyra är att ni har förlorat rätten att föreslå det igen på ett tag.</p><p>Det som ser ut som ett teknikmisslyckande är i själva verket ett datamisslyckande, och det är mycket svårare att laga förtroendet efteråt än att fixa datan innan.</p>"
+        },
+        {
+          "heading": "Vad du kan göra redan nästa vecka",
+          "html": "<p>Välj tre affärer som avgjordes förra kvartalet: en vunnen, två förlorade. Skriv ned vad som faktiskt avgjorde dem, med kundens egna ord där du minns dem, och jämför sedan med vad som faktiskt står i CRM om samma affärer.</p><p>Skillnaden mellan de två är precis det AI:n inte kan se.</p><p>Fundera samtidigt på detta: om er bästa säljare slutade på fredag, hur mycket av hennes kundrelationer skulle finnas kvar på måndag? Svaret säger mer om er AI-mognad än något demoverktyg kan göra.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vad menas med resonemangsdata i motsats till rapporteringsdata?",
+          "a": "Rapporteringsdata är siffror till en människa som ska fatta beslut, som belopp, datum och steg i pipeline. Resonemangsdata är istället varför en affär fastnade, vad kunden faktiskt sa och vilka invändningar som aldrig besvarades, det vill säga det som krävs för att en AI ska kunna resonera kring en affär snarare än bara räkna på den."
+        },
+        {
+          "q": "Hur vet vi om vår organisation faktiskt har ett dataproblem?",
+          "a": "Gör testet i artikeln: låt någon annan än säljaren själv svara på vad som krävs för att en pågående deal ska gå i mål, vem som fattar beslutet och vad kunden senast invände mot. Om svaret blir tystnad har ni inte data utan en person, och det är först då det verkliga problemet blir synligt."
+        }
+      ],
+      "cta": "Gör det tolv frågor långa testet och se svart på vitt hur redo er data, process och styrning faktiskt är för AI i sälj."
+    },
+    "es": {
+      "slug": "si-la-ia-no-puede-leerlo-no-existe",
+      "title": "Si la IA no puede leerlo, no existe",
+      "description": "La mayoría de los proyectos de IA en ventas fracasan mucho antes de que el modelo sea el problema. El motivo casi siempre es el mismo: el conocimiento clave vive en la cabeza del vendedor, no en el CRM.",
+      "category": "Datos & Adopción de IA en Ventas",
+      "keywords": [
+        "IA en ventas",
+        "CRM",
+        "pipeline",
+        "datos de ventas",
+        "adopción de IA",
+        "gestión comercial",
+        "product-market fit"
+      ],
+      "lead": "Hay una frase que repito en casi todas las reuniones sobre IA aplicada a ventas, y después suele quedarse un silencio incómodo en la sala: si la IA no puede leerlo, no existe. Esta carta trata de por qué la mayoría de los proyectos de IA en ventas fracasan mucho antes de que el modelo sea el problema.",
+      "sections": [
+        {
+          "heading": "Dos tipos de datos",
+          "html": "<p>La mayoría de los sistemas CRM están diseñados para reportar. Tienen que responder cuánto hay en el pipeline, cuántas reuniones se han agendado, qué tan lejos está el equipo del budget. Son cifras pensadas para que una persona tome una decisión.</p><p>Lo que necesita una IA es otra cosa por completo. Necesita datos de razonamiento. No que el deal esté en la etapa tres, sino por qué se quedó atascado ahí. No que el cliente dijo que no, sino qué dijo exactamente cuando lo dijo.</p><p>La diferencia suena académica hasta que la pruebas. Pídele a un modelo que priorice tu pipeline y priorizará por importe y fecha, porque es lo único que tiene. Un director comercial con experiencia habría priorizado por algo completamente distinto: quién responde rápido, qué deal tiene una fecha límite real, dónde la objeción nunca quedó resuelta. Ese conocimiento existe, sí, pero solo existe en la cabeza del vendedor.</p>"
+        },
+        {
+          "heading": "La prueba que suelo hacer",
+          "html": "<p>Toma un deal en curso, en etapa avanzada. Pide a alguien que no sea el vendedor que responda tres preguntas.</p><p>¿Qué hace falta para cerrarlo? ¿Quién toma la decisión final? ¿Cuál fue la última objeción del cliente?</p><p>Si la respuesta es silencio, no tienes datos. Tienes una persona. Y eso importa poco mientras esa persona siga en la empresa, pero importa muchísimo el día que se va, que es cuando la mayoría descubre cuánto de esa relación con el cliente nunca existió en ningún otro lugar.</p>"
+        },
+        {
+          "heading": "Por qué sale más caro de lo que parece",
+          "html": "<p>Un proyecto de IA que trabaja sobre datos pobres no fracasa de forma ruidosa. Fracasa educadamente. Se implementa la herramienta, algunos la prueban, los resultados son mediocres, el entusiasmo se apaga poco a poco, y medio año después alguien en el comité de dirección comenta que probaron IA y que no dio mucho resultado.</p><p>El coste de la licencia es la parte barata. Lo caro es haber perdido, por un tiempo, el derecho a proponerlo de nuevo.</p>"
+        },
+        {
+          "heading": "Qué hacer la próxima semana",
+          "html": "<p>Elige tres deals que se cerraron el trimestre pasado: uno ganado, dos perdidos. Escribe qué fue lo que realmente decidió el resultado, con las palabras exactas del cliente si las recuerdas. Compáralo con lo que dice el CRM sobre esos mismos deals.</p><p>La diferencia entre ambas versiones es exactamente lo que la IA no puede ver.</p><p>Y una pregunta para reflexionar: si tu mejor vendedora se fuera un viernes, ¿cuánto de su relación con los clientes seguiría existiendo el lunes?</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué no basta con los datos que ya tenemos en el CRM?",
+          "a": "Porque el CRM está pensado para reportar cifras a personas, no para explicar el razonamiento detrás de cada decisión comercial. Le faltan los porqués: por qué se estancó un deal, qué dijo realmente el cliente, quién decide de verdad. Sin esa capa, la IA solo puede trabajar con importes y fechas."
+        },
+        {
+          "q": "¿Qué pasa si mi equipo ya usa IA pero los resultados son flojos?",
+          "a": "Es la señal más habitual de que el problema es la calidad del dato de entrada, no el modelo. Antes de cambiar de herramienta conviene hacer la prueba de las tres preguntas en deals reales para ver si el conocimiento crítico realmente está escrito en algún sitio o solo vive en la cabeza de los vendedores."
+        }
+      ],
+      "cta": "Haz el test de doce preguntas sobre tus datos, tu proceso, tus herramientas y tu gobierno de datos, y recibe una devolución directa por correo."
+    }
+  }
+}
