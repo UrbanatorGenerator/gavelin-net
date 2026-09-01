@@ -7,6 +7,7 @@ export interface AlternateSet {
 }
 
 export const alternateSets: AlternateSet[] = [
+  { sv: "/sv/insikter/sex-ai-system-inte-ett-enda-verktyg/", en: "/en/insights/six-ai-systems-not-a-single-tool/", es: "/es/perspectivas/seis-sistemas-ia-ni-una-sola-herramienta/" },
   { sv: "/sv/insikter/om-ain-inte-kan-lasa-det-finns-det-inte/", en: "/en/insights/if-the-ai-cant-read-it-it-doesnt-exist/", es: "/es/perspectivas/si-la-ia-no-puede-leerlo-no-existe/" },
   { sv: "/sv/insikter/det-som-hander-pa-veckomotet-avgor-allt-annat/", en: "/en/insights/what-happens-in-the-weekly-meeting-decides-everything-else/", es: "/es/perspectivas/lo-que-pasa-en-la-reunion-semanal-lo-decide-todo/" },
   { sv: "/sv/insikter/navigera-mellan-mansklig-eq-och-ai-i-forsaljning/", en: "/en/insights/navigating-the-nexus-of-human-eq-and-ai-in-sales/", es: "/es/perspectivas/navegando-el-nexo-entre-la-inteligencia-emocional-humana-y-la-ia-en-ventas/" },

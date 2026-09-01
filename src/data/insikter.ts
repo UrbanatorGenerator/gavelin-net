@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/sex-ai-system-inte-ett-enda-verktyg/",
+    title: "Sex AI-system. Inte ett enda verktyg.",
+    description: "Urban Gavelin delar varför han kör sex olika AI-system parallellt, och varför skillnaden mellan verktyg och system är avgörande för att AI-satsningar ska ge verklig effekt. En praktisk guide till att börja där det räknas: i din egen vecka.",
+    date: "1 september 2026",
+    category: "AI & Sales Leadership",
+  },
+  {
     url: "/sv/insikter/om-ain-inte-kan-lasa-det-finns-det-inte/",
     title: "Om AI:n inte kan läsa det finns det inte",
     description: "De flesta AI-projekt i sälj kraschar inte på grund av modellen, utan på grund av datan. Urban Gavelin visar varför CRM-system byggda för rapportering saknar den resonemangsdata en AI faktiskt behöver, och hur du testar var er organisation står redan idag.",

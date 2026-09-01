@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/six-ai-systems-not-a-single-tool/",
+    title: "Six AI Systems. Not a Single Tool.",
+    description: "Urban Gavelin explains why six connected AI systems, not one flashy tool, are quietly changing his work week. He shares the principle of building for yourself first and a simple two-week test to find out what is actually worth automating.",
+    date: "September 1, 2026",
+    category: "AI Strategy & Adoption",
+  },
+  {
     url: "/en/insights/if-the-ai-cant-read-it-it-doesnt-exist/",
     title: "If the AI Can't Read It, It Doesn't Exist",
     description: "Most AI projects in sales fail long before the model becomes the problem. This piece explains why CRM data built for reporting cannot feed an AI that needs to reason, and what to check before you invest further.",

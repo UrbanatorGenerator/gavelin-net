@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/seis-sistemas-ia-ni-una-sola-herramienta/",
+    title: "Seis sistemas de IA. Ni una sola herramienta.",
+    description: "Urban Gavelin explica por qué las herramientas de IA aisladas fracasan en los equipos de ventas, mientras que los sistemas conectados con tu propio conocimiento transforman de verdad la forma de trabajar. Una guía práctica para empezar por uno mismo antes de escalar al equipo.",
+    date: "1 de septiembre de 2026",
+    category: "Estrategia de IA en Ventas B2B",
+  },
+  {
     url: "/es/perspectivas/si-la-ia-no-puede-leerlo-no-existe/",
     title: "Si la IA no puede leerlo, no existe",
     description: "La mayoría de los proyectos de IA en ventas fracasan mucho antes de que el modelo sea el problema. El motivo casi siempre es el mismo: el conocimiento clave vive en la cabeza del vendedor, no en el CRM.",
