@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/tu-proximo-vendedor-ya-trabaja-en-tu-empresa/",
+    title: "Tu próximo vendedor quizá ya trabaja en tu empresa",
+    description: "Urban Gavelin explora cómo la inteligencia artificial podría transformar los equipos de ventas B2B no despidiendo personas, sino evitando contrataciones futuras. Un análisis sobre cómo recuperar capacidad oculta en tu equipo antes de sumar a alguien nuevo a la nómina.",
+    date: "7 de septiembre de 2026",
+    category: "Productividad en Ventas y Liderazgo Comercial",
+  },
+  {
     url: "/es/perspectivas/seis-sistemas-ia-ni-una-sola-herramienta/",
     title: "Seis sistemas de IA. Ni una sola herramienta.",
     description: "Urban Gavelin explica por qué las herramientas de IA aisladas fracasan en los equipos de ventas, mientras que los sistemas conectados con tu propio conocimiento transforman de verdad la forma de trabajar. Una guía práctica para empezar por uno mismo antes de escalar al equipo.",

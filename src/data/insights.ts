@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/your-next-salesperson-might-already-work-for-you/",
+    title: "Your Next Salesperson Might Already Work for You",
+    description: "AI's first big effect on jobs may not be layoffs, but the hire that never happens. Urban Gavelin argues that most sales teams are sitting on hidden capacity trapped in administrative work, and shows how to find it before posting another job ad.",
+    date: "September 7, 2026",
+    category: "AI & Sales Capacity",
+  },
+  {
     url: "/en/insights/six-ai-systems-not-a-single-tool/",
     title: "Six AI Systems. Not a Single Tool.",
     description: "Urban Gavelin explains why six connected AI systems, not one flashy tool, are quietly changing his work week. He shares the principle of building for yourself first and a simple two-week test to find out what is actually worth automating.",

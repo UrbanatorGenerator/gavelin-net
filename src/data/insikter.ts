@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/din-nasta-saljare-kanske-redan-jobbar-hos-dig/",
+    title: "Din nästa säljare kanske redan jobbar hos dig",
+    description: "Den största AI-effekten i säljorganisationer syns kanske inte i uppsägningar, utan i tjänster som aldrig behöver tillsättas. Genom att frigöra tid från administration hittar många företag sina nästa säljare inom den egna organisationen.",
+    date: "7 september 2026",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/sv/insikter/sex-ai-system-inte-ett-enda-verktyg/",
     title: "Sex AI-system. Inte ett enda verktyg.",
     description: "Urban Gavelin delar varför han kör sex olika AI-system parallellt, och varför skillnaden mellan verktyg och system är avgörande för att AI-satsningar ska ge verklig effekt. En praktisk guide till att börja där det räknas: i din egen vecka.",
