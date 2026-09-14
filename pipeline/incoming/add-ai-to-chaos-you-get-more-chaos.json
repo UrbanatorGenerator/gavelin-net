@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-14",
+  "linkedinUrl": "https://www.linkedin.com/pulse/l%C3%A4gger-man-ai-p%C3%A5-kaos-blir-det-v%C3%A4rre-urban-gavelin-dgl0f/",
+  "imageSource": "https://media.licdn.com/dms/image/v2/D4D12AQH8fUMQiKW_4g/article-cover_image-shrink_720_1280/B4DaCfYRLjI4AQ-/0/1789380338682?e=2147483647&v=beta&t=fDqzgcZBCLZOEQxpNFT08wcYvice3-k710EcF1JVMWA",
+  "imageSlug": "add-ai-to-chaos-you-get-more-chaos",
+  "articles": {
+    "en": {
+      "slug": "add-ai-to-chaos-you-get-more-chaos",
+      "title": "Add AI to Chaos and You Get More Chaos",
+      "description": "AI does not sit quietly on top of messy data and do no harm. It actively amplifies whatever is already there, good or bad. Urban Gavelin explains why preparation, process and clean data must come before any AI layer, and gives leaders a simple exercise to test where they really stand.",
+      "category": "AI & Sales Leadership",
+      "keywords": [
+        "AI adoption",
+        "CRM data quality",
+        "sales forecasting",
+        "sales leadership",
+        "data governance",
+        "AI maturity",
+        "sales process",
+        "decision making"
+      ],
+      "lead": "There is a quiet hope in almost every AI project I see right now: if AI does not help us, at least it will not do any harm. Unfortunately, that is not how it works.",
+      "sections": [
+        {
+          "heading": "The Comforting Myth",
+          "html": "<p>If the foundation is missing and you pile on more technology, more process and more AI, the result does not stay the same. It gets worse. You are not just automating what works. You are also automating the mess.</p><p>Most leaders assume AI is a neutral layer that sits on top of whatever exists underneath. It is not. It reacts to what it finds, and if what it finds is chaos, it turns that chaos into something that looks organised.</p>"
+        },
+        {
+          "heading": "AI Actually Gives You an Answer",
+          "html": "<p>An AI model that reads half-filled data does not produce nothing. It produces something that looks like an answer. That is where the danger lies. An empty report is fairly easy to ignore. A polished report with conclusions, charts and three decimal points looks far more credible, even when the input was garbage.</p><p>I have seen forecasts get worse after automation. Not because the system calculated incorrectly, but because it calculated quickly on numbers that no one scrutinised properly anymore. Previously, an experienced sales manager could look at a forecast and say, that does not feel right. When the same forecast comes from a system with three decimal points, we suddenly start trusting the table more than reality.</p><p>The same happens with AI meeting summaries. If no one asked the important question, or the customer never explained why the change matters, you simply get a well-written summary of a fairly poor meeting. Then it gets filed in the CRM as if it were solid ground.</p>"
+        },
+        {
+          "heading": "The Order Is Not Negotiable",
+          "html": "<p>Preparation before the meeting. Process before enrichment. Data before AI. That is not three pieces of good advice. It is a sequence where every step depends on the one before it.</p><p>I learned this long before anyone talked about generative AI. In the late nineties I sat in an important meeting with a large Danish retail chain. We were selling digital cameras and I really wanted to win the deal. I knew the products, the range and the arguments. The problem was that I had not researched the customer's purchasing strategy well enough.</p><p>When I finally sat across from the buyer, I could not connect my range to what they actually needed. The buyer was tough and I went home empty-handed. It became a useful lesson: preparation is not something that comes before the work. Preparation is part of the work. I could have had twice as many cameras in the range and it still would not have saved that meeting, because the foundation was missing. An AI tool on top of a CRM that no one fills in properly is essentially the same meeting. Just in system form.</p>"
+        },
+        {
+          "heading": "Leverage Works Both Ways",
+          "html": "<p>Open your ten most recently won deals in the CRM and read them as if you started at the company today. Try to understand why the customer said yes, what tipped the decision, and who actually made the call. How many of the ten can you understand based purely on what is written in the system?</p><p>If the answer is fewer than seven, I would be cautious about adding more AI on top. You might have a CRM and a nice dashboard, but you do not necessarily have a foundation. The good news is that this is fixable, and often far cheaper than the next AI pilot. I would rather have three important fields filled in every single time than ten brilliant fields filled in only sometimes.</p><p>AI is genuinely excellent at amplifying. The only question is what you are amplifying. Good data, good processes and good behaviours give you leverage in the right direction. Disorder, bad habits and half-filled information give you leverage too. Just in the wrong direction. So bring one question to your next leadership meeting: if you switched off all your AI tools tomorrow, which decisions would actually get worse? The answer probably says more about your AI maturity than how many AI tools you have bought.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the biggest risk of adding AI on top of messy CRM data?",
+          "a": "AI does not stay neutral when the underlying data is poor, it produces confident-looking answers regardless of whether the input is solid or not. That false confidence is often more dangerous than an obviously broken report, because people start trusting the polished output over their own judgement."
+        },
+        {
+          "q": "How can leaders quickly test whether their CRM data is ready for AI?",
+          "a": "Pick the ten most recently won deals and read them as if you were new to the company, trying to understand why the customer bought and who made the decision. If you cannot reconstruct that story from at least seven of the ten records, the data foundation needs work before adding more AI."
+        }
+      ],
+      "cta": "Review your ten most recent won deals in the CRM and see how many actually tell the real story."
+    },
+    "sv": {
+      "slug": "lagger-man-ai-pa-kaos-blir-det-varre",
+      "title": "Lägger man AI på kaos blir det värre",
+      "description": "AI förstärker det som redan finns, oavsett om det är bra eller dåligt. Den här artikeln visar varför halvifylld CRM-data och otillräcklig förberedelse blir ännu farligare när AI läggs ovanpå, och ger ett konkret test för att se om er data faktiskt duger som underlag.",
+      "category": "Data & AI-mognad i B2B-försäljning",
+      "keywords": [
+        "AI i försäljning",
+        "CRM-data",
+        "säljprocess",
+        "AI-mognad",
+        "pipeline",
+        "dataskvalitet",
+        "B2B-försäljning"
+      ],
+      "lead": "Många hoppas att AI åtminstone inte kan göra skada, även om den inte hjälper. Verkligheten är tyvärr den motsatta: lägger du AI ovanpå kaos automatiserar du inte bara det som fungerar, du automatiserar också röran.",
+      "sections": [
+        {
+          "heading": "Problemet är att AI faktiskt ger dig ett svar",
+          "html": "<p>En AI-modell som matas med halvifylld data producerar inte ingenting. Den producerar något som ser ut som ett svar, och där ligger faran. En tom rapport är lätt att ignorera. En snygg rapport med slutsatser, diagram och tre decimaler ser betydligt mer trovärdig ut, även när underlaget är skräp.</p><p>Prognoser har blivit sämre efter automatisering, inte för att systemet räknade fel, utan för att det räknade snabbt på siffror som ingen längre granskade ordentligt. Tidigare kunde en erfaren säljchef titta på prognosen och säga att den inte kändes rätt. När samma prognos kommer från ett system med tre decimaler börjar vi lita mer på tabellen än på verkligheten.</p><p>Samma mönster syns i AI-sammanfattningar av möten. Om ingen ställde den avgörande frågan eller kunden aldrig förklarade varför en förändring var viktig, får du bara en välskriven sammanfattning av ett ganska dåligt möte. Sedan hamnar den i CRM som om den vore ett riktigt underlag.</p>"
+        },
+        {
+          "heading": "Ordningen går inte att förhandla bort",
+          "html": "<p>Förberedelse före mötet. Process före bearbetning. Data före AI. Det är inte tre goda råd utan en ordning där varje steg förutsätter det föregående.</p><p>I slutet av nittiotalet satt jag i ett viktigt möte hos en stor dansk detaljhandelskedja. Vi sålde digitala kameror och jag kunde produkterna, sortimentet och argumenten utantill. Problemet var att jag inte hade gjort tillräcklig research på kundens inköpsstrategi, så när jag väl satt framför inköparen kunde jag inte koppla mitt sortiment till det de faktiskt behövde. Jag åkte hem tomhänt.</p><p>Läxan var att förberedelsen inte är det som kommer före arbetet, den är en del av arbetet. Dubbelt så många kameror i sortimentet hade inte räddat mötet, eftersom grunden saknades. Ett AI-verktyg ovanpå ett CRM som ingen fyller i ordentligt är i grunden samma möte, fast i systemform.</p>"
+        },
+        {
+          "heading": "Testet: läs era tio senaste vunna affärer",
+          "html": "<p>Öppna era tio senast vunna affärer i CRM och läs dem som om ni började på företaget idag. Försök förstå varför kunden sa ja, vad som var avgörande och vem som faktiskt fattade beslutet, enbart utifrån det som står i systemet.</p><p>Hur många av de tio går att förstå på det sättet? Är svaret färre än sju skulle jag vara försiktig med att lägga mer AI ovanpå. Ni har kanske ett CRM och en snygg dashboard, men inte nödvändigtvis ett underlag att bygga vidare på.</p><p>Det goda beskedet är att det går att fixa, och ofta betydligt billigare än nästa AI-pilot. Tre viktiga fält som fylls i varje gång slår tio fantastiska fält som fylls i ibland.</p>"
+        },
+        {
+          "heading": "Frågan att ta med till ledningsmötet",
+          "html": "<p>AI är fantastiskt på att förstärka. Frågan är bara vad ni förstärker. Bra data, bra processer och bra beteenden ger hävstång åt rätt håll. Oordning, dåliga vanor och halvifylld information ger också hävstång, fast åt fel håll.</p><p>Ta därför med er en fråga till nästa ledningsmöte: om ni stängde av alla era AI-verktyg imorgon, vilka beslut skulle faktiskt bli sämre? Svaret säger förmodligen mer om er AI-mognad än hur många AI-verktyg ni har köpt.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Varför blir resultatet sämre av AI om datan redan är dålig?",
+          "a": "AI producerar alltid något som ser ut som ett svar, oavsett kvaliteten på underlaget. En snygg rapport med diagram och decimaler ser trovärdig ut även när den bygger på skräpdata, vilket gör att felaktiga slutsatser sprids snabbare och med större auktoritet än innan."
+        },
+        {
+          "q": "Hur vet vi om vårt CRM faktiskt duger som underlag för AI?",
+          "a": "Läs era tio senast vunna affärer som om ni just börjat på företaget och försök förstå varför kunden sa ja utifrån det som faktiskt står i systemet. Klarar ni det för färre än sju av tio är det ett tecken på att grunden behöver stärkas innan ni investerar i fler AI-verktyg."
+        }
+      ],
+      "cta": "Vill du se hur mogen er organisation är innan ni bygger vidare med AI? Hör av dig så delar Urban ett enkelt tolvfrågorstest som ger svar direkt."
+    },
+    "es": {
+      "slug": "si-le-metes-ia-al-caos-obtienes-mas-caos",
+      "title": "Si le metes IA al caos, obtienes más caos",
+      "description": "En casi todos los proyectos de IA existe la misma esperanza silenciosa: si no ayuda, al menos no hará daño. Urban Gavelin explica por qué eso es falso y por qué la IA no arregla datos desordenados, los amplifica. Un ejercicio práctico para revisar tu CRM antes de sumar más tecnología.",
+      "category": "Liderazgo en Ventas y Pipeline",
+      "keywords": [
+        "IA en ventas",
+        "CRM",
+        "calidad de datos",
+        "previsión de ventas",
+        "pipeline",
+        "liderazgo comercial",
+        "product-market fit",
+        "procesos de venta"
+      ],
+      "lead": "Existe una esperanza silenciosa en casi todos los proyectos de IA que veo ahora mismo: si la IA no ayuda, al menos no hará ningún daño. Lamentablemente, así no funciona.",
+      "sections": [
+        {
+          "heading": "El problema es que la IA sí te da una respuesta",
+          "html": "<p>Si falta la base y le añades más tecnología, más proceso y más IA encima, el resultado no se queda igual. Empeora. Y es que no solo automatizas lo que funciona bien: también automatizas el desorden.</p><p>Un modelo de IA que lee datos a medio llenar no produce nada vacío. Produce algo que <em>parece</em> una respuesta. Ahí está el peligro: un informe en blanco es fácil de ignorar, pero un informe bonito, con conclusiones, gráficos y tres decimales, resulta mucho más creíble, aunque la base sea basura.</p><p>He visto previsiones empeorar después de automatizarlas. No porque el sistema calculara mal, sino porque calculaba rápido sobre cifras que ya nadie revisaba con cuidado.</p>"
+        },
+        {
+          "heading": "Cuando dejamos de confiar en el instinto y empezamos a confiar en la tabla",
+          "html": "<p>Antes, un director de ventas con experiencia podía mirar la previsión y decir: 'No, esto no me cuadra'. Cuando esa misma previsión viene de un sistema con tres decimales, de repente empezamos a confiar más en la tabla que en la realidad.</p><p>Pasa lo mismo con los resúmenes de reuniones generados por IA. Si nadie hizo la pregunta importante o el cliente nunca explicó por qué el cambio le importaba, obtienes un resumen muy bien redactado de una reunión bastante mediocre. Luego eso se sube al CRM como si fuera información sólida.</p><p>El orden no se puede saltar: preparación antes de la reunión, proceso antes del procesamiento, datos antes de la IA. No son tres consejos sueltos, sino una secuencia en la que cada paso depende del anterior.</p>"
+        },
+        {
+          "heading": "Una lección que aprendí antes de que existiera la IA generativa",
+          "html": "<p>A finales de los noventa estaba en una reunión importante con una gran cadena danesa de retail. Vendíamos cámaras digitales y yo quería ganar ese deal de verdad. Conocía los productos, el catálogo y los argumentos de venta al dedillo.</p><p>El problema era que no había investigado lo suficiente la estrategia de compras del cliente. Cuando por fin me senté frente al comprador, no pude conectar mi catálogo con lo que realmente necesitaban. El comprador era duro de roer y volví a casa con las manos vacías.</p><p>Fue una lección valiosa: la preparación no es lo que viene antes del trabajo, es parte del trabajo. Podría haber tenido el doble de cámaras en el catálogo y aun así no habría salvado esa reunión, porque faltaba la base. Una herramienta de IA sobre un CRM que nadie completa correctamente es, en el fondo, la misma reunión. Solo que en forma de sistema.</p>"
+        },
+        {
+          "heading": "Haz esto esta semana",
+          "html": "<p>Abre tus diez últimos deals ganados en el CRM y léelos como si acabaras de entrar a la empresa hoy mismo. Intenta entender por qué el cliente dijo sí, qué fue decisivo y quién tomó realmente la decisión.</p><p>¿Cuántos de los diez puedes entender solo con lo que aparece en el sistema? Si la respuesta es menos de siete, yo tendría cuidado antes de añadir más IA encima. Puede que tengas un CRM y un dashboard bonito, pero no necesariamente tengas una base sólida.</p><p>La buena noticia es que esto se puede arreglar, y a menudo sale mucho más barato que el próximo piloto de IA. Prefiero tres campos importantes que se rellenan siempre, a diez campos fantásticos que se rellenan a veces. Porque la IA es fantástica para amplificar. La pregunta es qué estás amplificando: buenos datos, buenos procesos y buenos hábitos te dan palanca en la dirección correcta. Desorden, malos hábitos e información a medias también te dan palanca, pero en la dirección equivocada.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué empeora la previsión de ventas al automatizarla si el sistema calcula correctamente?",
+          "a": "El problema no es el cálculo en sí, sino que antes una persona con experiencia revisaba la cifra y detectaba cuando algo no cuadraba con la realidad. Al automatizar, esa capa de sentido común desaparece y empezamos a confiar más en la tabla, con sus decimales, que en el criterio humano."
+        },
+        {
+          "q": "¿Qué pregunta deberíamos llevar a la próxima reunión de dirección sobre IA?",
+          "a": "Urban Gavelin propone preguntar: si apagáramos mañana todas nuestras herramientas de IA, ¿qué decisiones empeorarían realmente? La respuesta suele revelar mejor el nivel real de madurez en IA de una empresa que la cantidad de herramientas que ha comprado."
+        }
+      ],
+      "cta": "Escribe MADUREZ y recibe el test de doce preguntas para descubrir en tres minutos cuál es tu verdadero punto de partida antes de seguir invirtiendo en IA."
+    }
+  }
+}
