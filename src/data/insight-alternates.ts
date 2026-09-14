@@ -7,6 +7,7 @@ export interface AlternateSet {
 }
 
 export const alternateSets: AlternateSet[] = [
+  { sv: "/sv/insikter/lagger-man-ai-pa-kaos-blir-det-varre/", en: "/en/insights/add-ai-to-chaos-you-get-more-chaos/", es: "/es/perspectivas/si-le-metes-ia-al-caos-obtienes-mas-caos/" },
   { sv: "/sv/insikter/din-nasta-saljare-kanske-redan-jobbar-hos-dig/", en: "/en/insights/your-next-salesperson-might-already-work-for-you/", es: "/es/perspectivas/tu-proximo-vendedor-ya-trabaja-en-tu-empresa/" },
   { sv: "/sv/insikter/sex-ai-system-inte-ett-enda-verktyg/", en: "/en/insights/six-ai-systems-not-a-single-tool/", es: "/es/perspectivas/seis-sistemas-ia-ni-una-sola-herramienta/" },
   { sv: "/sv/insikter/om-ain-inte-kan-lasa-det-finns-det-inte/", en: "/en/insights/if-the-ai-cant-read-it-it-doesnt-exist/", es: "/es/perspectivas/si-la-ia-no-puede-leerlo-no-existe/" },

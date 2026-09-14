@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/si-le-metes-ia-al-caos-obtienes-mas-caos/",
+    title: "Si le metes IA al caos, obtienes más caos",
+    description: "En casi todos los proyectos de IA existe la misma esperanza silenciosa: si no ayuda, al menos no hará daño. Urban Gavelin explica por qué eso es falso y por qué la IA no arregla datos desordenados, los amplifica. Un ejercicio práctico para revisar tu CRM antes de sumar más tecnología.",
+    date: "14 de septiembre de 2026",
+    category: "Liderazgo en Ventas y Pipeline",
+  },
+  {
     url: "/es/perspectivas/tu-proximo-vendedor-ya-trabaja-en-tu-empresa/",
     title: "Tu próximo vendedor quizá ya trabaja en tu empresa",
     description: "Urban Gavelin explora cómo la inteligencia artificial podría transformar los equipos de ventas B2B no despidiendo personas, sino evitando contrataciones futuras. Un análisis sobre cómo recuperar capacidad oculta en tu equipo antes de sumar a alguien nuevo a la nómina.",

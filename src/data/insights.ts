@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/add-ai-to-chaos-you-get-more-chaos/",
+    title: "Add AI to Chaos and You Get More Chaos",
+    description: "AI does not sit quietly on top of messy data and do no harm. It actively amplifies whatever is already there, good or bad. Urban Gavelin explains why preparation, process and clean data must come before any AI layer, and gives leaders a simple exercise to test where they really stand.",
+    date: "September 14, 2026",
+    category: "AI & Sales Leadership",
+  },
+  {
     url: "/en/insights/your-next-salesperson-might-already-work-for-you/",
     title: "Your Next Salesperson Might Already Work for You",
     description: "AI's first big effect on jobs may not be layoffs, but the hire that never happens. Urban Gavelin argues that most sales teams are sitting on hidden capacity trapped in administrative work, and shows how to find it before posting another job ad.",

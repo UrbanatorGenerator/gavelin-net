@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/lagger-man-ai-pa-kaos-blir-det-varre/",
+    title: "Lägger man AI på kaos blir det värre",
+    description: "AI förstärker det som redan finns, oavsett om det är bra eller dåligt. Den här artikeln visar varför halvifylld CRM-data och otillräcklig förberedelse blir ännu farligare när AI läggs ovanpå, och ger ett konkret test för att se om er data faktiskt duger som underlag.",
+    date: "14 september 2026",
+    category: "Data & AI-mognad i B2B-försäljning",
+  },
+  {
     url: "/sv/insikter/din-nasta-saljare-kanske-redan-jobbar-hos-dig/",
     title: "Din nästa säljare kanske redan jobbar hos dig",
     description: "Den största AI-effekten i säljorganisationer syns kanske inte i uppsägningar, utan i tjänster som aldrig behöver tillsättas. Genom att frigöra tid från administration hittar många företag sina nästa säljare inom den egna organisationen.",
