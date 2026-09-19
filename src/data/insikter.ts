@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/det-ar-inte-ai-som-ar-roboten-det-ar-du/",
+    title: "Det är inte AI som är roboten. Det är du.",
+    description: "Vi pratar mycket om hur intelligent AI blir, men glömmer att vi själva är programmerade av vår omgivning sedan barndomen. Urban Gavelin utmanar dig att uppdatera dina egna skills lika ofta som du följer AI-nyheterna. Frågan är inte hur smart AI blir, utan hur mycket bättre du blir på att använda din egen intelligens.",
+    date: "19 september 2026",
+    category: "Personlig utveckling & AI-mindset",
+  },
+  {
     url: "/sv/insikter/lagger-man-ai-pa-kaos-blir-det-varre/",
     title: "Lägger man AI på kaos blir det värre",
     description: "AI förstärker det som redan finns, oavsett om det är bra eller dåligt. Den här artikeln visar varför halvifylld CRM-data och otillräcklig förberedelse blir ännu farligare när AI läggs ovanpå, och ger ett konkret test för att se om er data faktiskt duger som underlag.",

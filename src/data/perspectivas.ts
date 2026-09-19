@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/no-es-la-ia-el-robot-eres-tu/",
+    title: "No es la IA la que es el robot. Eres tú.",
+    description: "Un artículo que invita a reflexionar sobre cómo funcionamos las personas casi como sistemas programados, con skills, connectors y plug-ins propios. La verdadera pregunta no es cuánto avanza la IA, sino si tú te actualizas al mismo ritmo.",
+    date: "19 de septiembre de 2026",
+    category: "Liderazgo y desarrollo profesional",
+  },
+  {
     url: "/es/perspectivas/si-le-metes-ia-al-caos-obtienes-mas-caos/",
     title: "Si le metes IA al caos, obtienes más caos",
     description: "En casi todos los proyectos de IA existe la misma esperanza silenciosa: si no ayuda, al menos no hará daño. Urban Gavelin explica por qué eso es falso y por qué la IA no arregla datos desordenados, los amplifica. Un ejercicio práctico para revisar tu CRM antes de sumar más tecnología.",

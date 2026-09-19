@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/its-not-ai-thats-the-robot-its-you/",
+    title: "It's Not AI That's the Robot. It's You.",
+    description: "We talk endlessly about how intelligent AI is becoming, but the more interesting question might be how intelligent we remain. This article explores the code, skills and plug-ins that make up a human being, and asks when you last updated yours.",
+    date: "September 19, 2026",
+    category: "Personal Development & AI Mindset",
+  },
+  {
     url: "/en/insights/add-ai-to-chaos-you-get-more-chaos/",
     title: "Add AI to Chaos and You Get More Chaos",
     description: "AI does not sit quietly on top of messy data and do no harm. It actively amplifies whatever is already there, good or bad. Urban Gavelin explains why preparation, process and clean data must come before any AI layer, and gives leaders a simple exercise to test where they really stand.",
