@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/technology-changed-craft-remains/",
+    title: "The Technology Has Changed. The Craft Remains.",
+    description: "Urban Gavelin argues that AI has not replaced the craft of selling, it has only removed the discount you once got for simply showing up. The real skill now is turning fast research into relevance, not volume for its own sake.",
+    date: "September 29, 2026",
+    category: "Sales Strategy & AI in B2B",
+  },
+  {
     url: "/en/insights/the-buyer-has-already-done-your-needs-analysis/",
     title: "The Buyer Has Already Done Your Needs Analysis",
     description: "AI agents now compare vendors, calculate total cost, and read reviews before a seller ever gets a meeting. Drawing on Victor Antonio's The Future of Selling, this piece asks what is actually left for the human in the room, and how to influence the criteria an agent cannot find on its own.",

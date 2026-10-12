@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/tekniken-har-bytts-ut-hantverket-ar-kvar/",
+    title: "Tekniken har bytts ut. Hantverket är kvar.",
+    description: "Prospektering har blivit billigare och snabbare, men kravet på relevans har inte försvunnit. Urban Gavelin menar att AI inte ersätter säljhantverket utan gör det möjligt att skala just den förberedelse som alltid avgjort affärer.",
+    date: "29 september 2026",
+    category: "Prospektering & Säljstrategi",
+  },
+  {
     url: "/sv/insikter/koparen-har-redan-gjort-din-behovsanalys/",
     title: "Köparen har redan gjort din behovsanalys",
     description: "AI-agenter hinner jämföra leverantörer, räkna på kostnader och läsa referenser innan säljaren ens blivit inbjuden. Urban Gavelin reflekterar över Victor Antonios bok The Future of Selling och vad som faktiskt återstår för säljaren att tillföra när kunden redan vet allt som går att slå upp.",

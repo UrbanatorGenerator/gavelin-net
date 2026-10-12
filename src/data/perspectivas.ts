@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/la-tecnologia-ha-cambiado-el-oficio-permanece/",
+    title: "La tecnología ha cambiado. El oficio permanece.",
+    description: "Urban Gavelin explica por qué la IA no ha sustituido el oficio de vender, sino que ha hecho posible escalar la preparación comercial que antes solo unos pocos vendedores dominaban. Un repaso honesto a lo que realmente cambia, y lo que sigue intacto, en la prospección B2B moderna.",
+    date: "29 de septiembre de 2026",
+    category: "Prospección y Pipeline B2B",
+  },
+  {
     url: "/es/perspectivas/el-comprador-ya-hizo-tu-analisis-de-necesidades/",
     title: "El comprador ya hizo tu análisis de necesidades",
     description: "La IA del comprador compara proveedores, calcula costes y lee referencias antes de tu primera reunión. Urban Gavelin reflexiona sobre The Future of Selling de Victor Antonio y explica cómo cambiar las reglas del juego cuando el cliente llega ya informado.",

@@ -7,6 +7,7 @@ export interface AlternateSet {
 }
 
 export const alternateSets: AlternateSet[] = [
+  { sv: "/sv/insikter/tekniken-har-bytts-ut-hantverket-ar-kvar/", en: "/en/insights/technology-changed-craft-remains/", es: "/es/perspectivas/la-tecnologia-ha-cambiado-el-oficio-permanece/" },
   { sv: "/sv/insikter/koparen-har-redan-gjort-din-behovsanalys/", en: "/en/insights/the-buyer-has-already-done-your-needs-analysis/", es: "/es/perspectivas/el-comprador-ya-hizo-tu-analisis-de-necesidades/" },
   { sv: "/sv/insikter/det-ar-inte-ai-som-ar-roboten-det-ar-du/", en: "/en/insights/its-not-ai-thats-the-robot-its-you/", es: "/es/perspectivas/no-es-la-ia-el-robot-eres-tu/" },
   { sv: "/sv/insikter/lagger-man-ai-pa-kaos-blir-det-varre/", en: "/en/insights/add-ai-to-chaos-you-get-more-chaos/", es: "/es/perspectivas/si-le-metes-ia-al-caos-obtienes-mas-caos/" },
