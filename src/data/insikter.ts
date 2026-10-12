@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/koparen-har-redan-gjort-din-behovsanalys/",
+    title: "Köparen har redan gjort din behovsanalys",
+    description: "AI-agenter hinner jämföra leverantörer, räkna på kostnader och läsa referenser innan säljaren ens blivit inbjuden. Urban Gavelin reflekterar över Victor Antonios bok The Future of Selling och vad som faktiskt återstår för säljaren att tillföra när kunden redan vet allt som går att slå upp.",
+    date: "12 oktober 2026",
+    category: "Säljstrategi och AI",
+  },
+  {
     url: "/sv/insikter/det-ar-inte-ai-som-ar-roboten-det-ar-du/",
     title: "Det är inte AI som är roboten. Det är du.",
     description: "Vi pratar mycket om hur intelligent AI blir, men glömmer att vi själva är programmerade av vår omgivning sedan barndomen. Urban Gavelin utmanar dig att uppdatera dina egna skills lika ofta som du följer AI-nyheterna. Frågan är inte hur smart AI blir, utan hur mycket bättre du blir på att använda din egen intelligens.",

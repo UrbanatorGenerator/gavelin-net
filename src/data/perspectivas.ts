@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/el-comprador-ya-hizo-tu-analisis-de-necesidades/",
+    title: "El comprador ya hizo tu análisis de necesidades",
+    description: "La IA del comprador compara proveedores, calcula costes y lee referencias antes de tu primera reunión. Urban Gavelin reflexiona sobre The Future of Selling de Victor Antonio y explica cómo cambiar las reglas del juego cuando el cliente llega ya informado.",
+    date: "12 de octubre de 2026",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/es/perspectivas/no-es-la-ia-el-robot-eres-tu/",
     title: "No es la IA la que es el robot. Eres tú.",
     description: "Un artículo que invita a reflexionar sobre cómo funcionamos las personas casi como sistemas programados, con skills, connectors y plug-ins propios. La verdadera pregunta no es cuánto avanza la IA, sino si tú te actualizas al mismo ritmo.",

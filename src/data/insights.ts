@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/the-buyer-has-already-done-your-needs-analysis/",
+    title: "The Buyer Has Already Done Your Needs Analysis",
+    description: "AI agents now compare vendors, calculate total cost, and read reviews before a seller ever gets a meeting. Drawing on Victor Antonio's The Future of Selling, this piece asks what is actually left for the human in the room, and how to influence the criteria an agent cannot find on its own.",
+    date: "October 12, 2026",
+    category: "Sales Strategy & AI Disruption",
+  },
+  {
     url: "/en/insights/its-not-ai-thats-the-robot-its-you/",
     title: "It's Not AI That's the Robot. It's You.",
     description: "We talk endlessly about how intelligent AI is becoming, but the more interesting question might be how intelligent we remain. This article explores the code, skills and plug-ins that make up a human being, and asks when you last updated yours.",
