@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-19",
+  "linkedinUrl": "https://www.linkedin.com/pulse/min-f%C3%B6rsta-kund-fr%C3%A5n-chatgpt-fick-mig-att-bygga-om-hela-urban-gavelin-wt7cf/",
+  "imageSource": "https://media.licdn.com/dms/image/v2/D4D12AQEaQY2T_K4ZFQ/article-cover_image-shrink_720_1280/B4DaFO.bx8HoAQ-/0/1792326358398?e=2147483647&v=beta&t=TgfDl-PXpiOKzLhSHKASHrKvzwX9TeGUQV7_CH3PG8w",
+  "imageSlug": "my-first-customer-from-chatgpt-made-me-rebuild-my-entire-website",
+  "articles": {
+    "en": {
+      "slug": "my-first-customer-from-chatgpt-made-me-rebuild-my-entire-website",
+      "title": "My First Customer From ChatGPT Made Me Rebuild My Entire Website",
+      "description": "A new client found Urban Gavelin through ChatGPT, and that single referral forced him to rethink everything about his website. This is the story of rebuilding a site for machines as well as humans, and what that means for anyone who sells.",
+      "category": "AI Visibility & Website Strategy",
+      "keywords": [
+        "AI search",
+        "ChatGPT referrals",
+        "buyer AI",
+        "website optimization",
+        "FAQ content",
+        "generative search",
+        "B2B sales",
+        "digital visibility"
+      ],
+      "lead": "Last week I wrote about the buyer who has already done the needs analysis before you walk into the room. This week I want to show the other side of the same coin. If the buyer's AI is doing the comparing, what does it see when it looks at you?",
+      "sections": [
+        {
+          "heading": "A Referral From an AI",
+          "html": "<p>I recently closed a deal that started with a referral from ChatGPT. The client had asked an AI service a question and got my name back in the answer. That felt good for about a minute.</p><p>Then it got uncomfortable. If ChatGPT could find me that time, how many times had it not? I had no idea what it was reading about me, or what it was missing entirely. My website had been written for people who already knew who I was.</p><p>So I rebuilt gavelin.net from the ground up. Today it is, first and foremost, a site for bots. It is the first time in my career that I have written for a reader who never drinks coffee at the morning meeting.</p>"
+        },
+        {
+          "heading": "Writing for a Reader Who Never Drinks Coffee",
+          "html": "<p>In practice this means that every newsletter, including this one, automatically becomes an article in Swedish, English, and Spanish. Each article has clear headings, keywords, and a short FAQ at the bottom, with the questions a buyer actually asks and straight answers to them.</p><p>None of this is pretty to look at. All of it is easy for a machine to read.</p>"
+        },
+        {
+          "heading": "How Humans and Machines Read Differently",
+          "html": "<p>A human and a machine read a website in completely different ways. The human skims, looks at the images, senses the tone, and decides within seconds whether you seem credible. The machine does not care about the images. It is looking for claims it can repeat: what you do, for whom, at what price, and with what result.</p><p>That is why the FAQ at the bottom of the articles does so much work. A question and an answer that sit together can be lifted out and quoted without the rest of the text. Most of what we have spent money on in web design over the years, the big images, the animations, the airy messaging, is invisible to that reader.</p><p>Why does it matter? Because the buyer's AI rewards what it can read and compare. What it cannot find does not count as neutral. It counts as uncertainty. A hidden price, a case study that is just a logo, a service described in fine words but no substance: all of it pushes you further down in the comparison, and you never find out why.</p>"
+        },
+        {
+          "heading": "Five Things to Do Right Now",
+          "html": "<ul><li>Ask the question your customer would ask ChatGPT, Perplexity, or Copilot, without mentioning your company name. Which providers does it suggest? Are you on the list, and what does it say about you?</li><li>Read your homepage as if you were a machine. Can you say in three sentences what you do, for whom, and roughly what it costs?</li><li>Write down the five questions customers ask in a first meeting. Answer them on the website, in plain language.</li><li>Turn one case study from a logo into a story: industry, problem, what you did, and what resulted.</li><li>Publish your pricing level, or explain how the price is set. A 'contact us' reads as a question mark.</li></ul><p>In August I wrote about the CRM, about how what is not written down does not exist for your own AI. This is the same thing from the other direction. Now it is the buyer's AI that is reading, and it only reads what you have published. A first meeting is increasingly booked only after a machine has already sorted out most of the alternatives. You cannot charm it. You can only be understandable.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How did a referral from ChatGPT turn into an actual client?",
+          "a": "A prospective customer asked an AI service for recommendations in their field, and the AI named Urban Gavelin in its answer. The customer followed up directly, which led to a real deal, prompting a closer look at how AI systems actually read and interpret the website."
+        },
+        {
+          "q": "What should a website FAQ include to be useful to an AI?",
+          "a": "It should contain the exact questions buyers ask in a first meeting, paired with short, direct answers written in plain language. A question and answer that stand together can be extracted and quoted by an AI without needing the surrounding text for context."
+        }
+      ],
+      "cta": "Ask an AI the question your next customer would ask, without naming your company, and see whether you show up and what it says about you."
+    },
+    "sv": {
+      "slug": "min-forsta-kund-fran-chatgpt",
+      "title": "Min första kund från ChatGPT fick mig att bygga om hela webbplatsen",
+      "description": "En ny kund hittade Urban Gavelin via ett svar från ChatGPT, vilket fick honom att skriva om hela webbplatsen för maskiner i stället för människor. Texten visar varför tydliga rubriker, raka påståenden och en konkret FAQ nu avgör om ett företag ens syns i köparens AI-jämförelse.",
+      "category": "B2B-marknadsföring & AI-sökbarhet",
+      "keywords": [
+        "ChatGPT",
+        "generativ AI",
+        "sökbarhet",
+        "webbplats",
+        "B2B-försäljning",
+        "FAQ",
+        "content marketing",
+        "pipeline"
+      ],
+      "lead": "Förra veckan handlade det om köparen som redan gjort sin research innan mötet. Den här veckan handlar det om andra sidan av samma mynt: vad ser köparens AI när den jämför er med konkurrenterna?",
+      "sections": [
+        {
+          "heading": "En referens som blev en väckarklocka",
+          "html": "<p>Jag fick nyligen min första affär med en referens från ChatGPT. Kunden hade ställt en fråga till en AI-tjänst och fått mitt namn i svaret. Det var roligt i ungefär en minut.</p><p>Sedan blev det obekvämt. Om ChatGPT hade hittat mig den gången, hur många gånger hade den inte gjort det tidigare utan att jag visste om det? Jag hade ingen aning om vad den läste om mig, eller vad den helt enkelt missade, eftersom min webbplats var skriven för människor som redan visste vem jag var.</p><p>Så jag byggde om gavelin.net i grunden. I dag är den i första hand en sida för bottar. Det är första gången i mitt yrkesliv jag skriver för en läsare som aldrig dricker kaffe på morgonmötet, och det förändrar nästan allt i hur innehållet struktureras.</p>"
+        },
+        {
+          "heading": "Två helt olika sätt att läsa en sida",
+          "html": "<p>En människa och en maskin läser en webbplats på helt olika sätt. Människan skummar, tittar på bilderna, känner av tonen och bestämmer sig på några sekunder om ni verkar seriösa. Maskinen bryr sig inte om bilderna. Den letar efter påståenden den kan återge: vad ni gör, för vem, till vilket pris och med vilket resultat.</p><p>Det mesta vi historiskt lagt pengar på i webbdesign, de stora hero-bilderna, animationerna och de luftiga men vaga budskapen, är i praktiken osynligt för den här läsaren. En AI kan inte citera en känsla, bara ett konkret påstående.</p><p>Det betyder inte att design spelar ut sin roll, men det betyder att texten under ytan måste bära mer av arbetet än tidigare. Varje nyhetsbrev blir nu automatiskt en artikel på svenska, engelska och spanska, med tydliga rubriker, sökord och en kort FAQ längst ner.</p>"
+        },
+        {
+          "heading": "Varför FAQ:n gör så mycket nytta",
+          "html": "<p>En fråga och ett svar som står tillsammans kan lyftas ut och citeras utan resten av texten runt omkring. Det gör FAQ-formatet till ett av de mest underskattade verktygen när köparens AI ska sammanfatta eller jämföra leverantörer.</p><p>Det den inte hittar räknas inte som neutralt, det räknas som osäkerhet. Ett gömt pris, ett kundcase som bara visas som en logotyp, eller en tjänst beskriven med fina ord men utan konkret innehåll gör att ni hamnar längre ner i jämförelsen, utan att ni någonsin får veta varför.</p><p>Lösningen är ofta enkel rent tekniskt, men kräver disciplin: skriv ner exakt de frågor köparna redan ställer i det första mötet, och svara på dem i klartext på webbplatsen i stället för att gömma svaren i ett säljsamtal.</p>"
+        },
+        {
+          "heading": "Konsekvensen för er pipeline",
+          "html": "<p>I augusti skrev jag om CRM:et: det som inte är nedskrivet finns inte för er egen AI. Det här är samma princip från andra hållet. Nu är det köparens AI som läser, och den läser bara det ni faktiskt har publicerat, inte det ni säger i möten eller tänker skriva någon gång.</p><p>Ett första möte bokas allt oftare efter att en maskin redan sorterat bort de flesta alternativen i en bransch. Ni kan inte charma en algoritm med varumärkeskänsla. Ni kan bara göra er begripliga, konkreta och lätta att citera.</p><p>Det är en ny typ av pipeline-arbete som sker innan säljaren ens vet att en affär är på gång, och den som ignorerar det riskerar att aldrig komma med i jämförelsen alls.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hur vet jag om min webbplats syns i AI-verktyg som ChatGPT eller Perplexity?",
+          "a": "Ställ samma fråga en kund skulle ställa, utan att nämna ert företagsnamn, och se vilka leverantörer verktyget föreslår. Om ni inte dyker upp, eller om beskrivningen av er är vag och felaktig, är det ett tydligt tecken på att innehållet behöver skrivas om för maskinläsning."
+        },
+        {
+          "q": "Räcker det med snygg design för att synas bra hos köparens AI?",
+          "a": "Nej, en AI bryr sig inte om bilder, animationer eller stämningsfulla formuleringar utan substans. Det som räknas är konkreta, citerbara påståenden om vad ni gör, för vem, till vilket pris och med vilket resultat, gärna strukturerat som tydliga rubriker och en FAQ."
+        }
+      ],
+      "cta": "Skriv MOGNAD i en kommentar eller ett meddelande så skickar jag mognadstestet: tolv frågor om hur redo er säljdata är för AI, tre minuter att svara på och direkt återkoppling."
+    },
+    "es": {
+      "slug": "mi-primer-cliente-de-chatgpt-me-hizo-redisenar-toda-la-web",
+      "title": "Mi primer cliente de ChatGPT me hizo rediseñar toda la web",
+      "description": "Cuando un cliente llegó recomendado por una IA, descubrí que mi web estaba escrita solo para humanos. Esto cambió por completo cómo pienso en contenido, FAQ y estructura para que las máquinas también puedan leernos y recomendarnos.",
+      "category": "Marketing Digital & Ventas B2B",
+      "keywords": [
+        "IA generativa",
+        "ChatGPT",
+        "contenido B2B",
+        "FAQ",
+        "pipeline",
+        "product-market fit",
+        "SEO conversacional",
+        "ventas B2B"
+      ],
+      "lead": "Hace poco cerré mi primer deal gracias a una referencia de ChatGPT. Fue divertido durante un minuto, y después bastante incómodo: no tenía ni idea de qué decía una IA sobre mí, así que rediseñé toda mi web pensando en lectores que nunca toman café en la reunión matutina.",
+      "sections": [
+        {
+          "heading": "Cuando la máquina te encuentra antes que el cliente",
+          "html": "<p>Hace unas semanas escribí sobre el comprador que ya hizo su análisis de necesidades antes de que tú entres en la sala. Esta vez quiero mostrar la otra cara de la misma moneda: si la IA del comprador hace la comparación por él, ¿qué ve exactamente cuando te mira a ti?</p><p>Mi primer deal con una referencia de ChatGPT llegó así, sin aviso. El cliente le había preguntado a una herramienta de IA y mi nombre apareció en la respuesta. Al principio me pareció una anécdota graciosa. Después caí en la cuenta: si ChatGPT me encontró esa vez, ¿cuántas veces más lo había hecho sin que yo lo supiera? Mi web estaba escrita para personas que ya sabían quién era yo, no para alguien que me descubre por primera vez a través de un modelo de lenguaje.</p>"
+        },
+        {
+          "heading": "Escribir para un lector que no se toma un café",
+          "html": "<p>Así que rediseñé por completo gavelin.net. Hoy es, en primer lugar, una web pensada para bots. Es la primera vez en mi vida profesional que escribo para un lector que jamás comparte una reunión matutina ni toma una decisión por impresión visual.</p><p>En la práctica, esto significa que cada newsletter, como este mismo, se convierte automáticamente en un artículo en sueco, inglés y español. Cada artículo tiene encabezados claros, palabras clave y una FAQ corta al final, con preguntas que un comprador real haría y respuestas directas. Nada de esto es bonito a la vista. Todo es fácil de leer para una máquina.</p><p>Un humano y una máquina leen una web de maneras completamente distintas. El humano escanea, mira las imágenes, siente el tono y decide en segundos si parecéis serios. La máquina no le presta atención a las fotos: busca afirmaciones que pueda repetir, qué hacéis, para quién, a qué precio y con qué resultado.</p>"
+        },
+        {
+          "heading": "Por qué la FAQ vale más que el diseño",
+          "html": "<p>Por eso la FAQ al final de los artículos hace tanto trabajo. Una pregunta y su respuesta, juntas, pueden extraerse y citarse sin necesidad del resto del texto. Gran parte de lo que hemos invertido en diseño web durante años, las imágenes grandes, las animaciones, los mensajes etéreos, es invisible para ese lector.</p><p>¿Por qué importa esto? Porque la IA del comprador premia lo que puede leer y comparar. Lo que no encuentra no cuenta como neutral: cuenta como incertidumbre. Un precio escondido, un caso de éxito que es solo un logo, un servicio descrito con palabras bonitas pero sin contenido real. Todo eso os hace caer en la comparación, y nunca sabréis por qué.</p>"
+        },
+        {
+          "heading": "La misma lógica, desde el otro lado",
+          "html": "<p>En agosto escribí sobre el CRM: lo que no está escrito no existe para vuestra propia IA. Esto es exactamente lo mismo, pero visto desde el otro lado. Ahora es la IA del comprador la que lee, y solo lee lo que habéis publicado.</p><p>Cada vez más, la primera reunión se agenda después de que una máquina ya descartó a la mayoría de las alternativas. No podéis encantarla con carisma. Solo podéis ser comprensibles, claros y verificables en lo que publicáis.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo sé si la IA de un comprador me está encontrando?",
+          "a": "Pregúntale directamente a ChatGPT, Perplexity o Copilot lo que preguntaría tu cliente, sin mencionar tu nombre. Fíjate en qué proveedores sugiere, si apareces en la respuesta y qué dice exactamente sobre tu empresa."
+        },
+        {
+          "q": "¿Qué cambios concretos hacen que una web sea más legible para una IA?",
+          "a": "Prioriza encabezados claros, una sección de FAQ con preguntas y respuestas directas, casos de éxito con texto real en lugar de solo logos, y precios visibles o al menos explicados en vez de un simple 'contáctanos'."
+        }
+      ],
+      "cta": "Escribe MADUREZ y te envío el test de madurez de datos de ventas: doce preguntas, tres minutos, respuesta inmediata."
+    }
+  }
+}
