@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/mi-primer-cliente-de-chatgpt-me-hizo-redisenar-toda-la-web/",
+    title: "Mi primer cliente de ChatGPT me hizo rediseñar toda la web",
+    description: "Cuando un cliente llegó recomendado por una IA, descubrí que mi web estaba escrita solo para humanos. Esto cambió por completo cómo pienso en contenido, FAQ y estructura para que las máquinas también puedan leernos y recomendarnos.",
+    date: "19 de octubre de 2026",
+    category: "Marketing Digital & Ventas B2B",
+  },
+  {
     url: "/es/perspectivas/la-tecnologia-ha-cambiado-el-oficio-permanece/",
     title: "La tecnología ha cambiado. El oficio permanece.",
     description: "Urban Gavelin explica por qué la IA no ha sustituido el oficio de vender, sino que ha hecho posible escalar la preparación comercial que antes solo unos pocos vendedores dominaban. Un repaso honesto a lo que realmente cambia, y lo que sigue intacto, en la prospección B2B moderna.",

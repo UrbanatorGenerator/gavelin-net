@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/my-first-customer-from-chatgpt-made-me-rebuild-my-entire-website/",
+    title: "My First Customer From ChatGPT Made Me Rebuild My Entire Website",
+    description: "A new client found Urban Gavelin through ChatGPT, and that single referral forced him to rethink everything about his website. This is the story of rebuilding a site for machines as well as humans, and what that means for anyone who sells.",
+    date: "October 19, 2026",
+    category: "AI Visibility & Website Strategy",
+  },
+  {
     url: "/en/insights/technology-changed-craft-remains/",
     title: "The Technology Has Changed. The Craft Remains.",
     description: "Urban Gavelin argues that AI has not replaced the craft of selling, it has only removed the discount you once got for simply showing up. The real skill now is turning fast research into relevance, not volume for its own sake.",

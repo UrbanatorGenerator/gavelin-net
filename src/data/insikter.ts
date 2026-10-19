@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/min-forsta-kund-fran-chatgpt/",
+    title: "Min första kund från ChatGPT fick mig att bygga om hela webbplatsen",
+    description: "En ny kund hittade Urban Gavelin via ett svar från ChatGPT, vilket fick honom att skriva om hela webbplatsen för maskiner i stället för människor. Texten visar varför tydliga rubriker, raka påståenden och en konkret FAQ nu avgör om ett företag ens syns i köparens AI-jämförelse.",
+    date: "19 oktober 2026",
+    category: "B2B-marknadsföring & AI-sökbarhet",
+  },
+  {
     url: "/sv/insikter/tekniken-har-bytts-ut-hantverket-ar-kvar/",
     title: "Tekniken har bytts ut. Hantverket är kvar.",
     description: "Prospektering har blivit billigare och snabbare, men kravet på relevans har inte försvunnit. Urban Gavelin menar att AI inte ersätter säljhantverket utan gör det möjligt att skala just den förberedelse som alltid avgjort affärer.",

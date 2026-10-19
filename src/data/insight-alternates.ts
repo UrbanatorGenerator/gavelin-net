@@ -7,6 +7,7 @@ export interface AlternateSet {
 }
 
 export const alternateSets: AlternateSet[] = [
+  { sv: "/sv/insikter/min-forsta-kund-fran-chatgpt/", en: "/en/insights/my-first-customer-from-chatgpt-made-me-rebuild-my-entire-website/", es: "/es/perspectivas/mi-primer-cliente-de-chatgpt-me-hizo-redisenar-toda-la-web/" },
   { sv: "/sv/insikter/tekniken-har-bytts-ut-hantverket-ar-kvar/", en: "/en/insights/technology-changed-craft-remains/", es: "/es/perspectivas/la-tecnologia-ha-cambiado-el-oficio-permanece/" },
   { sv: "/sv/insikter/koparen-har-redan-gjort-din-behovsanalys/", en: "/en/insights/the-buyer-has-already-done-your-needs-analysis/", es: "/es/perspectivas/el-comprador-ya-hizo-tu-analisis-de-necesidades/" },
   { sv: "/sv/insikter/det-ar-inte-ai-som-ar-roboten-det-ar-du/", en: "/en/insights/its-not-ai-thats-the-robot-its-you/", es: "/es/perspectivas/no-es-la-ia-el-robot-eres-tu/" },
