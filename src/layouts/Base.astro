@@ -117,7 +117,12 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
          utfalld dar i stallet. */
       nav li.has-sub { position: relative; }
       nav li.has-sub > ul {
-        display: none;
+        display: flex;
+        visibility: hidden;
+        opacity: 0;
+        /* Grace-fonster: menyn ligger kvar 0,3 s efter att musen lamnat, sa en
+           snett dragen muspekare hinner fram till lankarna. */
+        transition: opacity 0.15s ease, visibility 0s linear 0.3s;
         position: absolute;
         top: 100%;
         left: -0.75rem;
@@ -132,8 +137,22 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
         box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
         z-index: 10;
       }
+      /* Osynlig brygga over glappet (margin-top) mellan lanken och menyn, annars
+         tappas hover pa vagen ner. */
+      nav li.has-sub > ul::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 100%;
+        height: 1rem;
+      }
       nav li.has-sub:hover > ul,
-      nav li.has-sub:focus-within > ul { display: flex; }
+      nav li.has-sub:focus-within > ul {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+      }
       @media (max-width: 767px) {
         /* Ingen hover pa pekskarm. Undermenyn plattas darfor ut till vanliga
            menyval i samma rad. Forsta posten doljs eftersom den bara upprepar
@@ -141,6 +160,9 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
         nav li.has-sub { display: flex; flex-wrap: wrap; gap: var(--space-md); }
         nav li.has-sub > ul {
           display: flex;
+          visibility: visible;
+          opacity: 1;
+          transition: none;
           position: static;
           flex-direction: row;
           gap: var(--space-md);
@@ -152,6 +174,7 @@ const contactLabel = lang === 'sv' ? 'Kontakt' : lang === 'en' ? 'Contact' : 'Co
           min-width: 0;
         }
         nav li.has-sub > ul > li:first-child { display: none; }
+        nav li.has-sub > ul::before { display: none; }
       }
       main { max-width: var(--max-width); margin: 0 auto; padding: var(--space-lg) var(--space-md); }
       h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: var(--space-md); font-weight: 800; }
