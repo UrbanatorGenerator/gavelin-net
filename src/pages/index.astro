@@ -1,3 +1,11 @@
 ---
-return Astro.redirect('/sv/', 302);
+// GitHub Pages cannot send a real 301, so a redirect here becomes a noindex
+// meta-refresh stub that crawlers read as an empty page. The root serves the
+// Swedish homepage in full instead, with /sv/ as its canonical.
+import HomeSv from '../components/HomeSv.astro';
 ---
+
+<HomeSv
+  canonicalUrl="https://gavelin.net/sv/"
+  alternates={{ sv: '/sv/', en: '/en/', es: '/es/' }}
+/>

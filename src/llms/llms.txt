@@ -27,6 +27,8 @@ Urban Gavelin works with CEOs, sales managers, founders and commercial teams in 
 - [Insikter](https://gavelin.net/sv/insikter/)
 - [AI-information](https://gavelin.net/sv/ai-information/)
 
+{{insights}}
+
 ## Company
 
 Powersales Communication, https://powersales.se

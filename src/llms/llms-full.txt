@@ -65,27 +65,7 @@ A four-pillar framework for building scalable B2B revenue systems:
 
 ---
 
-## Key insights and published articles
-
-### The D.E.A.L. Framework: Scale Revenue Without Adding People (June 10, 2026)
-Most growth companies have the same problem: sales moves forward only because someone is running faster. The D.E.A.L. Framework addresses this by building systems that scale without adding headcount. Covers pipeline qualification, process documentation, AI augmentation, and leadership coaching cadence.
-URL: https://gavelin.net/en/insights/deal-framework/
-
-### Deals Stalled at 80%, What Do You Do Now? (June 2, 2026)
-The "internal discussion stall" is the most common deal-killer in B2B sales. Root causes include qualification failure, missing stakeholders, and absence of an internal champion. Three concrete tactics: deep qualification, multi-stakeholder engagement, and calendar-locked next steps.
-URL: https://gavelin.net/en/insights/deals-stalled-at-80/
-
-### The Hidden Reason Buyers Stall, and How to Fix It Fast (May 13, 2026)
-Most B2B sales processes are designed for sellers, not buyers. Buyer decision architecture, how buyers actually gather information, build internal consensus, and manage risk, is rarely mapped. A five-step framework to align sales process with buyer reality.
-URL: https://gavelin.net/en/insights/hidden-reason-buyers-stall/
-
-### The Invisible Quota: How Leaders Cap Their Own Revenue Growth (May 7, 2026)
-Conservative quota-setting is a form of leadership failure. When leaders prioritise team comfort over capability stretch, they create invisible revenue ceilings. Discusses the psychology of safe targets and what an honest quota-setting process looks like.
-URL: https://gavelin.net/en/insights/invisible-quota/
-
-### From Hours to Minutes: Meet Your New AI Sales Assistant (April 21, 2026)
-Introduction to PA Uno and the broader shift in AI-augmented selling. AI is not primarily an efficiency tool, it is a cognitive bandwidth tool. When administrative work is automated, salespeople can focus on conversations, decisions, and trust-building.
-URL: https://gavelin.net/en/insights/from-hours-to-minutes/
+{{insights}}
 
 ---
 
