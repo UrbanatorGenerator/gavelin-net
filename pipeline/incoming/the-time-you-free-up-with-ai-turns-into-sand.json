@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-26",
+  "linkedinUrl": "https://www.linkedin.com/pulse/tiden-ni-frig%C3%B6r-med-ai-blir-till-sand-urban-gavelin-cvmmf/",
+  "imageSource": "https://media.licdn.com/dms/image/v2/D4D12AQENeAo7EgtCcQ/article-cover_image-shrink_720_1280/B4DaF36JeRKQAQ-/0/1793013097316?e=2147483647&v=beta&t=dUX281P93NenjxFF0aMmlzk9B_jC3JzjH0tFlWe87S4",
+  "imageSlug": "the-time-you-free-up-with-ai-turns-into-sand",
+  "articles": {
+    "en": {
+      "slug": "the-time-you-free-up-with-ai-turns-into-sand",
+      "title": "The Time You Free Up With AI Turns Into Sand",
+      "description": "Automating a task saves minutes, but those minutes vanish unless someone decides in advance where they should go. This piece argues that freed-up time is a leadership decision, not a technology outcome, and shows how to stop it from leaking away.",
+      "category": "AI Productivity & Sales Leadership",
+      "keywords": [
+        "AI automation",
+        "sales productivity",
+        "time management",
+        "Parkinson's law",
+        "sales leadership",
+        "CRM automation",
+        "efficiency gains"
+      ],
+      "lead": "Receipts were the dullest task in my business. Not hard, just tedious. It took about five minutes each time, and now it takes none at all, which sounds like very little but is the whole point this week.",
+      "sections": [
+        {
+          "heading": "Time Disappears When No One Decides What It's For",
+          "html": "<p>I automated receipts in September. Now I share the photo from my phone and it lands with the accounting firm on its own. Five minutes saved per receipt. Do that often enough and it adds up to a full working day over a year.</p><p>The day itself isn't the interesting part. What's interesting is where it goes. I talked about this over lunch in August, and one sentence has stayed with me since: efficiency is worthless if the time it frees up just gets filled with more work.</p>"
+        },
+        {
+          "heading": "On My Own Team, I Decided in Advance",
+          "html": "<p>For me it's simple. I run my business fifteen to twenty hours a week, deliberately, and the time goes to things I'd rather do. I decided that in advance.</p><p>On a sales team, almost no one has decided that. You roll out a tool that writes the meeting notes, fills in the CRM, and drafts the follow-up email. Each rep gets back a chunk of time every day. No one notices where it goes. One more internal meeting, a few extra emails, a report someone has always wanted. The time fills up, because time without a name always does.</p>"
+        },
+        {
+          "heading": "Six Months Later, Nobody Can Say Where It Went",
+          "html": "<p>Half a year later, the CFO asks what the investment delivered. Reps don't feel less stressed. The number of customer meetings is the same. The conclusion becomes that AI didn't work for you.</p><p>It worked fine. The time just leaked out.</p><p>There's an old observation that work expands to fill the time available for it. It holds just as true on a sales team as in a government office. Free time doesn't stay free for long. If you don't have a plan for it, someone else's plan fills the gap instead, and that plan rarely involves customers.</p>"
+        },
+        {
+          "heading": "What to Do on Monday",
+          "html": "<p>This is also why I think the question is bigger than it looks. The idea behind growing without hiring is that the same people get more done. Freed-up time is that capacity. Let it leak and you've paid for the tool, skipped the hire, and still haven't gotten more done. Freed-up time is a leadership question, not a technology question. Someone has to decide what it becomes before the tool is switched on, and someone has to check that it did.</p><ul><li>Pick one task that should get shorter. Time it today with a stopwatch, not a guess.</li><li>Decide before you automate where the time should go. Write it down in one line.</li><li>Put the time on the calendar as a recurring block with a name. Time without a name becomes meetings.</li><li>Count what the time should produce, before and after: prepared customer meetings, followed-up lost deals, or whatever you chose.</li><li>Check back after a month. Don't ask if you saved time. Ask what became of it.</li></ul><p>If every rep on your team got back a full day each month starting tomorrow, who has already decided what that day is for?</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why does freed-up time disappear even when a tool clearly saves minutes?",
+          "a": "Because time without an assigned purpose gets absorbed by whatever is nearby, an extra meeting, a few more emails, a report nobody asked for. Unless someone names what the time is for before the tool goes live, it fills up on its own."
+        },
+        {
+          "q": "How can a sales leader stop AI-driven time savings from being wasted?",
+          "a": "Decide in advance what the freed-up time should produce, block it on the calendar with a clear name, and measure the outcome after a month instead of asking whether time was saved. That turns a vague efficiency gain into a tracked business result."
+        }
+      ],
+      "cta": "Pick one task your team just automated and decide today, in writing, where that saved time should go."
+    },
+    "sv": {
+      "slug": "tiden-ni-frigor-med-ai-blir-till-sand",
+      "title": "Tiden ni frigör med AI blir till sand",
+      "description": "AI kan frigöra flera timmar i veckan för varje säljare, men om ingen bestämt vad tiden ska användas till läcker den bort i möten och mejl. Urban Gavelin visar varför frigjord tid är en ledningsfråga, inte en teknikfråga, och hur ni säkrar att investeringen faktiskt ger mer gjort.",
+      "category": "Pipeline & Sales Leadership",
+      "keywords": [
+        "AI i säljteam",
+        "produktivitet",
+        "tidsbesparing",
+        "säljledning",
+        "effektivisering",
+        "CRM-automation",
+        "ledarskap"
+      ],
+      "lead": "Kvitton är det tråkigaste jobbet i min firma. Det tog fem minuter varje gång, nu tar det ingen tid alls. Det låter som väldigt lite, men det är den här veckans hela poäng.",
+      "sections": [
+        {
+          "heading": "Tiden försvinner om ingen bestämt vad den ska användas till",
+          "html": "<p>Jag automatiserade kvittona i september. I dag delar jag kvittot från telefonen och det hamnar hos bokföringsbyrån av sig självt. Fem minuter sparade per gång. Gör man det tillräckligt ofta blir det en hel arbetsdag om året.</p><p>Dagen i sig är inte det intressanta. Det intressanta är vart den tar vägen. Jag pratade om det över en lunch i augusti, och en mening har följt med mig sedan dess: effektivisering är värdelös om den frigjorda tiden bara fylls med mer arbete.</p><p>För mig är det enkelt. Jag driver min verksamhet på femton till tjugo timmar i veckan, med flit, och tiden går till sådant jag hellre gör. Jag har bestämt det i förväg, innan tiden fanns att fylla.</p>"
+        },
+        {
+          "heading": "Arbete fyller den tid som finns",
+          "html": "<p>I ett säljteam är det sällan någon som har bestämt det i förväg. Ni inför ett verktyg som skriver mötesanteckningarna, fyller i CRM:et och föreslår uppföljningsmejlet. Varje säljare får tillbaka en stund varje dag. Ingen märker var den tar vägen.</p><p>Ett internt möte till. Några fler mejl. En rapport som någon alltid velat ha. Tiden fylls, för det gör tid som saknar namn. Det finns en gammal iakttagelse om att arbete växer tills det fyller den tid som finns, och den gäller i ett säljteam lika mycket som på ett ämbetsverk.</p><p>Ett halvår senare frågar ekonomichefen vad investeringen gav. Säljarna känner sig inte mindre stressade. Antalet kundmöten är detsamma. Slutsatsen blir att AI inte fungerade hos er. Den fungerade visst. Tiden bara läckte ut.</p>"
+        },
+        {
+          "heading": "Frigjord tid är en ledningsfråga, inte en teknikfråga",
+          "html": "<p>Det här är skälet till att jag tycker att frågan är större än den ser ut. Tanken med att växa utan att anställa är att samma människor ska räcka till mer. Frigjord tid är den kapaciteten, helt enkelt den extra pipeline-kraft ni annars hade fått betala för genom nyanställning.</p><p>Låter ni den läcka har ni betalat för verktyget, avstått från att anställa, och ändå inte fått mer gjort. Ledig tid är inte ledig länge. Den som inte har en plan för den får andras planer i stället, och de handlar sällan om kunder.</p><p>Därför måste någon bestämma vad tiden ska bli innan verktyget slås på, och någon måste följa upp att den faktiskt blev det. Mer förberedelse inför de största kunderna. Uppföljning av affärer ni förlorade. Fler möten med kunder som redan köper. Vad som helst, bara det är bestämt och går att räkna.</p>"
+        },
+        {
+          "heading": "Så gör du på måndag",
+          "html": "<ul><li>Välj ett moment som ska bli kortare. Mät hur lång tid det tar i dag, med klocka, inte uppskattning.</li><li>Bestäm innan ni automatiserar vart tiden ska ta vägen. Skriv det på en rad.</li><li>Lägg in tiden i kalendern som ett återkommande block med ett namn. Tid utan namn blir möten.</li><li>Räkna det tiden ska gå till, före och efter: förberedda kundmöten, uppföljda förlorade affärer, eller det ni valde.</li><li>Följ upp efter en månad. Fråga inte om ni sparade tid. Fråga vad det blev av den.</li></ul><p>Om varje säljare hos er fick tillbaka en dag i månaden från och med i morgon, vem har redan bestämt vad den dagen ska användas till?</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Varför blir AI-investeringar i säljteam ofta en besvikelse trots att verktygen fungerar?",
+          "a": "Verktyget gör det det ska, men den frigjorda tiden har inget syfte och fylls automatiskt av interna möten, fler mejl och rapporter. När ingen bestämt i förväg vart tiden ska ta vägen ser det ut som att AI inte gav någon effekt, trots att det är bristen på en plan som är problemet."
+        },
+        {
+          "q": "Hur säkerställer vi att den frigjorda tiden faktiskt används till rätt saker?",
+          "a": "Bestäm innan ni automatiserar exakt vad tiden ska ersättas med, till exempel fler förberedda kundmöten eller uppföljning av förlorade affärer. Lägg in det som ett namngivet block i kalendern och följ upp efter en månad genom att mäta vad tiden blev till, inte bara om den sparades."
+        }
+      ],
+      "cta": "Boka ett samtal med Urban Gavelin för att sätta en plan för hur er frigjorda tid ska användas, innan ni automatiserar nästa process."
+    },
+    "es": {
+      "slug": "el-tiempo-que-liberais-con-ia-se-convierte-en-arena",
+      "title": "El tiempo que liberáis con la IA se convierte en arena",
+      "description": "Automatizar tareas libera minutos, pero si nadie decide de antemano qué hacer con ellos, ese tiempo se evapora en reuniones y correos sin nombre. Urban Gavelin explica por qué la productividad liberada por la IA es una cuestión de liderazgo, no de tecnología.",
+      "category": "Liderazgo en Ventas y Productividad B2B",
+      "keywords": [
+        "IA en ventas",
+        "productividad comercial",
+        "gestión del tiempo",
+        "pipeline",
+        "liderazgo de ventas",
+        "automatización",
+        "CRM",
+        "eficiencia B2B"
+      ],
+      "lead": "Automaticé los recibos de mi empresa en septiembre y ahorré cinco minutos cada vez. Suena a poco, pero es exactamente el tema de esta semana: qué pasa con el tiempo que la IA os devuelve.",
+      "sections": [
+        {
+          "heading": "El tiempo desaparece si nadie decide para qué sirve",
+          "html": "<p>Los recibos eran la tarea más aburrida de mi empresa. No difícil, solo tediosa. Tardaba unos cinco minutos cada vez y ahora no tarda nada: comparto la foto desde el móvil y llega sola a la gestoría. Cinco minutos ahorrados por recibo que, repetidos con frecuencia, suman un día entero de trabajo al año.</p><p>Pero el día ahorrado no es lo interesante. Lo interesante es adónde va a parar. Lo comenté en una comida en agosto y una frase se me quedó grabada desde entonces: la eficiencia no sirve de nada si el tiempo liberado simplemente se llena con más trabajo.</p><p>En mi caso es sencillo: dirijo mi negocio entre quince y veinte horas a la semana, a propósito, y ese tiempo va a cosas que prefiero hacer. Lo decidí de antemano, antes de automatizar nada.</p>"
+        },
+        {
+          "heading": "Qué ocurre cuando nadie se hace cargo",
+          "html": "<p>En un equipo de ventas casi nunca hay alguien que haya tomado esa decisión. Implementáis una herramienta que redacta las notas de la reunión, rellena el CRM y sugiere el correo de seguimiento. Cada comercial recupera un rato al día. Nadie se fija en adónde va: una reunión interna más, unos correos extra, un informe que alguien siempre había pedido. El tiempo se llena porque el tiempo sin nombre siempre se llena.</p><p>Seis meses después, el director financiero pregunta qué ha dado la inversión. Los comerciales no se sienten menos estresados. El número de reuniones con clientes sigue igual. La conclusión fácil es que la IA no funcionó en vuestro caso.</p><p>Pero sí funcionó. El tiempo simplemente se filtró y desapareció, como arena entre los dedos.</p>"
+        },
+        {
+          "heading": "Por qué es una cuestión de liderazgo, no de tecnología",
+          "html": "<p>Existe una observación clásica que dice que el trabajo crece hasta llenar el tiempo disponible. Se cumple en un equipo de ventas igual que en cualquier oficina. El tiempo libre no permanece libre mucho tiempo: quien no tiene un plan para él termina ejecutando los planes de otros, que rara vez tienen que ver con los clientes.</p><p>Esta es también la razón por la que creo que el asunto es más grande de lo que parece. La idea de crecer sin contratar se basa en que las mismas personas rindan más. El tiempo liberado es exactamente esa capacidad extra. Si dejáis que se escurra, habéis pagado la herramienta, habéis renunciado a contratar y, aun así, no habéis conseguido más resultados.</p><p>Por eso el tiempo liberado es una decisión de liderazgo, no un detalle técnico. Alguien debe decidir en qué se convertirá antes de encender la herramienta, y alguien debe comprobar después que efectivamente se convirtió en eso. Más preparación para las cuentas clave, seguimiento de los deals perdidos, más reuniones con clientes que ya compran. Cualquier cosa sirve, siempre que esté decidida y se pueda medir.</p>"
+        },
+        {
+          "heading": "Qué hacer el lunes",
+          "html": "<p>Elegid una tarea que vaya a acortarse. Medid cuánto tarda hoy, con cronómetro, no por estimación. Decidid antes de automatizar adónde irá a parar ese tiempo y escribidlo en una sola línea: concreto, no una intención vaga.</p><ul><li>Bloqueadlo en el calendario como un hueco recurrente con nombre propio, porque el tiempo sin nombre se convierte en reuniones.</li><li>Contad aquello a lo que debería dedicarse el tiempo, antes y después: reuniones mejor preparadas, deals perdidos recuperados, o lo que hayáis elegido.</li><li>Haced seguimiento al cabo de un mes. No preguntéis si ahorrasteis tiempo. Preguntad en qué se convirtió.</li></ul><p>Si mañana mismo cada comercial de vuestro equipo recuperara un día al mes, ¿quién ha decidido ya para qué va a servir ese día?</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué el tiempo liberado con IA se pierde tan fácilmente en un equipo de ventas?",
+          "a": "Porque el tiempo libre sin un propósito asignado se llena solo, igual que el agua ocupa cualquier hueco disponible. Si nadie decide de antemano para qué sirve ese tiempo, se reparte entre reuniones internas, correos y tareas administrativas que nadie pidió explícitamente pero que siempre aparecen."
+        },
+        {
+          "q": "¿Qué debe hacer un líder de ventas antes de implementar una herramienta de IA?",
+          "a": "Debe decidir, antes de activar la herramienta, en qué se convertirá el tiempo ahorrado y escribirlo de forma concreta y medible, por ejemplo más reuniones con clientes o seguimiento de deals perdidos. Después debe comprobar, pasado un mes, que ese tiempo realmente se usó para eso y no se diluyó en otras tareas."
+        }
+      ],
+      "cta": "Si reconocéis este patrón en vuestro equipo, hablemos: os ayudo a decidir adónde debe ir el tiempo que liberáis antes de que se escurra."
+    }
+  }
+}
