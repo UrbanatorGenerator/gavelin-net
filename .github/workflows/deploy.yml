@@ -21,6 +21,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      urls: ${{ steps.changed.outputs.urls }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -32,6 +34,13 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - id: changed
+        name: Collect URLs changed in this push
+        run: |
+          # Pages committed on the same day as this push carry that date as lastmod.
+          day="$(git log -1 --format=%cs)"
+          urls="$(grep -o "<loc>[^<]*</loc><lastmod>${day}" dist/sitemap-0.xml | sed 's#<loc>##; s#</loc>.*##' | tr '\n' ' ')"
+          echo "urls=https://gavelin.net/ https://gavelin.net/llms.txt https://gavelin.net/llms-full.txt ${urls}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist/
@@ -45,3 +54,12 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v5
         id: deployment
+
+  ping:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Ping IndexNow
+        continue-on-error: true
+        run: scripts/indexnow.sh ${{ needs.build.outputs.urls }}
