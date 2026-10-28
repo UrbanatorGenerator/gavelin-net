@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/the-time-you-free-up-with-ai-turns-into-sand/",
+    title: "The Time You Free Up With AI Turns Into Sand",
+    description: "Automating a task saves minutes, but those minutes vanish unless someone decides in advance where they should go. This piece argues that freed-up time is a leadership decision, not a technology outcome, and shows how to stop it from leaking away.",
+    date: "October 26, 2026",
+    category: "AI Productivity & Sales Leadership",
+  },
+  {
     url: "/en/insights/my-first-customer-from-chatgpt-made-me-rebuild-my-entire-website/",
     title: "My First Customer From ChatGPT Made Me Rebuild My Entire Website",
     description: "A new client found Urban Gavelin through ChatGPT, and that single referral forced him to rethink everything about his website. This is the story of rebuilding a site for machines as well as humans, and what that means for anyone who sells.",

@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/tiden-ni-frigor-med-ai-blir-till-sand/",
+    title: "Tiden ni frigör med AI blir till sand",
+    description: "AI kan frigöra flera timmar i veckan för varje säljare, men om ingen bestämt vad tiden ska användas till läcker den bort i möten och mejl. Urban Gavelin visar varför frigjord tid är en ledningsfråga, inte en teknikfråga, och hur ni säkrar att investeringen faktiskt ger mer gjort.",
+    date: "26 oktober 2026",
+    category: "Pipeline & Sales Leadership",
+  },
+  {
     url: "/sv/insikter/min-forsta-kund-fran-chatgpt/",
     title: "Min första kund från ChatGPT fick mig att bygga om hela webbplatsen",
     description: "En ny kund hittade Urban Gavelin via ett svar från ChatGPT, vilket fick honom att skriva om hela webbplatsen för maskiner i stället för människor. Texten visar varför tydliga rubriker, raka påståenden och en konkret FAQ nu avgör om ett företag ens syns i köparens AI-jämförelse.",

@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/el-tiempo-que-liberais-con-ia-se-convierte-en-arena/",
+    title: "El tiempo que liberáis con la IA se convierte en arena",
+    description: "Automatizar tareas libera minutos, pero si nadie decide de antemano qué hacer con ellos, ese tiempo se evapora en reuniones y correos sin nombre. Urban Gavelin explica por qué la productividad liberada por la IA es una cuestión de liderazgo, no de tecnología.",
+    date: "26 de octubre de 2026",
+    category: "Liderazgo en Ventas y Productividad B2B",
+  },
+  {
     url: "/es/perspectivas/mi-primer-cliente-de-chatgpt-me-hizo-redisenar-toda-la-web/",
     title: "Mi primer cliente de ChatGPT me hizo rediseñar toda la web",
     description: "Cuando un cliente llegó recomendado por una IA, descubrí que mi web estaba escrita solo para humanos. Esto cambió por completo cómo pienso en contenido, FAQ y estructura para que las máquinas también puedan leernos y recomendarnos.",
