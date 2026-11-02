@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/cuando-el-cliente-dice-que-necesita-pensarlo/",
+    title: "Cuando el cliente dice que necesita pensarlo",
+    description: "Dos personas dudan, pero solo una lo dice en voz alta. Urban Gavelin cuenta cómo perdió un deal por no indagar en esa duda final y comparte por qué 'necesito pensarlo' casi nunca es una cuestión de tiempo, sino de miedo sin palabras.",
+    date: "2 de noviembre de 2026",
+    category: "Ventas B2B y Manejo de Objeciones",
+  },
+  {
     url: "/es/perspectivas/el-tiempo-que-liberais-con-ia-se-convierte-en-arena/",
     title: "El tiempo que liberáis con la IA se convierte en arena",
     description: "Automatizar tareas libera minutos, pero si nadie decide de antemano qué hacer con ellos, ese tiempo se evapora en reuniones y correos sin nombre. Urban Gavelin explica por qué la productividad liberada por la IA es una cuestión de liderazgo, no de tecnología.",

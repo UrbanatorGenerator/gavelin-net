@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/nar-kunden-sager-att-hon-maste-tanka-pa-saken/",
+    title: "När kunden säger att hon måste tänka på saken",
+    description: "En oställd fråga kostade en affär som aldrig behövde gå förlorad. Urban Gavelin skriver om varför betänketid sällan handlar om betänketid, utan om en rädsla kunden inte vågar sätta ord på, och vad säljaren kan göra åt det.",
+    date: "2 november 2026",
+    category: "Kundpsykologi & Invändningshantering",
+  },
+  {
     url: "/sv/insikter/tiden-ni-frigor-med-ai-blir-till-sand/",
     title: "Tiden ni frigör med AI blir till sand",
     description: "AI kan frigöra flera timmar i veckan för varje säljare, men om ingen bestämt vad tiden ska användas till läcker den bort i möten och mejl. Urban Gavelin visar varför frigjord tid är en ledningsfråga, inte en teknikfråga, och hur ni säkrar att investeringen faktiskt ger mer gjort.",

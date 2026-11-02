@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/when-the-customer-says-she-needs-to-think-about-it/",
+    title: "When the Customer Says She Needs to Think About It",
+    description: "Two people hesitate, but only one says it out loud. Urban Gavelin breaks down why 'we need to think about it' is rarely about thinking, and how a broken personal rule cost him a deal that didn't have to be lost.",
+    date: "November 2, 2026",
+    category: "Sales Psychology & Objection Handling",
+  },
+  {
     url: "/en/insights/the-time-you-free-up-with-ai-turns-into-sand/",
     title: "The Time You Free Up With AI Turns Into Sand",
     description: "Automating a task saves minutes, but those minutes vanish unless someone decides in advance where they should go. This piece argues that freed-up time is a leadership decision, not a technology outcome, and shows how to stop it from leaking away.",
