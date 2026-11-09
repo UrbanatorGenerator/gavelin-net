@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-09",
+  "linkedinUrl": "https://www.linkedin.com/pulse/vi-%C3%A4r-s%C3%A4mst-p%C3%A5-att-bed%C3%B6ma-det-st%C3%A5r-mitt-i-urban-gavelin-phijf/",
+  "imageSource": "https://media.licdn.com/dms/image/v2/D4D12AQH_3rncTy6WeQ/article-cover_image-shrink_720_1280/B4DaHAY6KoHcAQ-/0/1794229119898?e=2147483647&v=beta&t=yux48b0rZRfKZvpRQ-2LYUxsMWrOcp2Uhi6Qif02hu0",
+  "imageSlug": "we-are-the-worst-judges-of-what-we-are-standing-in",
+  "articles": {
+    "en": {
+      "slug": "we-are-the-worst-judges-of-what-we-are-standing-in",
+      "title": "We Are the Worst Judges of What We're Standing In",
+      "description": "A story from Kodak about a scanner project I believed in, and the boss who proved me wrong by asking a different question. It's a lesson about why the people closest to a process are the worst placed to see when it's become obsolete, and what that means for sales teams facing AI today.",
+      "category": "Sales Leadership & Strategic Blind Spots",
+      "keywords": [
+        "sales leadership",
+        "AI transformation",
+        "bias",
+        "change management",
+        "Kodak",
+        "strategic blind spots",
+        "sales process optimization"
+      ],
+      "lead": "This is a story where I was wrong and my boss was right. I'm telling it anyway, because it says something about how bad we are at judging what we're standing in the middle of. And right now, most of us are standing in the middle of something.",
+      "sections": [
+        {
+          "heading": "A Story Where My Boss Was Right",
+          "html": "<p>I was global product manager for digital products at Kodak, based at headquarters in Rochester, New York. I led a project on a scanner, and later several more. I believed in them. People had old film photos and wanted them digitized. The need was real.</p><p>Ahead of a budget review, I sat with my boss and went through research and development costs against the revenue we could expect. He convinced me there was no future in scanners.</p><p>He was right.</p>"
+        },
+        {
+          "heading": "Scanners Existed Because Film Existed",
+          "html": "<p>As long as people needed to digitize old photos, scanners were necessary. But once the camera itself became digital, there was nothing left to scan. The entire chain became digital from the start, and the scanner turned into a footnote.</p><p>What's uncomfortable is that I should have seen it coming. I had even helped launch the first digital system camera available for purchase, at a trade show in Germany. I had stood on a stage with the very thing that would make scanners obsolete, and still missed where it was heading.</p><p>It wasn't a lack of knowledge. It was that I was standing in the middle of it. The deeper you are inside something, the worse you are at seeing that it's running out.</p>"
+        },
+        {
+          "heading": "The Question That Changes the Answer",
+          "html": "<p>I've thought a lot about what my boss did differently. He asked a different question. I calculated what the scanners delivered today. He calculated what they would deliver a few years from now. Same numbers, different horizon.</p><p>Knowing you have a bias isn't enough. You have it anyway. What helps is someone asking the horizon question when you won't ask it yourself.</p>"
+        },
+        {
+          "heading": "Where Are the Scanners in Your Sales Organization?",
+          "html": "<p>I think about this when I talk to sales leaders about AI today. The question is rarely whether the technology works. The question is which parts of your current way of working are scanners: things that exist and feel necessary only because an older system requires them.</p><p>Meeting notes written up by hand afterward. Data moved between systems by people. Weekly meetings where numbers are read aloud that everyone could already see. Reports built so someone further up the chain can read them. All of it has been necessary. None of it says anything about whether it will still be necessary in three years.</p><p>The person who built the way of working is the worst placed to judge it. That was me with the scanners. It's probably you with something in your own organization. Here's what to do about it this week:</p><ul><li>Write down the three steps in your sales process that take the most time. For each one, ask: does this exist because the customer needs it, or because a system needs it?</li><li>Ask my boss's question at your next budget meeting: what will this deliver in three years, not what does it deliver today?</li><li>Ask someone outside the team to assess the thing you're most confident about. The person standing in the middle sees it worst.</li><li>Choose one thing you would stop investing in if you started from zero today. Start there.</li></ul>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What exactly is a scanner in a sales organization?",
+          "a": "It's any process, tool, or habit that exists and feels indispensable only because an older system demands it. Scanners made sense when film was the standard, but once cameras went digital, the need disappeared. In sales, a scanner might be manual data entry, a weekly status meeting, or a report built for someone else's convenience rather than the customer's need."
+        },
+        {
+          "q": "Why is it so hard to see these outdated processes from the inside?",
+          "a": "The closer you are to something, the less distance you have to judge whether it's still serving a purpose. That's exactly what happened to me with the scanners at Kodak. An outside perspective, whether it's a different horizon question or a reviewer who isn't invested in the current way of working, catches what expertise alone will miss."
+        }
+      ],
+      "cta": "Ask yourself which part of your business you're defending today only because you're standing in the middle of it, then start there."
+    },
+    "sv": {
+      "slug": "vi-ar-samst-pa-att-bedoma-det-vi-star-mitt-i",
+      "title": "Vi är sämst på att bedöma det vi står mitt i",
+      "description": "En historia från Kodak om en skanner, en envis produktchef och en chef som hade rätt. Den handlar om varför vi är sämst skickade att bedöma det vi själva byggt upp, och vad det betyder för era säljprocesser när AI förändrar spelplanen.",
+      "category": "Sales Leadership & Förändring",
+      "keywords": [
+        "säljledarskap",
+        "förändringsledning",
+        "AI i försäljning",
+        "produktutveckling",
+        "pipeline",
+        "organisatorisk bias",
+        "framtidsspaning"
+      ],
+      "lead": "Det här är en historia där jag hade fel och min chef hade rätt. Jag berättar den ändå, för den säger något om hur dåliga vi är på att bedöma det vi själva står mitt i, och just nu står de flesta av oss mitt i något.",
+      "sections": [
+        {
+          "heading": "En skanner, en chef och ett misstag",
+          "html": "<p>Jag var global produktchef för digitala produkter på Kodak, på huvudkontoret i Rochester, New York. Jag drev ett projekt kring en skanner, och senare flera. Jag trodde på dem. Folk hade sina gamla filmbilder och ville ha dem digitalt. Behovet var verkligt, och siffrorna såg bra ut.</p><p>Inför en budget satt jag med min chef och gick igenom forskning och utveckling mot de intäkter vi kunde räkna med. Han övertygade mig om att det inte fanns någon framtid i skannrar. Han hade rätt.</p>"
+        },
+        {
+          "heading": "Skannrarna fanns för att det fanns film",
+          "html": "<p>Så länge folk skulle digitalisera sina gamla bilder behövdes skannrarna. Men när kameran själv blev digital fanns det inget kvar att skanna. Hela kedjan blev digital från början, och skannern blev en parentes i historien.</p><p>Det obekväma är att jag borde ha sett det. Jag hade dessutom varit med och lanserat den första digitala systemkameran som gick att köpa, på en mässa i Tyskland. Jag hade alltså stått på en scen med det som skulle göra skannrarna överflödiga, och ändå inte sett vart det ledde. Det var inte okunskap, det var att jag stod mitt i det.</p>"
+        },
+        {
+          "heading": "Horisontfrågan",
+          "html": "<p>Jag har tänkt mycket på vad min chef gjorde annorlunda. Han ställde en annan fråga. Jag räknade på vad skannrarna gav i dag. Han räknade på vad de skulle ge om några år. Samma siffror, en annan horisont.</p><p>Det räcker inte att veta att man har en bias, man har den ändå. Det som faktiskt hjälper är någon som ställer horisontfrågan när man själv inte gör det. Ju djupare man är inne i något, desto sämre ser man att det håller på att ta slut.</p>"
+        },
+        {
+          "heading": "Vilka skannrar finns i er försäljning i dag?",
+          "html": "<p>Jag tänker på det här när jag pratar med säljchefer om AI i dag. Frågan är sällan om tekniken fungerar. Frågan är vilka delar av ert nuvarande arbetssätt som är skannrar, saker som finns och är nödvändiga, men bara för att ett äldre system kräver dem.</p><p>Mötesanteckningar som skrivs för hand i efterhand. Data som flyttas mellan system av människor. Veckomöten där siffror läses upp som alla redan kunde ha sett. Rapporter som byggs för att någon uppåt ska kunna läsa dem. Allt det har varit nödvändigt, men inget av det säger något om det kommer att vara nödvändigt om tre år. Den som har byggt upp arbetssättet är nämligen sämst placerad att bedöma det.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Varför är vi dåliga på att bedöma det vi själva byggt upp?",
+          "a": "Ju djupare vi står i något, desto svårare är det att se att förutsättningarna håller på att förändras. Vi har investerat tid, status och argument i hur det fungerar i dag, vilket gör horisonten svår att se objektivt. Det är inte en fråga om intelligens eller kunskap, utan om perspektiv."
+        },
+        {
+          "q": "Hur vet jag vilka delar av vårt säljarbete som är dagens skannrar?",
+          "a": "Fråga om varje återkommande moment finns för att kunden faktiskt behöver det, eller för att ett äldre system eller en gammal vana kräver det. Be sedan gärna någon utanför teamet, som inte står mitt i arbetet, att göra samma bedömning. De ser ofta det ni själva missar."
+        }
+      ],
+      "cta": "Skriv ner era tre mest tidskrävande säljmoment i dag och ställ horisontfrågan på nästa budgetmöte: vad ger detta om tre år, inte vad ger det i dag."
+    },
+    "es": {
+      "slug": "somos-pesimos-juzgando-lo-que-vivimos",
+      "title": "Somos pésimos juzgando aquello en lo que estamos inmersos",
+      "description": "Una historia personal de Kodak revela por qué quien está más cerca de un proceso es quien peor lo evalúa. Urban Gavelin conecta esa lección con la IA en ventas B2B y propone una pregunta incómoda para esta semana: ¿qué parte de tu negocio defiendes solo porque estás dentro de ella?",
+      "category": "Pipeline y Liderazgo en Ventas",
+      "keywords": [
+        "sesgo cognitivo",
+        "IA en ventas",
+        "transformación digital",
+        "liderazgo comercial",
+        "pipeline",
+        "Kodak",
+        "product-market fit",
+        "toma de decisiones"
+      ],
+      "lead": "Esta es una historia donde yo estaba equivocado y mi jefe tenía razón. La cuento de todos modos, porque dice algo sobre lo mal que juzgamos aquello en lo que estamos metidos hasta el cuello. Y ahora mismo, casi todos estamos metidos en algo.",
+      "sections": [
+        {
+          "heading": "Los escáneres existían porque existía el carrete",
+          "html": "<p>Yo era director global de producto digital en Kodak, en la sede de Rochester, Nueva York. Lideré un proyecto de escáneres, y luego varios más. Creía en ellos. La gente tenía fotos antiguas en carrete y quería digitalizarlas. La necesidad era real y los números, al menos en el corto plazo, lo confirmaban.</p><p>En una reunión de presupuesto, mi jefe me hizo revisar la inversión en I+D frente a los ingresos que realmente podíamos proyectar. Me convenció de que los escáneres no tenían futuro. Tenía razón. En cuanto la cámara misma se volvió digital, ya no quedaba nada que escanear: toda la cadena nacía digital desde el origen, y el escáner se convertía en un paréntesis histórico.</p><p>Lo incómodo es que yo debería haberlo visto venir. Había participado en el lanzamiento de la primera cámara réflex digital disponible comercialmente, en una feria en Alemania. Había estado literalmente sobre el escenario con lo que haría obsoletos a los escáneres, y aun así no até los cabos.</p>"
+        },
+        {
+          "heading": "No era falta de información, era cercanía",
+          "html": "<p>No fue ignorancia. Fue que yo estaba demasiado dentro del proceso. Cuanto más metido estás en algo, peor ves que se está agotando. He pensado mucho en qué hizo diferente mi jefe aquel día: hizo una pregunta distinta a la mía.</p><p>Yo calculaba cuánto daban los escáneres hoy. Él calculaba cuánto darían dentro de unos años. Las mismas cifras, pero con un horizonte distinto. Saber que tienes un sesgo no sirve de mucho: lo sigues teniendo igual. Lo que realmente ayuda es que alguien más haga la pregunta del horizonte cuando tú no eres capaz de hacértela.</p><p>Esa lección vuelve a mi cabeza cada vez que hablo con directores comerciales sobre IA. Casi nunca la pregunta es si la tecnología funciona. La pregunta real es cuáles partes de la forma de trabajar actual son, en realidad, escáneres: cosas que existen y parecen imprescindibles solo porque un sistema antiguo las exige.</p>"
+        },
+        {
+          "heading": "Los escáneres de tu equipo comercial",
+          "html": "<p>Notas de reunión que se pasan a mano después del hecho. Datos que se mueven entre sistemas a mano por personas. Reuniones semanales donde se leen en voz alta cifras que todos ya podrían haber visto por su cuenta. Informes que se construyen únicamente para que alguien arriba en la jerarquía pueda leerlos. Todo eso ha sido necesario en su momento. Pero nada de eso garantiza que siga siéndolo dentro de tres años.</p><p>Lo difícil es que quien construyó esa forma de trabajar es, precisamente, quien está en peor posición para evaluarla con objetividad. A mí me pasó con los escáneres. Lo más probable es que a ti te esté pasando ahora mismo con algo dentro de tu propia operación comercial.</p><p>No se trata de desconfiar de tu experiencia, sino de reconocer sus límites. La experiencia te dice qué funciona hoy; no te dice automáticamente qué dejará de funcionar mañana. Para eso hace falta otra pregunta, y a veces, otra persona que la formule.</p>"
+        },
+        {
+          "heading": "Qué hacer esta semana",
+          "html": "<ul><li>Escribe los tres momentos de tu proceso comercial que más tiempo consumen. Pregúntate de cada uno: ¿existe porque el cliente lo necesita, o porque un sistema interno lo exige?</li><li>Haz la pregunta de mi jefe en tu próxima reunión de presupuesto: no cuánto da esto hoy, sino cuánto dará dentro de tres años.</li><li>Pide a alguien fuera del equipo que evalúe aquello de lo que estás más seguro. Quien está dentro del proceso es quien peor lo ve.</li><li>Elige una sola cosa en la que dejarías de invertir si empezaras de cero hoy mismo. Empieza por ahí.</li></ul><p>¿Qué parte de tu negocio defiendes hoy con más fuerza solo porque estás inmerso en ella?</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué es tan difícil evaluar objetivamente lo que ya construimos?",
+          "a": "Porque la cercanía reduce la perspectiva: cuando llevas tiempo dentro de un proceso, lo ves como necesario simplemente porque siempre ha estado ahí. Saber que existe este sesgo no basta para eliminarlo, hace falta que alguien externo haga la pregunta sobre el horizonte que tú no puedes hacerte a ti mismo."
+        },
+        {
+          "q": "¿Cómo se relaciona esta historia con la IA en los equipos de ventas?",
+          "a": "La IA obliga a preguntarse qué partes del proceso comercial actual existen solo porque un sistema antiguo las requiere, no porque aporten valor real al cliente. Identificar esos escáneres propios, tareas manuales, reportes redundantes o reuniones de lectura de cifras, es el primer paso antes de automatizar nada."
+        }
+      ],
+      "cta": "Escribe MADUREZ y te envío el test de doce preguntas sobre la madurez de tus datos comerciales frente a la IA, con respuesta inmediata."
+    }
+  }
+}
