@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    url: "/en/insights/we-are-the-worst-judges-of-what-we-are-standing-in/",
+    title: "We Are the Worst Judges of What We're Standing In",
+    description: "A story from Kodak about a scanner project I believed in, and the boss who proved me wrong by asking a different question. It's a lesson about why the people closest to a process are the worst placed to see when it's become obsolete, and what that means for sales teams facing AI today.",
+    date: "November 9, 2026",
+    category: "Sales Leadership & Strategic Blind Spots",
+  },
+  {
     url: "/en/insights/when-the-customer-says-she-needs-to-think-about-it/",
     title: "When the Customer Says She Needs to Think About It",
     description: "Two people hesitate, but only one says it out loud. Urban Gavelin breaks down why 'we need to think about it' is rarely about thinking, and how a broken personal rule cost him a deal that didn't have to be lost.",

@@ -8,6 +8,13 @@ export interface Articulo {
 
 export const articulos: Articulo[] = [
   {
+    url: "/es/perspectivas/somos-pesimos-juzgando-lo-que-vivimos/",
+    title: "Somos pésimos juzgando aquello en lo que estamos inmersos",
+    description: "Una historia personal de Kodak revela por qué quien está más cerca de un proceso es quien peor lo evalúa. Urban Gavelin conecta esa lección con la IA en ventas B2B y propone una pregunta incómoda para esta semana: ¿qué parte de tu negocio defiendes solo porque estás dentro de ella?",
+    date: "9 de noviembre de 2026",
+    category: "Pipeline y Liderazgo en Ventas",
+  },
+  {
     url: "/es/perspectivas/cuando-el-cliente-dice-que-necesita-pensarlo/",
     title: "Cuando el cliente dice que necesita pensarlo",
     description: "Dos personas dudan, pero solo una lo dice en voz alta. Urban Gavelin cuenta cómo perdió un deal por no indagar en esa duda final y comparte por qué 'necesito pensarlo' casi nunca es una cuestión de tiempo, sino de miedo sin palabras.",

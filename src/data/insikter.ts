@@ -8,6 +8,13 @@ export interface Artikel {
 
 export const artiklar: Artikel[] = [
   {
+    url: "/sv/insikter/vi-ar-samst-pa-att-bedoma-det-vi-star-mitt-i/",
+    title: "Vi är sämst på att bedöma det vi står mitt i",
+    description: "En historia från Kodak om en skanner, en envis produktchef och en chef som hade rätt. Den handlar om varför vi är sämst skickade att bedöma det vi själva byggt upp, och vad det betyder för era säljprocesser när AI förändrar spelplanen.",
+    date: "9 november 2026",
+    category: "Sales Leadership & Förändring",
+  },
+  {
     url: "/sv/insikter/nar-kunden-sager-att-hon-maste-tanka-pa-saken/",
     title: "När kunden säger att hon måste tänka på saken",
     description: "En oställd fråga kostade en affär som aldrig behövde gå förlorad. Urban Gavelin skriver om varför betänketid sällan handlar om betänketid, utan om en rädsla kunden inte vågar sätta ord på, och vad säljaren kan göra åt det.",
